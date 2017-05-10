@@ -28,7 +28,7 @@ namespace BackendProject
 
         private void xmlExtractButton_Click(object sender, EventArgs e)
         {
-            
+            xmlExtractor.RunWorkerAsync();
         }
 
         private void webpageDownloader_DoWork(object sender, DoWorkEventArgs e)
@@ -45,6 +45,14 @@ namespace BackendProject
             filesProcessedLabel.Text = "Files Processed: " + e.ProgressPercentage.ToString();
         }
 
-        
+        private void xmlExtractor_DoWork(object sender, DoWorkEventArgs e)
+        {
+            bool state;
+            var xmlLinks = DataExtractor.ParseWebpage(out state);
+            if (!state)
+            {
+                MessageBox.Show("No webpages to parse.");
+            }            
+        }
     }
 }

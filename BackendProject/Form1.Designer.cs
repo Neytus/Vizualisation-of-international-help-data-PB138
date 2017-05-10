@@ -92,6 +92,7 @@
             // xmlExtractor
             // 
             this.xmlExtractor.WorkerReportsProgress = true;
+            this.xmlExtractor.DoWork += new System.ComponentModel.DoWorkEventHandler(this.xmlExtractor_DoWork);
             // 
             // backendMainWindow
             // 

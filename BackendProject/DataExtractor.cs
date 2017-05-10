@@ -64,7 +64,7 @@ namespace BackendProject
                     foreach (var content in itemNodes)
                     {
                         var xmlLink = content.GetAttributeValue("href", "no value");
-                        Console.WriteLine(xmlLink);
+                        
                         if(xmlLink != "no value")
                         {
                             xmlLinks.Add(xmlLink);
@@ -72,6 +72,11 @@ namespace BackendProject
                     }
 
                 }
+                xmlLinks.RemoveAt(xmlLinks.Count - 1);
+                foreach(var xml in xmlLinks)
+                {
+                    Console.WriteLine(xml);
+                }           
                 state = true;
                 return xmlLinks;
             }
