@@ -33,6 +33,8 @@
             this.filesProcessedLabel = new System.Windows.Forms.Label();
             this.xmlExtractButton = new System.Windows.Forms.Button();
             this.openVisButton = new System.Windows.Forms.Button();
+            this.webpageDownloader = new System.ComponentModel.BackgroundWorker();
+            this.xmlExtractor = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // webPageDownloadButton
@@ -81,6 +83,16 @@
             this.openVisButton.Text = "Open Visualisation";
             this.openVisButton.UseVisualStyleBackColor = true;
             // 
+            // webpageDownloader
+            // 
+            this.webpageDownloader.WorkerReportsProgress = true;
+            this.webpageDownloader.DoWork += new System.ComponentModel.DoWorkEventHandler(this.webpageDownloader_DoWork);
+            this.webpageDownloader.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.webpageDownloader_ProgressChanged);
+            // 
+            // xmlExtractor
+            // 
+            this.xmlExtractor.WorkerReportsProgress = true;
+            // 
             // backendMainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -105,6 +117,8 @@
         private System.Windows.Forms.Label filesProcessedLabel;
         private System.Windows.Forms.Button xmlExtractButton;
         private System.Windows.Forms.Button openVisButton;
+        private System.ComponentModel.BackgroundWorker webpageDownloader;
+        private System.ComponentModel.BackgroundWorker xmlExtractor;
     }
 }
 

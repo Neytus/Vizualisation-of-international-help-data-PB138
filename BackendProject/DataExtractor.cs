@@ -13,6 +13,7 @@ namespace BackendProject
     public static class DataExtractor
     {
         public static string webPageDir = Environment.CurrentDirectory + @"\webpages";
+        public static string xmlDir = Environment.CurrentDirectory + @"\xmls";
 
         public static string DownloadWebpages(int number)
         {
@@ -41,11 +42,13 @@ namespace BackendProject
             return url;
         }
 
-        public static bool ParseWebpage(out List<string> xmlAdresses)
+        public static List<string> ParseWebpage(out bool state)
         {
+            List<string> xmlLinks = new List<string>();
             if (!Directory.Exists(webPageDir) || Directory.GetFiles(webPageDir).Length != 8) //TO DO!
             {
-                return false;
+                state = false;
+                return xmlLinks;              
             }
             else
             {
@@ -60,11 +63,17 @@ namespace BackendProject
 
                     foreach (var content in itemNodes)
                     {
-                        Console.WriteLine(content.GetAttributeValue("href", "no value"));
+                        var xmlLink = content.GetAttributeValue("href", "no value");
+                        Console.WriteLine(xmlLink);
+                        if(xmlLink != "no value")
+                        {
+                            xmlLinks.Add(xmlLink);
+                        }
                     }
-                }           
 
-                return true;
+                }
+                state = true;
+                return xmlLinks;
             }
         }
     }

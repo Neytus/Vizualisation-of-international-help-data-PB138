@@ -6,13 +6,14 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace BackendProject
 {
     public partial class backendMainWindow : Form
     {
-        
+
         public backendMainWindow()
         {
             InitializeComponent();
@@ -22,22 +23,28 @@ namespace BackendProject
         {
             processListBox.Items.Clear();
             filesProcessedLabel.Text = "Files Processed: 0";
-            for(int i = 1; i <= 8; i++)
-            {
-                processListBox.Items.Add(DataExtractor.DownloadWebpages(i));
-                filesProcessedLabel.Text = "Files Processed: " + processListBox.Items.Count.ToString();
-            }
+            webpageDownloader.RunWorkerAsync();
         }
 
         private void xmlExtractButton_Click(object sender, EventArgs e)
         {
-            if (!DataExtractor.ParseWebpage())
+            
+        }
+
+        private void webpageDownloader_DoWork(object sender, DoWorkEventArgs e)
+        {
+            for (int i = 1; i <= 8; i++)
             {
-                MessageBox.Show("No data to extract.");
+                webpageDownloader.ReportProgress(i, DataExtractor.DownloadWebpages(i));                
             }
         }
 
-        //Test commit
+        private void webpageDownloader_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            processListBox.Items.Add(e.UserState.ToString());
+            filesProcessedLabel.Text = "Files Processed: " + e.ProgressPercentage.ToString();
+        }
 
+        
     }
 }
