@@ -17,27 +17,26 @@ namespace BackendProject
 
         public static string DownloadWebpages(int number)
         {
-            string url = @"https://www.iatiregistry.org/publisher/undp?page=" + number;           
+            string url = @"https://www.iatiregistry.org/publisher/undp?page=" + number;
 
             if (!Directory.Exists(webPageDir))
             {
                 Directory.CreateDirectory(webPageDir);
             }
 
-            
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
-                StreamReader stream = new StreamReader(response.GetResponseStream());
-                string responseString = stream.ReadToEnd();
-                stream.Close();
+            StreamReader stream = new StreamReader(response.GetResponseStream());
+            string responseString = stream.ReadToEnd();
+            stream.Close();
 
-                string path = webPageDir + @"\" + number + ".html";
+            string path = webPageDir + @"\" + number + ".html";
 
-                using (StreamWriter streamWrite = new StreamWriter(path, false))
-                {
-                    streamWrite.WriteLine(responseString);
-                }
+            using (StreamWriter streamWrite = new StreamWriter(path, false))
+            {
+                streamWrite.WriteLine(responseString);
+            }
 
             return url;
         }
@@ -48,7 +47,7 @@ namespace BackendProject
             if (!Directory.Exists(webPageDir) || Directory.GetFiles(webPageDir).Length != 8) //TO DO!
             {
                 state = false;
-                return xmlLinks;              
+                return xmlLinks;
             }
             else
             {
@@ -56,7 +55,7 @@ namespace BackendProject
                 {
                     string path = file;
                     HtmlDocument htmlDoc = new HtmlDocument();
-                    
+
                     htmlDoc.Load(path);
 
                     HtmlNodeCollection itemNodes = htmlDoc.DocumentNode.SelectNodes(@"/html/body//div[@class='dataset-content']/p[3]/a[2]");
@@ -64,8 +63,8 @@ namespace BackendProject
                     foreach (var content in itemNodes)
                     {
                         var xmlLink = content.GetAttributeValue("href", "no value");
-                        
-                        if(xmlLink != "no value")
+
+                        if (xmlLink != "no value")
                         {
                             xmlLinks.Add(xmlLink);
                         }
@@ -73,12 +72,30 @@ namespace BackendProject
 
                 }
                 xmlLinks.RemoveAt(xmlLinks.Count - 1);
-                foreach(var xml in xmlLinks)
+                foreach (var xml in xmlLinks)
                 {
                     Console.WriteLine(xml);
-                }           
+                }
                 state = true;
                 return xmlLinks;
+            }
+        }
+
+        public static void ParseXmlData(string xmlLink)
+        {
+            if (!Directory.Exists(xmlDir))
+            {
+                Directory.CreateDirectory(xmlDir);
+            }
+            try
+            {
+                XmlDocument xmlDoc = new XmlDocument();
+                xmlDoc.Load(xmlLink);
+                xmlDoc.Save(xmlDir + @"\" + xmlLink.Split('/').Last());
+            }
+            catch(WebException ex)
+            {
+                return;
             }
         }
     }

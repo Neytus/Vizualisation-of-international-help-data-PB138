@@ -28,6 +28,8 @@ namespace BackendProject
 
         private void xmlExtractButton_Click(object sender, EventArgs e)
         {
+            processListBox.Items.Clear();
+            filesProcessedLabel.Text = "Files Processed: 0";
             xmlExtractor.RunWorkerAsync();
         }
 
@@ -52,7 +54,21 @@ namespace BackendProject
             if (!state)
             {
                 MessageBox.Show("No webpages to parse.");
-            }            
+            }
+            else
+            {
+                foreach(var xml in xmlLinks)
+                {
+                    DataExtractor.ParseXmlData(xml);
+                    xmlExtractor.ReportProgress(1, xml);
+                }
+            }           
+        }
+
+        private void xmlExtractor_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            processListBox.Items.Add(e.UserState);
+            filesProcessedLabel.Text = "Files Processed: " + processListBox.Items.Count.ToString();
         }
     }
 }
