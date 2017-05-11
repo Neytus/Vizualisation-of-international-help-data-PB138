@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<countries>
+  <country num_id="8">
+    <name>"Albania"</name>
+    <code>"AL"</code>    
+    <data>
+      <period year="2017">
+        <organization name="UNDP">
+          <budget>1000000</budget>
+          <budget_population>1000</budget_population>
+        </organization>        
+      </period>
+      <sum>
+        <organization name="UNDP">
+          <budget>1000000</budget>
+          <budget_population>1000</budget_population>
+        </organization>
+      </sum>
+    </data>
+  </country>
+</countries>

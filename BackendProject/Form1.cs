@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
+using System.Net;
 using System.Windows.Forms;
 
 namespace BackendProject
@@ -59,8 +60,15 @@ namespace BackendProject
             {
                 foreach(var xml in xmlLinks)
                 {
-                    DataExtractor.ParseXmlData(xml);
-                    xmlExtractor.ReportProgress(1, xml);
+                    try
+                    {
+                        DataExtractor.ParseXmlData(xml);
+                        xmlExtractor.ReportProgress(1, xml);
+                    }
+                    catch(WebException ex)
+                    {
+                        xmlExtractor.ReportProgress(1, xml.Split('/').Last() + "does not exist");
+                    }
                 }
             }           
         }

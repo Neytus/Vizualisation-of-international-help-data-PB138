@@ -87,15 +87,11 @@ namespace BackendProject
             {
                 Directory.CreateDirectory(xmlDir);
             }
-            try
-            {
+
+            if (xmlLink.Split('/').Last() != "global_projects.xml") {
                 XmlDocument xmlDoc = new XmlDocument();
                 xmlDoc.Load(xmlLink);
                 xmlDoc.Save(xmlDir + @"\" + xmlLink.Split('/').Last());
-            }
-            catch(WebException ex)
-            {
-                return;
             }
         }
     }
