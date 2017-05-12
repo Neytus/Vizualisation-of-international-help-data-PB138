@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Useful Functions</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/select2.min.css" />
+        <link rel="stylesheet" href="css/base.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1 id="countryName"></h1>
+            <div id="map">
+
+            </div>
+            <div id="data">
+                <form id="selectForm">
+                    <table>
+                        <tr>
+                            <td>Select country: </td>
+                            <td>
+                                <select id="countrySelect">
+                                    <option value="4" selected>Afghanistan</option>
+                                    <option value="8">Albania</option>
+                                    <option value="12">Algeria</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Select year: </td>
+                            <td>
+                                <select id="yearSelect">
+                                    <option value="All" selected>All</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2014">2014</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <button id="changeCountry">Submit</button>
+                <table id="dataTable">
+                    <tr class="orgs">
+                        <th></th>
+                        <th colspan="2">World Bank</th>
+                        <th colspan="2">UNDP</th>
+                    </tr>
+                    <tr>
+                        <th>Year</th>
+                        <th>Total</th>
+                        <th>Per Capita</th>
+                        <th>Total</th>
+                        <th>Per Capita</th>
+                    </tr>
+                    <tr class="total">
+                        <td class="y">Total</td>
+                        <td class="wbt"></td>
+                        <td class="wbpc"></td>
+                        <td class="undpt"></td>
+                        <td class="undppc"></td>
+                    </tr>
+                    <tr class="even">
+                        <td class="y">2017</td>
+                        <td class="wbt"></td>
+                        <td class="wbpc"></td>
+                        <td class="undpt"></td>
+                        <td class="undppc"></td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="y">2016</td>
+                        <td class="wbt"></td>
+                        <td class="wbpc"></td>
+                        <td class="undpt"></td>
+                        <td class="undppc"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/d3.v3.min.js"></script>
+        <script src="js/queue.v1.min.js"></script>
+        <script src="js/topojson.v1.min.js"></script>
+        <script src="js/select2.min.js"></script>
+        <script src="js/base.js"></script>
+    </body>
+</html>
