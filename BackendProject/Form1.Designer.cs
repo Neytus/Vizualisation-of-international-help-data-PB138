@@ -31,10 +31,11 @@
             this.webPageDownloadButton = new System.Windows.Forms.Button();
             this.processListBox = new System.Windows.Forms.ListBox();
             this.filesProcessedLabel = new System.Windows.Forms.Label();
-            this.xmlExtractButton = new System.Windows.Forms.Button();
+            this.xmlDownloadButton = new System.Windows.Forms.Button();
             this.openVisButton = new System.Windows.Forms.Button();
             this.webpageDownloader = new System.ComponentModel.BackgroundWorker();
-            this.xmlExtractor = new System.ComponentModel.BackgroundWorker();
+            this.xmlDownloader = new System.ComponentModel.BackgroundWorker();
+            this.extractXmlButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // webPageDownloadButton
@@ -52,7 +53,7 @@
             this.processListBox.FormattingEnabled = true;
             this.processListBox.Location = new System.Drawing.Point(15, 50);
             this.processListBox.Name = "processListBox";
-            this.processListBox.Size = new System.Drawing.Size(255, 199);
+            this.processListBox.Size = new System.Drawing.Size(255, 264);
             this.processListBox.TabIndex = 1;
             // 
             // filesProcessedLabel
@@ -64,19 +65,19 @@
             this.filesProcessedLabel.TabIndex = 2;
             this.filesProcessedLabel.Text = "Files Processed: 0";
             // 
-            // xmlExtractButton
+            // xmlDownloadButton
             // 
-            this.xmlExtractButton.Location = new System.Drawing.Point(290, 110);
-            this.xmlExtractButton.Name = "xmlExtractButton";
-            this.xmlExtractButton.Size = new System.Drawing.Size(75, 50);
-            this.xmlExtractButton.TabIndex = 0;
-            this.xmlExtractButton.Text = "Extract XML Data";
-            this.xmlExtractButton.UseVisualStyleBackColor = true;
-            this.xmlExtractButton.Click += new System.EventHandler(this.xmlExtractButton_Click);
+            this.xmlDownloadButton.Location = new System.Drawing.Point(290, 110);
+            this.xmlDownloadButton.Name = "xmlDownloadButton";
+            this.xmlDownloadButton.Size = new System.Drawing.Size(75, 50);
+            this.xmlDownloadButton.TabIndex = 0;
+            this.xmlDownloadButton.Text = "Download XML Data";
+            this.xmlDownloadButton.UseVisualStyleBackColor = true;
+            this.xmlDownloadButton.Click += new System.EventHandler(this.xmlExtractButton_Click);
             // 
             // openVisButton
             // 
-            this.openVisButton.Location = new System.Drawing.Point(290, 190);
+            this.openVisButton.Location = new System.Drawing.Point(290, 260);
             this.openVisButton.Name = "openVisButton";
             this.openVisButton.Size = new System.Drawing.Size(75, 50);
             this.openVisButton.TabIndex = 0;
@@ -89,21 +90,32 @@
             this.webpageDownloader.DoWork += new System.ComponentModel.DoWorkEventHandler(this.webpageDownloader_DoWork);
             this.webpageDownloader.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.webpageDownloader_ProgressChanged);
             // 
-            // xmlExtractor
+            // xmlDownloader
             // 
-            this.xmlExtractor.WorkerReportsProgress = true;
-            this.xmlExtractor.DoWork += new System.ComponentModel.DoWorkEventHandler(this.xmlExtractor_DoWork);
-            this.xmlExtractor.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.xmlExtractor_ProgressChanged);
+            this.xmlDownloader.WorkerReportsProgress = true;
+            this.xmlDownloader.DoWork += new System.ComponentModel.DoWorkEventHandler(this.xmlExtractor_DoWork);
+            this.xmlDownloader.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.xmlExtractor_ProgressChanged);
+            // 
+            // extractXmlButton
+            // 
+            this.extractXmlButton.Location = new System.Drawing.Point(290, 185);
+            this.extractXmlButton.Name = "extractXmlButton";
+            this.extractXmlButton.Size = new System.Drawing.Size(75, 50);
+            this.extractXmlButton.TabIndex = 0;
+            this.extractXmlButton.Text = "Extract XML Data";
+            this.extractXmlButton.UseVisualStyleBackColor = true;
+            this.extractXmlButton.Click += new System.EventHandler(this.xmlExtractButton_Click);
             // 
             // backendMainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(390, 261);
+            this.ClientSize = new System.Drawing.Size(390, 330);
             this.Controls.Add(this.filesProcessedLabel);
             this.Controls.Add(this.processListBox);
             this.Controls.Add(this.openVisButton);
-            this.Controls.Add(this.xmlExtractButton);
+            this.Controls.Add(this.extractXmlButton);
+            this.Controls.Add(this.xmlDownloadButton);
             this.Controls.Add(this.webPageDownloadButton);
             this.Name = "backendMainWindow";
             this.Text = "Xml Analyzer";
@@ -117,10 +129,11 @@
         private System.Windows.Forms.Button webPageDownloadButton;
         private System.Windows.Forms.ListBox processListBox;
         private System.Windows.Forms.Label filesProcessedLabel;
-        private System.Windows.Forms.Button xmlExtractButton;
+        private System.Windows.Forms.Button xmlDownloadButton;
         private System.Windows.Forms.Button openVisButton;
         private System.ComponentModel.BackgroundWorker webpageDownloader;
-        private System.ComponentModel.BackgroundWorker xmlExtractor;
+        private System.ComponentModel.BackgroundWorker xmlDownloader;
+        private System.Windows.Forms.Button extractXmlButton;
     }
 }
 

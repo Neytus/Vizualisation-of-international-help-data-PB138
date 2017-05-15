@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Threading;
 using System.Net;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace BackendProject
 {
@@ -31,7 +32,7 @@ namespace BackendProject
         {
             processListBox.Items.Clear();
             filesProcessedLabel.Text = "Files Processed: 0";
-            xmlExtractor.RunWorkerAsync();
+            xmlDownloader.RunWorkerAsync();
         }
 
         private void webpageDownloader_DoWork(object sender, DoWorkEventArgs e)
@@ -51,6 +52,13 @@ namespace BackendProject
         private void xmlExtractor_DoWork(object sender, DoWorkEventArgs e)
         {
             bool state;
+            XmlDocument worldBankOrgFile = new XmlDocument();
+            worldBankOrgFile.Load("http://siteresources.worldbank.org/INTSOPE/Resources/5929468-1305310586289/IATI_ORG.xml");
+            worldBankOrgFile.Save(@".\otherxmlData\worldBank.xml");
+
+            DataExtractor.CoutriesCsvToXml(@"..\..\\csvFolder\countries_population.csv");
+            DataExtractor.CountriesCodesCsvToXml(@"..\..\\csvFolder\countries_codes_and_coordinates.csv");
+            DataExtractor.XmlConnector();
             var xmlLinks = DataExtractor.ParseWebpage(out state);
             if (!state)
             {
@@ -63,14 +71,15 @@ namespace BackendProject
                     try
                     {
                         DataExtractor.ParseXmlData(xml);
-                        xmlExtractor.ReportProgress(1, xml);
+                        xmlDownloader.ReportProgress(1, xml);
                     }
                     catch(WebException ex)
                     {
-                        xmlExtractor.ReportProgress(1, xml.Split('/').Last() + "does not exist");
+                        xmlDownloader.ReportProgress(1, xml.Split('/').Last() + "does not exist");
                     }
                 }
-            }           
+            }
+                       
         }
 
         private void xmlExtractor_ProgressChanged(object sender, ProgressChangedEventArgs e)
