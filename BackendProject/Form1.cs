@@ -52,10 +52,7 @@ namespace BackendProject
         private void xmlExtractor_DoWork(object sender, DoWorkEventArgs e)
         {
             bool state;
-            XmlDocument worldBankOrgFile = new XmlDocument();
-            worldBankOrgFile.Load("http://siteresources.worldbank.org/INTSOPE/Resources/5929468-1305310586289/IATI_ORG.xml");
-            worldBankOrgFile.Save(@".\otherxmlData\worldBank.xml");
-
+            
             DataExtractor.CoutriesCsvToXml(@"..\..\\csvFolder\countries_population.csv");
             DataExtractor.CountriesCodesCsvToXml(@"..\..\\csvFolder\countries_codes_and_coordinates.csv");
             DataExtractor.XmlConnector();
@@ -79,7 +76,10 @@ namespace BackendProject
                     }
                 }
             }
-                       
+
+            XmlDocument worldBankOrgFile = new XmlDocument();
+            worldBankOrgFile.Load("http://siteresources.worldbank.org/INTSOPE/Resources/5929468-1305310586289/IATI_ORG.xml");
+            worldBankOrgFile.Save(@".\otherxmlData\worldBank.xml");
         }
 
         private void xmlExtractor_ProgressChanged(object sender, ProgressChangedEventArgs e)
