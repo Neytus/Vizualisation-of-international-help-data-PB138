@@ -28,7 +28,7 @@ namespace BackendProject
             webpageDownloader.RunWorkerAsync();
         }
 
-        private void xmlExtractButton_Click(object sender, EventArgs e)
+        private void xmlDownloadButton_Click(object sender, EventArgs e)
         {
             processListBox.Items.Clear();
             filesProcessedLabel.Text = "Files Processed: 0";
@@ -49,7 +49,7 @@ namespace BackendProject
             filesProcessedLabel.Text = "Files Processed: " + e.ProgressPercentage.ToString();
         }
 
-        private void xmlExtractor_DoWork(object sender, DoWorkEventArgs e)
+        private void xmlDownloader_DoWork(object sender, DoWorkEventArgs e)
         {
             bool state;
             
@@ -82,7 +82,7 @@ namespace BackendProject
             worldBankOrgFile.Save(@".\otherxmlData\worldBank.xml");
         }
 
-        private void xmlExtractor_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        private void xmlDownloader_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
             processListBox.Items.Add(e.UserState);
             filesProcessedLabel.Text = "Files Processed: " + processListBox.Items.Count.ToString();

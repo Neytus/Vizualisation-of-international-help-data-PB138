@@ -74,7 +74,7 @@
             this.xmlDownloadButton.TabIndex = 0;
             this.xmlDownloadButton.Text = "Download XML Data";
             this.xmlDownloadButton.UseVisualStyleBackColor = true;
-            this.xmlDownloadButton.Click += new System.EventHandler(this.xmlExtractButton_Click);
+            this.xmlDownloadButton.Click += new System.EventHandler(this.xmlDownloadButton_Click);
             // 
             // openVisButton
             // 
@@ -94,8 +94,8 @@
             // xmlDownloader
             // 
             this.xmlDownloader.WorkerReportsProgress = true;
-            this.xmlDownloader.DoWork += new System.ComponentModel.DoWorkEventHandler(this.xmlExtractor_DoWork);
-            this.xmlDownloader.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.xmlExtractor_ProgressChanged);
+            this.xmlDownloader.DoWork += new System.ComponentModel.DoWorkEventHandler(this.xmlDownloader_DoWork);
+            this.xmlDownloader.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.xmlDownloader_ProgressChanged);
             // 
             // finalizerButton
             // 
