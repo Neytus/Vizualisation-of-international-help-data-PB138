@@ -35,7 +35,8 @@
             this.openVisButton = new System.Windows.Forms.Button();
             this.webpageDownloader = new System.ComponentModel.BackgroundWorker();
             this.xmlDownloader = new System.ComponentModel.BackgroundWorker();
-            this.extractXmlButton = new System.Windows.Forms.Button();
+            this.finalizerButton = new System.Windows.Forms.Button();
+            this.finalizeWorker = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // webPageDownloadButton
@@ -96,25 +97,29 @@
             this.xmlDownloader.DoWork += new System.ComponentModel.DoWorkEventHandler(this.xmlExtractor_DoWork);
             this.xmlDownloader.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.xmlExtractor_ProgressChanged);
             // 
-            // extractXmlButton
+            // finalizerButton
             // 
-            this.extractXmlButton.Location = new System.Drawing.Point(290, 185);
-            this.extractXmlButton.Name = "extractXmlButton";
-            this.extractXmlButton.Size = new System.Drawing.Size(75, 50);
-            this.extractXmlButton.TabIndex = 0;
-            this.extractXmlButton.Text = "Extract XML Data";
-            this.extractXmlButton.UseVisualStyleBackColor = true;
-            this.extractXmlButton.Click += new System.EventHandler(this.xmlExtractButton_Click);
+            this.finalizerButton.Location = new System.Drawing.Point(290, 185);
+            this.finalizerButton.Name = "finalizerButton";
+            this.finalizerButton.Size = new System.Drawing.Size(75, 50);
+            this.finalizerButton.TabIndex = 3;
+            this.finalizerButton.Text = "Extract XML Data";
+            this.finalizerButton.UseVisualStyleBackColor = true;
+            this.finalizerButton.Click += new System.EventHandler(this.finalizerButton_Click);
+            // 
+            // finalizeWorker
+            // 
+            this.finalizeWorker.WorkerReportsProgress = true;
             // 
             // backendMainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(390, 330);
+            this.Controls.Add(this.finalizerButton);
             this.Controls.Add(this.filesProcessedLabel);
             this.Controls.Add(this.processListBox);
             this.Controls.Add(this.openVisButton);
-            this.Controls.Add(this.extractXmlButton);
             this.Controls.Add(this.xmlDownloadButton);
             this.Controls.Add(this.webPageDownloadButton);
             this.Name = "backendMainWindow";
@@ -133,7 +138,8 @@
         private System.Windows.Forms.Button openVisButton;
         private System.ComponentModel.BackgroundWorker webpageDownloader;
         private System.ComponentModel.BackgroundWorker xmlDownloader;
-        private System.Windows.Forms.Button extractXmlButton;
+        private System.Windows.Forms.Button finalizerButton;
+        private System.ComponentModel.BackgroundWorker finalizeWorker;
     }
 }
 

@@ -87,5 +87,10 @@ namespace BackendProject
             processListBox.Items.Add(e.UserState);
             filesProcessedLabel.Text = "Files Processed: " + processListBox.Items.Count.ToString();
         }
+
+        private void finalizerButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
