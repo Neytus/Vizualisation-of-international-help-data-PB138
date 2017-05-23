@@ -110,6 +110,7 @@
             // finalizeWorker
             // 
             this.finalizeWorker.WorkerReportsProgress = true;
+            this.finalizeWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.finalizeWorker_DoWork);
             // 
             // backendMainWindow
             // 

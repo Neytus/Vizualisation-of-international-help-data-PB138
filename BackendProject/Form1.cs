@@ -90,7 +90,32 @@ namespace BackendProject
 
         private void finalizerButton_Click(object sender, EventArgs e)
         {
+            processListBox.Items.Clear();
+            filesProcessedLabel.Text = "Files Processed: 0";
+            finalizeWorker.RunWorkerAsync();
+        }
 
+        private void finalizeWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            bool state;
+
+            DataExtractor.ExtractWorldBank();       
+
+            /*
+            var xmlLinks = DataExtractor.ParseWebpage(out state);
+            if()
+            {
+                MessageBox.Show("No XMLs to parse.");
+            }
+            else
+            {
+                foreach(var xml in xmlLinks)
+                {
+
+                }
+            } 
+            */
+            
         }
     }
 }

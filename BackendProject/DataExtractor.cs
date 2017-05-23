@@ -138,13 +138,14 @@ namespace BackendProject
             try
             {
                 string[] csvDocument = File.ReadAllLines(csvPath);
+                char[] num_id_chars = { ' ', '\"' };
                 XElement root = new XElement("countries",
                 from line in csvDocument
                 let fields = line.Split(',')
                 select new XElement("country",
                     new XElement("name", fields[0].Trim()),
                     new XElement("code", fields[1].Trim()),
-                    new XElement("number_code", fields[3].Trim())
+                    new XAttribute("num_id", fields[3].Trim(num_id_chars))
                     )
                 );
                 root.FirstNode.Remove();
@@ -188,16 +189,41 @@ namespace BackendProject
             }
         }
 
-        /*public static XmlNode ExtractUNDP(string filePath)
+        public static XmlNode ExtractWorldBank()
         {
-            XmlDocument UNDPxml = new XmlDocument();
+            XmlDocument outputXml = new XmlDocument();
+            //XmlDocument UNDPxml = new XmlDocument();
             XmlDocument codesXml = new XmlDocument();
             XmlDocument worldBankXml = new XmlDocument();
-            UNDPxml.Load(filePath);
-            codesXml.Load("codes_with_population.xml");
-            worldBankXml.Load("IATI_ORG.xml");
-                        
-        }*/
+            //UNDPxml.Load(filePath);
+            codesXml.Load("otherXmlData/countriesCodesPopulation.xml");
+            worldBankXml.Load("otherXmlData/worldBank.xml");
+
+
+            XmlElement root;
+            root = outputXml.CreateElement("countries");
+            outputXml.AppendChild(root);
+
+
+
+            foreach (XmlNode node in worldBankXml.FirstChild.FirstChild.ChildNodes)
+            {
+                if (node.Name == "recipient-country-budget")
+                {
+                    var countryName = node.FirstChild.InnerText;
+                    var countryCode = node.FirstChild.Attributes[0].Value;
+                    var year = node.LastChild.Attributes[1].Value;
+                    var budget = node.LastChild.InnerText;
+
+                    System.Diagnostics.Debug.WriteLine("X " + countryName + " X " + countryCode + " X " + year + " X " + budget);
+                }
+            }
+
+
+            outputXml.Save(xmlDir + @"\finalOutput.xml");
+
+            return outputXml;
+        }
 
 
     }
