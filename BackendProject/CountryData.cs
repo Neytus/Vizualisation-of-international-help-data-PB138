@@ -8,14 +8,13 @@ namespace BackendProject
 {
     class CountryData
     {
-        private string countryCode;
         public string CountryCode { get; set; }
 
         public Dictionary<int, int> budgets { get; }
 
         public CountryData(string code)
         {
-            countryCode = code;
+            CountryCode = code;
             budgets = new Dictionary<int, int>();
         }
 
