@@ -3,7 +3,8 @@
 <countries>
   <country num_id="8">
     <name>"Albania"</name>
-    <code>"AL"</code>    
+    <code>"AL"</code>
+    <population>1234383</population>
     <data>
       <period year="2017">
         <organization name="UNDP">
