@@ -252,6 +252,114 @@ namespace BackendProject
             return outputXml;
         }
 
+        public static void FinalXmlToJson(string path)
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.Load(path);
 
+            StreamWriter sw = new StreamWriter(xmlDir, false);
+            sw.WriteLine("[");
+
+            XmlNodeList countries = doc.GetElementsByTagName("country");
+            for (int i = 0; i < countries.Count; i++)
+            {
+                XmlElement node = (XmlElement)countries[i];
+                string id = node.GetAttribute("num_id");
+                sw.WriteLine("{\"" + id + "\":{");
+
+                string name = node.GetElementsByTagName("name")[0].InnerText;
+                sw.WriteLine("\"name\": \"" + name + "\",");
+
+                sw.WriteLine("\"num_id\": \"" + id + "\",");
+
+                string code = node.GetElementsByTagName("code")[0].InnerText;
+                sw.WriteLine("\"code\": \"" + code + "\",");
+
+                string population = node.GetElementsByTagName("population")[0].InnerText;
+                sw.WriteLine("\"population\": \"" + population + "\",");
+
+                sw.WriteLine("\"data\":{");
+                XmlNodeList years = node.GetElementsByTagName("period");
+
+                for (int j = 0; j < years.Count; j++)
+                {
+                    XmlElement year = (XmlElement)years[j];
+
+                    string currentYear = year.GetAttribute("year");
+                    sw.WriteLine("\"" + currentYear + "\":{");
+                    XmlNodeList organizations = year.GetElementsByTagName("organization");
+
+                    for (int k = 0; k < organizations.Count; k++)
+                    {
+                        XmlElement organization = (XmlElement)organizations[k];
+
+                        string org = organization.GetAttribute("name");
+                        sw.WriteLine("\"" + org + "\":{");
+
+                        string budget = organization.GetElementsByTagName("budget")[0].InnerText;
+                        sw.WriteLine("\"budget\": \"" + budget + "\",");
+
+                        string budgetPopulation = organization.GetElementsByTagName("budget_population")[0].InnerText;
+                        sw.WriteLine("\"budget_population\": \"" + budgetPopulation + "\"");
+
+                        if (k == organizations.Count - 1)
+                        {
+                            sw.WriteLine("}");
+                        }
+                        else
+                        {
+                            sw.WriteLine("},");
+                        }
+                    }
+
+                    sw.WriteLine("},");
+
+                }
+
+                XmlElement sums = (XmlElement)node.GetElementsByTagName("sum")[0];
+                XmlNodeList orgsums = sums.GetElementsByTagName("organization");
+                sw.WriteLine("\"sum\":{");
+
+                for (int k = 0; k < orgsums.Count; k++)
+                {
+                    XmlElement sumNode = (XmlElement)orgsums[k];
+
+                    string currentOrg = sumNode.GetAttribute("name");
+                    sw.WriteLine("\"" + currentOrg + "\":{");
+
+                    string budget = sumNode.GetElementsByTagName("budget")[0].InnerText;
+                    sw.WriteLine("\"budget\": \"" + budget + "\",");
+
+                    string budgetPopulation = sumNode.GetElementsByTagName("budget_population")[0].InnerText;
+                    sw.WriteLine("\"budget_population\": \"" + budgetPopulation + "\"");
+
+                    if (k == orgsums.Count - 1)
+                    {
+                        sw.WriteLine("}");
+                    }
+                    else
+                    {
+                        sw.WriteLine("},");
+                    }
+
+                }
+
+                sw.WriteLine("}");
+                sw.WriteLine("}");
+
+                sw.WriteLine("}");
+                if (i == countries.Count - 1)
+                {
+                    sw.WriteLine("}");
+                }
+                else
+                {
+                    sw.WriteLine("},");
+                }
+            }
+            sw.WriteLine("]");
+            sw.Close();
+        }
+    }
     }
 }
