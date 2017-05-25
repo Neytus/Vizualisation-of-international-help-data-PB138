@@ -306,7 +306,7 @@ namespace BackendProject
             XmlDocument doc = new XmlDocument();
             doc.Load(path);
 
-            StreamWriter sw = new StreamWriter(xmlDir, false);
+            StreamWriter sw = new StreamWriter(xmlDir + @"\finaljson.json", false);
             sw.WriteLine("[");
 
             XmlNodeList countries = doc.GetElementsByTagName("country");
@@ -409,6 +409,5 @@ namespace BackendProject
             sw.WriteLine("]");
             sw.Close();
         }
-    }
     }
 }
