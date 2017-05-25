@@ -3,7 +3,7 @@
 <countries>
   <!--element for each monitored country--> 	
   <country num_id="8">
-    <!--name(non-empty string), code(3 uppercase chars), population(integer), data are required elements for country-->
+    <!--name(non-empty string), code(2 uppercase chars), population(integer), data are required elements for country-->
     <name>Albania</name>
     <code>AL</code>
     <population>1234383</population>
@@ -21,9 +21,9 @@
           <budget_population>1000</budget_population>
         </organization>    
       </period>
-	  <!--required element sum for each organization for all years-->
+	  <!--required element sum for country for all years-->
       <sum>
-	    <!--required organization for each organization in databases--> 
+	    <!--required organization element for each organization in source databases--> 
         <organization name="UNDP">
           <budget>1000000</budget>
           <budget_population>1000</budget_population>
