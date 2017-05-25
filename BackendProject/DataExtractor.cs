@@ -199,28 +199,55 @@ namespace BackendProject
             codesXml.Load("otherXmlData/countriesCodesPopulation.xml");
             worldBankXml.Load("otherXmlData/worldBank.xml");
 
-
+            /*
             XmlElement root;
             root = outputXml.CreateElement("countries");
             outputXml.AppendChild(root);
+            */
 
+            var countryInfos = new List<CountryData>();
+            string lastUsedCode = null;
 
-
-            foreach (XmlNode node in worldBankXml.FirstChild.FirstChild.ChildNodes)
+            foreach (XmlNode bankNode in worldBankXml.FirstChild.FirstChild.ChildNodes)
             {
-                if (node.Name == "recipient-country-budget")
+                if (bankNode.Name == "recipient-country-budget")
                 {
-                    var countryName = node.FirstChild.InnerText;
-                    var countryCode = node.FirstChild.Attributes[0].Value;
-                    var year = node.LastChild.Attributes[1].Value;
-                    var budget = node.LastChild.InnerText;
+                    var countryCode = bankNode.FirstChild.Attributes[0].Value;
+                    var year = bankNode.LastChild.Attributes[1].Value;
+                    var budget = bankNode.LastChild.InnerText;
+                    System.Diagnostics.Debug.WriteLine(" X " + countryCode + " X " + year + " X " + budget);
 
-                    System.Diagnostics.Debug.WriteLine("X " + countryName + " X " + countryCode + " X " + year + " X " + budget);
+                    string processedCode = null;
+
+                    foreach (var info in countryInfos)
+                    {
+                        if (info.CountryCode == countryCode)
+                        {
+
+                        }
+                    }
+
+                    /*
+                    foreach (XmlNode codeNode in codesXml.FirstChild.NextSibling.ChildNodes)
+                    {
+                        var numCode = codeNode.FirstChild.NextSibling.InnerText;
+                        numCode.Trim('\"');
+
+                        System.Diagnostics.Debug.WriteLine("KKK " + numCode.Trim('\"'));
+
+                        if (countryCode.Equals(numCode.Trim('\"')))
+                        {
+                            System.Diagnostics.Debug.WriteLine("IF funguje");
+                        }
+                    }
+                    */
+
+                    lastUsedCode = countryCode;
                 }
             }
 
 
-            outputXml.Save(xmlDir + @"\finalOutput.xml");
+            //outputXml.Save(xmlDir + @"\finalOutput.xml");
 
             return outputXml;
         }
