@@ -1,38 +1,40 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='UTF-8' ?> 
 <!--Root element-->
-<countries>
-  <!--element for each monitored country--> 	
-  <country num_id="8">
-    <!--name(non-empty string), code(2 uppercase chars), population(integer), data are required elements for country-->
-    <name>Albania</name>
-    <code>AL</code>
-    <population>1234383</population>
-    <data>
-	  <!--not required element, depends on data from databases, min-occurs = 0, max-occurs = unbounded-->
-      <period year="2017">
-		<!--min occurs = 1-->
-        <organization name="UNDP">
-		  <!--reguired budget and budget_population elements-->
-          <budget>1000000</budget>
-          <budget_population>1000</budget_population>
-        </organization>
-		<organization name="WorldBank">
-          <budget>1000000</budget>
-          <budget_population>1000</budget_population>
-        </organization>    
-      </period>
-	  <!--required element sum for country for all years-->
-      <sum>
-	    <!--required organization element for each organization in source databases--> 
-        <organization name="UNDP">
-          <budget>1000000</budget>
-          <budget_population>1000</budget_population>
-        </organization>
-		<organization name="WorldBank">
-          <budget>1000000</budget>
-          <budget_population>1000</budget_population>
-        </organization>    
-      </sum>
-    </data>
-  </country>
+<countries
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="newXmlSchema.xsd">
+    <!--element for each monitored country--> 	
+    <country num_id="8">
+        <!--name(non-empty string), code(2 uppercase chars), population(integer), data are required elements for country-->
+        <name>Albania</name>
+        <code>AL</code>
+        <population>1234383</population>
+        <data>
+            <!--not required element, depends on data from databases, min-occurs = 0, max-occurs = unbounded-->
+            <period year="2017">
+                <!--min occurs = 1-->
+                <organization name="UNDP">
+                    <!--reguired budget and budget_population elements-->
+                    <budget>1000000</budget>
+                    <budget_population>1000</budget_population>
+                </organization>
+                <organization name="WorldBank">
+                    <budget>1000000</budget>
+                    <budget_population>1000</budget_population>
+                </organization>    
+            </period>
+            <!--required element sum for country for all years-->
+            <sum>
+                <!--required organization element for each organization in source databases--> 
+                <organization name="UNDP">
+                    <budget>1000000</budget>
+                    <budget_population>1000</budget_population>
+                </organization>
+                <organization name="WorldBank">
+                    <budget>1000000</budget>
+                    <budget_population>1000</budget_population>
+                </organization>    
+            </sum>
+        </data>
+    </country>
 </countries>

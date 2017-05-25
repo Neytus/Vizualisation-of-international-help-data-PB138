@@ -17,14 +17,15 @@ and open the template in the editor.
         </xs:complexType>
     </xs:element>
     
+    <!--complex types used-->
     <xs:complexType name="countryType">
         <xs:sequence>
-            <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
-            <xs:element name="code" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="name" type="nonEmptyString" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="code" type="countryCodeType" minOccurs="1" maxOccurs="1"/>
             <xs:element name="population" type="xs:integer" minOccurs="1" maxOccurs="1"/>
             <xs:element name="data" type="dataType" minOccurs="1" maxOccurs="1"/>
         </xs:sequence>
-        <xs:attribute name="num_id" use="required" type="xs:integer"/>
+        <xs:attribute name="num_id" use="required" type="countryIdType"/>
     </xs:complexType>
     
     <xs:complexType name="dataType">
@@ -38,15 +39,15 @@ and open the template in the editor.
         <xs:sequence>
             <xs:element name="organization" type="organizationType" minOccurs="1" maxOccurs="2"/>
         </xs:sequence>
-        <xs:attribute name="year" use="required" type="xs:integer"/>
+        <xs:attribute name="year" use="required" type="yearType"/>
     </xs:complexType>
     
     <xs:complexType name="organizationType">
         <xs:sequence>
-            <xs:element name="budget" type="doubleType" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="budget" type="xs:integer" minOccurs="1" maxOccurs="1"/>
             <xs:element name="budget_population" type="doubleType" minOccurs="1" maxOccurs="1"/>
         </xs:sequence>
-        <xs:attribute name="name" use="required" type="xs:string"/>
+        <xs:attribute name="name" use="required" type="organizationNameType"/>
     </xs:complexType>
     
     <xs:complexType name="sumType">
@@ -55,11 +56,45 @@ and open the template in the editor.
         </xs:sequence>
     </xs:complexType>
     
+    <!--simple types used-->
     <xs:simpleType name="doubleType">
         <xs:restriction base="xs:decimal">
             <xs:minExclusive value="0.00"/>
             <xs:fractionDigits value="2"/>
         </xs:restriction>
     </xs:simpleType>
-
+	
+    <xs:simpleType name="organizationNameType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="WorldBank"/>
+            <xs:enumeration value="UNDP"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+    <xs:simpleType name="countryIdType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="894"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+    <xs:simpleType name="yearType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="2000"/>
+            <xs:maxInclusive value="2100"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+    <xs:simpleType name="nonEmptyString">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+    <xs:simpleType name="countryCodeType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z][A-Z]"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
 </xs:schema>
