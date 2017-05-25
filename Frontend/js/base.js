@@ -1,12 +1,75 @@
 $(function () {
-    initUI();
-    initMap();
+    data = {};
+    loadData();
     $(window).resize(function () {
         resizeMap();
 //        console.log($("#wrapper").height() + "; " + $("#map").width());
     });
 });
 
+/**
+ * Load data from json. Initialize UI when data ready.
+ */
+function loadData() {
+    $.getJSON("data/test.json", function (json) {
+        data = json;
+        generateCountryOptions();
+        initUI();
+        initMap();
+    }).fail(function () {
+        alert("Error. Data could not be loaded.");
+    });
+}
+
+/**
+ * Generate options for countries and years for selected country.
+ */
+function generateCountryOptions() {
+    var i = 0;
+    $.each(data, function (countryId, country) {
+        // create country options
+        var option = "<option value='" + countryId + "' ";
+        if (i == 0) {
+            option += "selected";
+        }
+        option += ">" + country.name + "</option>";
+        $("#countrySelect").append(option);
+
+        // update years based on country data, show data
+        if (i == 0) {
+            updateYearOptions(country);
+            displaySum(country);
+            displayAllData(country);
+        }
+        i++;
+    });
+
+}
+
+/**
+ * Update year options based on available data for given country
+ * @param {Object} country - Object representing country with its data
+ */
+function updateYearOptions(country) {
+    // clear year options
+    $("#yearSelect").html("");
+    // append "all" option to years select button
+    var option = "<option value='All' selected>All</option>";
+    $("#yearSelect").append(option);
+
+    $.each(country.data, function (key, value) {
+        if (key == "sum") {
+            return;
+        }
+        // <option value="2017">2017</option>
+        var option = "<option value='" + key + "'>" + key + "</option>";
+        $("#yearSelect").append(option);
+    });
+}
+
+/**
+ * Initialize UI. Bind event handlers.
+ */
 function initUI() {
     $("#changeCountry").click(function () {
         var i = $("#selectForm #countrySelect").val();
@@ -14,10 +77,136 @@ function initUI() {
     });
     $("#countrySelect").select2({});
     $("#yearSelect").select2({});
+
+    // update year options, display data for all years
+    $("#countrySelect").on("change", function () {
+        var selectedCountryId = $("#countrySelect").find(":selected").val();
+        // update year options
+        updateYearOptions(data[selectedCountryId]);
+        // update map
+        var i = $("#selectForm #countrySelect").val();
+        transition(i);
+        // display sum
+        displaySum(data[selectedCountryId]);
+        // display data for all years
+        displayAllData(data[selectedCountryId]);
+    });
+    // display data for given year
+    $("#yearSelect").on("change", function () {
+        var selectedCountryId = $("#countrySelect").find(":selected").val();
+        var selectedYearId = $("#yearSelect").find(":selected").val();
+        displayYearData(data[selectedCountryId], selectedYearId);
+    });
+}
+
+/**
+ * 
+ * @param {Object} country - Object representing Country with its data
+ */
+function displaySum(country) {
+    var table = $("#dataTable");
+
+    var undpt = "-";
+    var undppc = "-";
+    var wbt = "-";
+    var wbpc = "-";
+
+    if (typeof (country.data["sum"]["UNDP"]) != "undefined"
+            && country.data["sum"]["UNDP"] !== null) {
+        undpt = country.data["sum"]["UNDP"].budget;
+        undppc = country.data["sum"]["UNDP"].budget_population;
+    }
+    if (typeof (country.data["sum"]["WorldBank"]) != "undefined"
+            && country.data["sum"]["WorldBank"] !== null) {
+        wbt = country.data["sum"]["WorldBank"].budget;
+        wbpc = country.data["sum"]["WorldBank"].budget_population;
+    }
+
+    table.find(".total .undpt").html(undpt);
+    table.find(".total .undppc").html(undppc);
+    table.find(".total .wbt").html(wbt);
+    table.find(".total .wbpc").html(wbpc);
+}
+
+/**
+ * 
+ * @param {type} country - Object representing Country with its data
+ */
+function displayAllData(country) {
+    // delete displayed year rows
+    $("#dataTable .yearRow").remove();
+
+    // display all year rows
+    $.each(country.data, function (year, value) {
+        if (year === "sum") {
+            return;
+        }
+
+        var undpt = "-";
+        var undppc = "-";
+        var wbt = "-";
+        var wbpc = "-";
+
+        if (typeof (country.data[year]["UNDP"]) != "undefined"
+                && country.data[year]["UNDP"] !== null) {
+            undpt = country.data[year]["UNDP"].budget;
+            undppc = country.data[year]["UNDP"].budget_population;
+        }
+        if (typeof (country.data[year]["WorldBank"]) != "undefined"
+                && country.data[year]["WorldBank"] !== null) {
+            wbt = country.data[year]["WorldBank"].budget;
+            wbpc = country.data[year]["WorldBank"].budget_population;
+        }
+
+        var row = '<tr class="yearRow">';
+        row += '<td class="y">' + year + '</td>';
+        row += '<td class="undpt">' + undpt + '</td>';
+        row += '<td class="undppc">' + undppc + '</td>';
+        row += '<td class="wbt">' + wbt + '</td>';
+        row += '<td class="wbpc">' + wbpc + '</td>';
+        row += '</tr>';
+        $("#dataTable").append(row);
+    });
+}
+
+function displayYearData(country, year) {
+    // All option selected -> reroute to its function
+    if (year == "All") {
+        displayAllData(country);
+        return;
+    }
+
+    // delete displayed year rows
+    $("#dataTable .yearRow").remove();
+
+    var undpt = "-";
+    var undppc = "-";
+    var wbt = "-";
+    var wbpc = "-";
+
+    if (typeof (country.data[year]["UNDP"]) != "undefined"
+            && country.data[year]["UNDP"] !== null) {
+        undpt = country.data[year]["UNDP"].budget;
+        undppc = country.data[year]["UNDP"].budget_population;
+    }
+    if (typeof (country.data[year]["WorldBank"]) != "undefined"
+            && country.data[year]["WorldBank"] !== null) {
+        wbt = country.data[year]["WorldBank"].budget;
+        wbpc = country.data[year]["WorldBank"].budget_population;
+    }
+
+    var row = '<tr class="yearRow">';
+    row += '<td class="y">' + year + '</td>';
+    row += '<td class="undpt">' + undpt + '</td>';
+    row += '<td class="undppc">' + undppc + '</td>';
+    row += '<td class="wbt">' + wbt + '</td>';
+    row += '<td class="wbpc">' + wbpc + '</td>';
+    row += '</tr>';
+    $("#dataTable").append(row);
 }
 
 function resizeMap() {
-    
+
 }
 
 function initMap() {
@@ -25,8 +214,7 @@ function initMap() {
     if ($("#wrapper").height() < $("#map").width()) {
         map.width = $("#wrapper").height();
         map.height = $("#wrapper").height();
-    }
-    else {
+    } else {
         map.width = $("#map").width();
         map.height = $("#map").width();
     }
@@ -77,7 +265,7 @@ function ready(error, world, names) {
 }
 
 function transition(i) {
-    var country = map.countries.filter(function(obj) {
+    var country = map.countries.filter(function (obj) {
         return obj.id == i;
     })[0];
     d3.transition()

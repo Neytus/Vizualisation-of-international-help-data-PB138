@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    
+    <xs:element name="countries">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="country" type="countryType" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <!--complex types used-->
+    <xs:complexType name="countryType">
+        <xs:sequence>
+            <xs:element name="name" type="nonEmptyString" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="code" type="countryCodeType" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="population" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="data" type="dataType" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="num_id" use="required" type="countryIdType"/>
+    </xs:complexType>
+    
+    <xs:complexType name="dataType">
+        <xs:sequence>
+            <xs:element name="period" type="periodType" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="sum" type="sumType" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="periodType">
+        <xs:sequence>
+            <xs:element name="organization" type="organizationType" minOccurs="1" maxOccurs="2"/>
+        </xs:sequence>
+        <xs:attribute name="year" use="required" type="yearType"/>
+    </xs:complexType>
+    
+    <xs:complexType name="organizationType">
+        <xs:sequence>
+            <xs:element name="budget" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="budget_population" type="doubleType" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="name" use="required" type="organizationNameType"/>
+    </xs:complexType>
+    
+    <xs:complexType name="sumType">
+        <xs:sequence>
+            <xs:element name="organization" type="organizationType" minOccurs="2" maxOccurs="2"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!--simple types used-->
+    <xs:simpleType name="doubleType">
+        <xs:restriction base="xs:decimal">
+            <xs:minExclusive value="0.00"/>
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+    <xs:simpleType name="organizationNameType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="WorldBank"/>
+            <xs:enumeration value="UNDP"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+    <xs:simpleType name="countryIdType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="894"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+    <xs:simpleType name="yearType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="2000"/>
+            <xs:maxInclusive value="2100"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+    <xs:simpleType name="nonEmptyString">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+    <xs:simpleType name="countryCodeType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z][A-Z]"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+</xs:schema>
