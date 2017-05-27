@@ -435,7 +435,7 @@ namespace BackendProject
             doc.Load(path);
 
             StreamWriter sw = new StreamWriter(xmlDir + @"\finaljson.json", false);
-            sw.WriteLine("[");
+            sw.WriteLine("{");
 
             XmlNodeList countries = doc.GetElementsByTagName("country");
             for (int i = 0; i < countries.Count; i++)
@@ -445,12 +445,12 @@ namespace BackendProject
                 sw.WriteLine("{\"" + id + "\":{");
 
                 string name = node.GetElementsByTagName("name")[0].InnerText;
-                sw.WriteLine("\"name\": \"" + name + "\",");
+                sw.WriteLine("\"name\": " + name + ",");
 
                 sw.WriteLine("\"num_id\": \"" + id + "\",");
 
                 string code = node.GetElementsByTagName("code")[0].InnerText;
-                sw.WriteLine("\"code\": \"" + code + "\",");
+                sw.WriteLine("\"code\": " + code + ",");
 
                 if (code.Trim('\"') != "UM")
                 {
@@ -537,7 +537,7 @@ namespace BackendProject
                     sw.WriteLine("},");
                 }
             }
-            sw.WriteLine("]");
+            sw.WriteLine("}");
             sw.Close();
         }
     }
