@@ -1,0 +1,506 @@
+{
+"4":{
+"name": "Afghanistan",
+"num_id": "4",
+"code": "AF",
+"population": "33332025",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "194900000",
+"budget_population": "5,85"
+},
+"UNDP":{
+"budget": "903376375",
+"budget_population": "27,1"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "188700000",
+"budget_population": "5,66"
+},
+"UNDP":{
+"budget": "1536867528",
+"budget_population": "46,11"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "192200000",
+"budget_population": "5,77"
+},
+"UNDP":{
+"budget": "527543351",
+"budget_population": "15,83"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "207500000",
+"budget_population": "6,23"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "93296377",
+"budget_population": "2,8"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "89985169",
+"budget_population": "2,7"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "50903072",
+"budget_population": "1,53"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "783300000",
+"budget_population": "23,5"
+},
+"UNDP":{
+"budget": "3201971872",
+"budget_population": "96,06"
+}
+}
+}
+
+},
+"8":{
+"name": "Albania",
+"num_id": "8",
+"code": "AL",
+"population": "3038594",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "13356786",
+"budget_population": "4,4"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "25879594",
+"budget_population": "8,52"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "24384809",
+"budget_population": "8,03"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "3720597",
+"budget_population": "1,22"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "6126667",
+"budget_population": "2,02"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "3255533",
+"budget_population": "1,07"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "76723986",
+"budget_population": "25,25"
+}
+}
+}
+
+},
+"12":{
+"name": "Algeria",
+"num_id": "12",
+"code": "DZ",
+"population": "40263711",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "7599712",
+"budget_population": "0,19"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "11269541",
+"budget_population": "0,28"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "7889846",
+"budget_population": "0,2"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "6220179",
+"budget_population": "0,15"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "3760767",
+"budget_population": "0,09"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1139888",
+"budget_population": "0,03"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "37879933",
+"budget_population": "0,94"
+}
+}
+
+}
+},
+"16":{
+"name": "American Samoa",
+"num_id": "16",
+"code": "AS",
+"population": "54194",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+
+},
+"20":{
+"name": "Andorra",
+"num_id": "20",
+"code": "AD",
+"population": "85660",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+
+}
+},
+"24":{
+"name": "Angola",
+"num_id": "24",
+"code": "AO",
+"population": "20172332",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "21533215",
+"budget_population": "1,07"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "34443770",
+"budget_population": "1,71"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "20802515",
+"budget_population": "1,03"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "11485731",
+"budget_population": "0,57"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "32760746",
+"budget_population": "1,62"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "12072749",
+"budget_population": "0,6"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "133098726",
+"budget_population": "6,6"
+}
+}
+
+}
+},
+"660":{
+"name": "Anguilla",
+"num_id": "660",
+"code": "AI",
+"population": "16752",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+
+}
+},
+"10":{
+"name": "Antarctica",
+"num_id": "10",
+"code": "AQ",
+"population": "0",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "NaN"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "NaN"
+}
+}
+}
+
+},
+"28":{
+"name": "Antigua and Barbuda",
+"num_id": "28",
+"code": "AG",
+"population": "93581",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "31478",
+"budget_population": "0,34"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "23622",
+"budget_population": "0,25"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "55100",
+"budget_population": "0,59"
+}
+}
+
+}
+},
+"32":{
+"name": "Argentina",
+"num_id": "32",
+"code": "AR",
+"population": "43886748",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "598572965",
+"budget_population": "13,64"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "504941173",
+"budget_population": "11,51"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "560187384",
+"budget_population": "12,76"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "293135853",
+"budget_population": "6,68"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "305240415",
+"budget_population": "6,96"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "192402630",
+"budget_population": "4,38"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "2454480420",
+"budget_population": "55,93"
+}
+}
+
+}
+},
+"51":{
+"name": "Armenia",
+"num_id": "51",
+"code": "AM",
+"population": "3051250",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "19361972",
+"budget_population": "6,35"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "36103692",
+"budget_population": "11,83"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "51648839",
+"budget_population": "16,93"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "63258886",
+"budget_population": "20,73"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "39656138",
+"budget_population": "13"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1775020",
+"budget_population": "0,58"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "211804547",
+"budget_population": "69,42"
+}
+}
+
+}
+},
+"533":{
+"name": "Aruba",
+"num_id": "533",
+"code": "AW",
+"population": "113648",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "519638",
+"budget_population": "4,57"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "751041",
+"budget_population": "6,61"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "1270679",
+"budget_population": "11,18"
+}
+}
+
+}
+},
+"36":{
+"name": "Australia",
+"num_id": "36",
+"code": "AU",
+"population": "22992654",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+}
+}

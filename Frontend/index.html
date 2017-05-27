@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Javascript Useful Functions</title>
+        <title>Vizualisation of International Help Data</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/select2.min.css" />
@@ -9,9 +9,10 @@
     </head>
     <body>
         <div id="wrapper">
-            <h1 id="countryName"></h1>
+            <h1>Vizualisation of International Help Data</h1>
+            <h2>Country: <span id="countryName"></span></h2>
             <div id="map">
-
+                <div id="mapDataInfo" style="display: none">No map data</div>
             </div>
             <div id="data">
                 <form id="selectForm">
@@ -41,10 +42,10 @@
                     </tr>
                     <tr>
                         <th>Year</th>
-                        <th>Total</th>
-                        <th>Per Capita</th>
-                        <th>Total</th>
-                        <th>Per Capita</th>
+                        <th  class="undpt">Total $</th>
+                        <th>Per Capita $</th>
+                        <th class="wbt">Total $</th>
+                        <th>Per Capita $</th>
                     </tr>
                     <tr class="total">
                         <td class="y">Total</td>

@@ -1,22 +1,19 @@
 $(function () {
     data = {};
     loadData();
-    $(window).resize(function () {
-        resizeMap();
-//        console.log($("#wrapper").height() + "; " + $("#map").width());
-    });
 });
 
 /**
- * Load data from json. Initialize UI when data ready.
+ * Load data from json. Initialize UI when data is ready.
  */
 function loadData() {
-    $.getJSON("data/test.json", function (json) {
+    $.getJSON("data/finaljson.json", function (json) {
         data = json;
         generateCountryOptions();
         initUI();
         initMap();
-    }).fail(function () {
+    }).fail(function (msg) {
+        console.log(msg);
         alert("Error. Data could not be loaded.");
     });
 }
@@ -47,7 +44,7 @@ function generateCountryOptions() {
 }
 
 /**
- * Update year options based on available data for given country
+ * Update year options based on available data for given country.
  * @param {Object} country - Object representing country with its data
  */
 function updateYearOptions(country) {
@@ -71,6 +68,7 @@ function updateYearOptions(country) {
  * Initialize UI. Bind event handlers.
  */
 function initUI() {
+    // Submit button. Currently not used.
     $("#changeCountry").click(function () {
         var i = $("#selectForm #countrySelect").val();
         transition(i);
@@ -100,7 +98,7 @@ function initUI() {
 }
 
 /**
- * 
+ * Display data contained under "sum" key ("Total" row in data table).
  * @param {Object} country - Object representing Country with its data
  */
 function displaySum(country) {
@@ -129,8 +127,8 @@ function displaySum(country) {
 }
 
 /**
- * 
- * @param {type} country - Object representing Country with its data
+ * Display all available data for given country.
+ * @param {Object} country - Object representing Country with its data
  */
 function displayAllData(country) {
     // delete displayed year rows
@@ -169,6 +167,11 @@ function displayAllData(country) {
     });
 }
 
+/**
+ * Display data for selected country and year.
+ * @param {Object} country - Object representing Country with its data
+ * @param {String} year - Year to display data for
+ */
 function displayYearData(country, year) {
     // All option selected -> reroute to its function
     if (year == "All") {
@@ -205,16 +208,17 @@ function displayYearData(country, year) {
     $("#dataTable").append(row);
 }
 
-function resizeMap() {
-
-}
-
+/**
+ * Initialize d3 map to display selected country.
+ * Source: https://gist.github.com/tadast/8827699
+ */
 function initMap() {
     map = {};
     if ($("#wrapper").height() < $("#map").width()) {
         map.width = $("#wrapper").height();
         map.height = $("#wrapper").height();
-    } else {
+    }
+    else {
         map.width = $("#map").width();
         map.height = $("#map").width();
     }
@@ -242,6 +246,12 @@ function initMap() {
             .await(ready);
 }
 
+/**
+ * Parse loaded data for map visualization.
+ * @param {String} error - Error statement.
+ * @param {Object} world - Object containing data to draw the world map.
+ * @param {Array} names - Array of objects containing names and ids from "world-country-names.tsv".
+ */
 function ready(error, world, names) {
     if (error)
         throw error;
@@ -264,14 +274,44 @@ function ready(error, world, names) {
     transition(i);
 }
 
+/**
+ * Try to select and draw selected country on world map. Display message if data not found.
+ * @param {String} i - Index of selected country to transition to.
+ */
 function transition(i) {
     var country = map.countries.filter(function (obj) {
         return obj.id == i;
     })[0];
+    var selectedColor = "";
+    var countryDisplayName = "";
+    // no map data -> display previous country, greyed out
+    if (country == "undefined" || country == null) {
+        country = map.countries.filter(function (obj) {
+            return obj.id == "4";
+        })[0];
+        selectedColor = "#ccc";
+        countryDisplayName = $("#countrySelect option:selected").html();
+        $("#mapDataInfo").show();
+    }
+    else {
+        selectedColor = "#22BDF0";
+        countryDisplayName = country.name;
+        $("#mapDataInfo").hide();
+    }
+    mapTransition(country, selectedColor, countryDisplayName);
+}
+
+/**
+ * Transition to selected country or default position if country map data not found.
+ * @param {Object} country - Object containing data for selected country to display on the world map.
+ * @param {String} selectedColor - Color to fill selected country area.
+ * @param {String} countryDisplayName - Name of selected country to display.
+ */
+function mapTransition(country, selectedColor, countryDisplayName) {
     d3.transition()
             .duration(1250)
             .each("start", function () {
-                countryName.text(country.name);
+                countryName.text(countryDisplayName);
             })
             .tween("rotate", function () {
                 var p = d3.geo.centroid(country),
@@ -280,9 +320,10 @@ function transition(i) {
                     map.projection.rotate(r(t));
                     c.clearRect(0, 0, map.width, map.height);
                     c.fillStyle = "#ccc", c.beginPath(), path(map.land), c.fill();
-                    c.fillStyle = "#f00", c.beginPath(), path(country), c.fill();
+                    c.fillStyle = selectedColor, c.beginPath(), path(country), c.fill();
                     c.strokeStyle = "#fff", c.lineWidth = .5, c.beginPath(), path(map.borders), c.stroke();
-                    c.strokeStyle = "#000", c.lineWidth = 2, c.beginPath(), path(map.globe), c.stroke();
+                    c.strokeStyle = "#222", c.lineWidth = 1.3, c.beginPath(), path(map.globe), c.stroke();
                 };
             });
 }
+
