@@ -99,23 +99,8 @@ namespace BackendProject
         {
             bool state;
 
-            DataExtractor.ExtractWorldBank();       
-
-            /*
-            var xmlLinks = DataExtractor.ParseWebpage(out state);
-            if()
-            {
-                MessageBox.Show("No XMLs to parse.");
-            }
-            else
-            {
-                foreach(var xml in xmlLinks)
-                {
-
-                }
-            } 
-            */
-            
+            DataExtractor.ExtractWorldBank();
+            DataExtractor.ExtractUNDP();
         }
     }
 }

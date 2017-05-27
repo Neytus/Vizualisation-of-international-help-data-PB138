@@ -203,12 +203,6 @@ namespace BackendProject
             XmlNodeList worldBankBudgets = worldBankXml.GetElementsByTagName("recipient-country-budget");
             XmlNodeList countries = outputXml.GetElementsByTagName("country");
 
-            /*
-            XmlElement root;
-            root = outputXml.CreateElement("countries");
-            outputXml.AppendChild(root);
-            */
-
             var countryInfos = new List<CountryData>();
 
             foreach (XmlNode bankNode in worldBankBudgets)
@@ -248,10 +242,8 @@ namespace BackendProject
                 countryNode.AppendChild(data);
                 var countryCode = countryNode.FirstChild.NextSibling.InnerText.Trim('\"');
                 double sumValues = 0;
-
-                System.Diagnostics.Debug.WriteLine(countryNode.FirstChild.NextSibling.NextSibling.InnerText);
-
                 int population = 0;
+
                 if (countryCode != "UM")
                 {
                     population = int.Parse(countryNode.FirstChild.NextSibling.NextSibling.InnerText);
@@ -301,6 +293,142 @@ namespace BackendProject
             return outputXml;
         }
 
+        public static XmlNode ExtractUNDP()
+        {
+            XmlDocument outputXml = new XmlDocument();
+            outputXml.Load("otherXmlData/finalOutput.xml");
+            List<string> undpLinks = new List<string>();
+            var countryInfos = new List<CountryData>();
+            XmlNodeList outputCountries = outputXml.GetElementsByTagName("country");
+
+            foreach (var file in Directory.GetFiles(UNDPDir))
+            {
+                string path = file;
+                undpLinks.Add(file);
+            }
+
+            for (int i = 0; i < undpLinks.Count; i++)
+            {
+                XmlDocument undpXml = new XmlDocument();
+                undpXml.Load(undpLinks[i]);
+
+                XmlNodeList undpBudgets = undpXml.GetElementsByTagName("transaction");
+                XmlNodeList undpCountry = undpXml.GetElementsByTagName("recipient-country");
+                var countryCode = undpCountry.Item(0).Attributes[0].Value;
+
+                var processedCountry = new CountryData(countryCode);
+                countryInfos.Add(processedCountry);
+
+                foreach (XmlNode country in outputCountries)
+                {
+                    var outputCountryCode = country.ChildNodes.Item(1).InnerText.Trim('\"');
+
+                    if (outputCountryCode == countryCode)
+                    {
+                        foreach (XmlNode undpNode in undpBudgets)
+                        {
+                            string date = undpNode.ChildNodes.Item(1).Attributes.Item(0).Value.ToString();
+                            int year = int.Parse(date.Split('-').First());
+                            int budget = int.Parse(undpNode.ChildNodes.Item(2).InnerText);
+
+                            if (processedCountry.budgets.Keys.Contains(year))
+                            {
+                                int value = 0;
+                                processedCountry.budgets.TryGetValue(year, out value);
+                                processedCountry.budgets[year] = value + budget;
+                            }
+                            else
+                            {
+                                processedCountry.budgets.Add(year, budget);
+                            }
+                        }
+                    }
+                }
+            }
+
+            foreach (XmlNode countryNode in outputCountries)
+            {
+                XmlNode data = countryNode.ChildNodes.Item(3);
+
+                if (countryNode.FirstChild.NextSibling.InnerText.Trim('\"') == "UM")
+                {
+                    continue;
+                }
+
+                System.Diagnostics.Debug.WriteLine("PRIDAVAM KRAJINU " + countryNode.FirstChild.NextSibling.InnerText.Trim('\"'));
+
+                int count = countryNode.ChildNodes.Item(3).ChildNodes.Count;
+                XmlNode sum = countryNode.ChildNodes.Item(3).ChildNodes.Item(count - 1);
+
+                var countryCode = countryNode.FirstChild.NextSibling.InnerText.Trim('\"');
+                double sumValues = 0;
+                int population = 0;
+
+                if (countryCode != "UM")
+                {
+                    population = int.Parse(countryNode.FirstChild.NextSibling.NextSibling.InnerText);
+                }
+
+                //PERIODS:
+                foreach (var country in countryInfos)
+                {
+                    if (country.CountryCode == countryCode)
+                    {
+                        foreach (var budget in country.budgets)
+                        {
+                            int year = budget.Key;                            
+                            XmlNodeList periods = data.ChildNodes;
+                            XmlElement period = null;
+
+                            foreach (XmlElement oneNode in periods)
+                            {
+                                if ((oneNode.Name != "sum") && (int.Parse(oneNode.Attributes[0].Value) == year))
+                                {
+                                    period = oneNode;
+                                }
+                            }
+
+                            if (period == null)
+                            {
+                                period = outputXml.CreateElement("period");
+                                period.SetAttribute("year", budget.Key.ToString());
+                                data.AppendChild(period);
+                            }
+
+                            XmlElement organization = outputXml.CreateElement("organization");
+                            organization.SetAttribute("name", "UNDP");
+                            XmlElement budgetValue = outputXml.CreateElement("budget");
+                            budgetValue.InnerText = budget.Value.ToString();
+                            sumValues += budget.Value;
+                            XmlElement budget_population = outputXml.CreateElement("budget_population");
+                            budget_population.InnerText = Math.Round(((double)budget.Value / population), 2).ToString();
+
+                            period.AppendChild(organization);
+                            organization.AppendChild(budgetValue);
+                            organization.AppendChild(budget_population);
+                        }
+                    }
+                }
+
+                //SUMS:
+                XmlElement organizationSum = outputXml.CreateElement("organization");
+                organizationSum.SetAttribute("name", "UNDP");
+                XmlElement budgetValueSum = outputXml.CreateElement("budget");
+                budgetValueSum.InnerText = sumValues.ToString();
+                XmlElement budget_populationSum = outputXml.CreateElement("budget_population");
+                budget_populationSum.InnerText = Math.Round((sumValues / population), 2).ToString();
+
+                sum.AppendChild(organizationSum);
+                organizationSum.AppendChild(budgetValueSum);
+                organizationSum.AppendChild(budget_populationSum);
+            }
+
+            outputXml.Save(xmlDir + @"\finalOutput.xml");
+            FinalXmlToJson(xmlDir + @"\finalOutput.xml");
+
+            return outputXml;
+        }
+
         public static void FinalXmlToJson(string path)
         {
             XmlDocument doc = new XmlDocument();
@@ -324,8 +452,11 @@ namespace BackendProject
                 string code = node.GetElementsByTagName("code")[0].InnerText;
                 sw.WriteLine("\"code\": \"" + code + "\",");
 
-                string population = node.GetElementsByTagName("population")[0].InnerText;
-                sw.WriteLine("\"population\": \"" + population + "\",");
+                if (code.Trim('\"') != "UM")
+                {
+                    string population = node.GetElementsByTagName("population")[0].InnerText;
+                    sw.WriteLine("\"population\": \"" + population + "\",");
+                }
 
                 sw.WriteLine("\"data\":{");
                 XmlNodeList years = node.GetElementsByTagName("period");
