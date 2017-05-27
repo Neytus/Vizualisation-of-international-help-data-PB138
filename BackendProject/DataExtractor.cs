@@ -442,7 +442,7 @@ namespace BackendProject
             {
                 XmlElement node = (XmlElement)countries[i];
                 string id = node.GetAttribute("num_id");
-                sw.WriteLine("{\"" + id + "\":{");
+                sw.WriteLine("\"" + id + "\":{");
 
                 string name = node.GetElementsByTagName("name")[0].InnerText;
                 sw.WriteLine("\"name\": " + name + ",");
@@ -527,7 +527,7 @@ namespace BackendProject
                 sw.WriteLine("}");
                 sw.WriteLine("}");
 
-                sw.WriteLine("}");
+                //sw.WriteLine("}");
                 if (i == countries.Count - 1)
                 {
                     sw.WriteLine("}");
