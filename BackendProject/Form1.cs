@@ -97,10 +97,21 @@ namespace BackendProject
 
         private void finalizeWorker_DoWork(object sender, DoWorkEventArgs e)
         {
-            bool state;
-
             DataExtractor.ExtractWorldBank();
             DataExtractor.ExtractUNDP();
+
+            finalizeWorker.ReportProgress(1, "All the data has been extracted successfully.");
+        }
+
+        private void finalizeWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            processListBox.Items.Add(e.UserState);
+            filesProcessedLabel.Text = "Files Processed: All";
+        }
+
+        private void openVisButton_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"..\..\..\\Frontend/index.html" );
         }
     }
 }

@@ -84,6 +84,7 @@
             this.openVisButton.TabIndex = 0;
             this.openVisButton.Text = "Open Visualisation";
             this.openVisButton.UseVisualStyleBackColor = true;
+            this.openVisButton.Click += new System.EventHandler(this.openVisButton_Click);
             // 
             // webpageDownloader
             // 
@@ -111,6 +112,7 @@
             // 
             this.finalizeWorker.WorkerReportsProgress = true;
             this.finalizeWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.finalizeWorker_DoWork);
+            this.finalizeWorker.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.finalizeWorker_ProgressChanged);
             // 
             // backendMainWindow
             // 
