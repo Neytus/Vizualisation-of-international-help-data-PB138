@@ -11,8 +11,8 @@
 "budget_population": "5,85"
 },
 "UNDP":{
-"budget": "903376375",
-"budget_population": "27,1"
+"budget": "953902047",
+"budget_population": "28,62"
 }
 },
 "2016":{
@@ -21,8 +21,8 @@
 "budget_population": "5,66"
 },
 "UNDP":{
-"budget": "1536867528",
-"budget_population": "46,11"
+"budget": "1538177466",
+"budget_population": "46,15"
 }
 },
 "2017":{
@@ -31,32 +31,48 @@
 "budget_population": "5,77"
 },
 "UNDP":{
-"budget": "527543351",
-"budget_population": "15,83"
+"budget": "642761472",
+"budget_population": "19,28"
 }
 },
 "2018":{
 "WorldBank":{
 "budget": "207500000",
 "budget_population": "6,23"
+},
+"UNDP":{
+"budget": "22476949",
+"budget_population": "0,67"
 }
 },
 "2014":{
 "UNDP":{
-"budget": "93296377",
-"budget_population": "2,8"
+"budget": "457903673",
+"budget_population": "13,74"
 }
 },
 "2013":{
 "UNDP":{
-"budget": "89985169",
-"budget_population": "2,7"
+"budget": "251863908",
+"budget_population": "7,56"
 }
 },
 "2012":{
 "UNDP":{
-"budget": "50903072",
-"budget_population": "1,53"
+"budget": "79737633",
+"budget_population": "2,39"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "7799191",
+"budget_population": "0,23"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1521298",
+"budget_population": "0,05"
 }
 },
 "sum":{
@@ -65,12 +81,11 @@
 "budget_population": "23,5"
 },
 "UNDP":{
-"budget": "3201971872",
-"budget_population": "96,06"
+"budget": "3956143637",
+"budget_population": "118,69"
 }
 }
 }
-
 },
 "8":{
 "name": "Albania",
@@ -80,8 +95,8 @@
 "data":{
 "2017":{
 "UNDP":{
-"budget": "13356786",
-"budget_population": "4,4"
+"budget": "14060197",
+"budget_population": "4,63"
 }
 },
 "2016":{
@@ -114,18 +129,29 @@
 "budget_population": "1,07"
 }
 },
+"2019":{
+"UNDP":{
+"budget": "1855023",
+"budget_population": "0,61"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "8920239",
+"budget_population": "2,94"
+}
+},
 "sum":{
 "WorldBank":{
 "budget": "0",
 "budget_population": "0"
 },
 "UNDP":{
-"budget": "76723986",
-"budget_population": "25,25"
+"budget": "88202659",
+"budget_population": "29,03"
 }
 }
 }
-
 },
 "12":{
 "name": "Algeria",
@@ -135,8 +161,8 @@
 "data":{
 "2017":{
 "UNDP":{
-"budget": "7599712",
-"budget_population": "0,19"
+"budget": "6748706",
+"budget_population": "0,17"
 }
 },
 "2016":{
@@ -169,17 +195,34 @@
 "budget_population": "0,03"
 }
 },
+"2019":{
+"UNDP":{
+"budget": "1749653",
+"budget_population": "0,04"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "5053811",
+"budget_population": "0,13"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "408948",
+"budget_population": "0,01"
+}
+},
 "sum":{
 "WorldBank":{
 "budget": "0",
 "budget_population": "0"
 },
 "UNDP":{
-"budget": "37879933",
-"budget_population": "0,94"
+"budget": "44241339",
+"budget_population": "1,1"
 }
 }
-
 }
 },
 "16":{
@@ -199,7 +242,6 @@
 }
 }
 }
-
 },
 "20":{
 "name": "Andorra",
@@ -217,7 +259,6 @@
 "budget_population": "0"
 }
 }
-
 }
 },
 "24":{
@@ -228,8 +269,8 @@
 "data":{
 "2017":{
 "UNDP":{
-"budget": "21533215",
-"budget_population": "1,07"
+"budget": "24011757",
+"budget_population": "1,19"
 }
 },
 "2016":{
@@ -262,17 +303,46 @@
 "budget_population": "0,6"
 }
 },
+"2018":{
+"UNDP":{
+"budget": "6455165",
+"budget_population": "0,32"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "2153404",
+"budget_population": "0,11"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "6449727",
+"budget_population": "0,32"
+}
+},
+"2022":{
+"UNDP":{
+"budget": "281060",
+"budget_population": "0,01"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "665000",
+"budget_population": "0,03"
+}
+},
 "sum":{
 "WorldBank":{
 "budget": "0",
 "budget_population": "0"
 },
 "UNDP":{
-"budget": "133098726",
-"budget_population": "6,6"
+"budget": "151581624",
+"budget_population": "7,51"
 }
 }
-
 }
 },
 "660":{
@@ -291,7 +361,6 @@
 "budget_population": "0"
 }
 }
-
 }
 },
 "10":{
@@ -303,15 +372,14 @@
 "sum":{
 "WorldBank":{
 "budget": "0",
-"budget_population": "NaN"
+"budget_population": "Není číslo"
 },
 "UNDP":{
 "budget": "0",
-"budget_population": "NaN"
+"budget_population": "Není číslo"
 }
 }
 }
-
 },
 "28":{
 "name": "Antigua and Barbuda",
@@ -321,14 +389,14 @@
 "data":{
 "2017":{
 "UNDP":{
-"budget": "31478",
-"budget_population": "0,34"
+"budget": "44900",
+"budget_population": "0,48"
 }
 },
 "2016":{
 "UNDP":{
-"budget": "23622",
-"budget_population": "0,25"
+"budget": "10200",
+"budget_population": "0,11"
 }
 },
 "sum":{
@@ -341,7 +409,6 @@
 "budget_population": "0,59"
 }
 }
-
 }
 },
 "32":{
@@ -352,14 +419,14 @@
 "data":{
 "2017":{
 "UNDP":{
-"budget": "598572965",
-"budget_population": "13,64"
+"budget": "616107941",
+"budget_population": "14,04"
 }
 },
 "2016":{
 "UNDP":{
-"budget": "504941173",
-"budget_population": "11,51"
+"budget": "503526700",
+"budget_population": "11,47"
 }
 },
 "2015":{
@@ -386,17 +453,34 @@
 "budget_population": "4,38"
 }
 },
+"2020":{
+"UNDP":{
+"budget": "21695826",
+"budget_population": "0,49"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "175332192",
+"budget_population": "4"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "297164143",
+"budget_population": "6,77"
+}
+},
 "sum":{
 "WorldBank":{
 "budget": "0",
 "budget_population": "0"
 },
 "UNDP":{
-"budget": "2454480420",
-"budget_population": "55,93"
+"budget": "2964793084",
+"budget_population": "67,56"
 }
 }
-
 }
 },
 "51":{
@@ -407,14 +491,14 @@
 "data":{
 "2017":{
 "UNDP":{
-"budget": "19361972",
-"budget_population": "6,35"
+"budget": "25383233",
+"budget_population": "8,32"
 }
 },
 "2016":{
 "UNDP":{
-"budget": "36103692",
-"budget_population": "11,83"
+"budget": "36283280",
+"budget_population": "11,89"
 }
 },
 "2015":{
@@ -441,17 +525,34 @@
 "budget_population": "0,58"
 }
 },
+"2020":{
+"UNDP":{
+"budget": "551300",
+"budget_population": "0,18"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "3262935",
+"budget_population": "1,07"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "8186632",
+"budget_population": "2,68"
+}
+},
 "sum":{
 "WorldBank":{
 "budget": "0",
 "budget_population": "0"
 },
 "UNDP":{
-"budget": "211804547",
-"budget_population": "69,42"
+"budget": "230006263",
+"budget_population": "75,38"
 }
 }
-
 }
 },
 "533":{
@@ -462,8 +563,8 @@
 "data":{
 "2017":{
 "UNDP":{
-"budget": "519638",
-"budget_population": "4,57"
+"budget": "554001",
+"budget_population": "4,87"
 }
 },
 "2016":{
@@ -478,11 +579,10 @@
 "budget_population": "0"
 },
 "UNDP":{
-"budget": "1270679",
-"budget_population": "11,18"
+"budget": "1305042",
+"budget_population": "11,48"
 }
 }
-
 }
 },
 "36":{
@@ -499,6 +599,12997 @@
 "UNDP":{
 "budget": "0",
 "budget_population": "0"
+}
+}
+}
+},
+"40":{
+"name": "Austria",
+"num_id": "40",
+"code": "AT",
+"population": "8711770",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"31":{
+"name": "Azerbaijan",
+"num_id": "31",
+"code": "AZ",
+"population": "9872765",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "12204168",
+"budget_population": "1,24"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "23779608",
+"budget_population": "2,41"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "25574657",
+"budget_population": "2,59"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "24321385",
+"budget_population": "2,46"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "9847697",
+"budget_population": "1"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "815235",
+"budget_population": "0,08"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "2602617",
+"budget_population": "0,26"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1251853",
+"budget_population": "0,13"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "2070110",
+"budget_population": "0,21"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "549202",
+"budget_population": "0,06"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "103016532",
+"budget_population": "10,43"
+}
+}
+}
+},
+"44":{
+"name": "Bahamas",
+"num_id": "44",
+"code": "BS",
+"population": "327316",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"48":{
+"name": "Bahrain",
+"num_id": "48",
+"code": "BH",
+"population": "1378904",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "3450150",
+"budget_population": "2,5"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "81953",
+"budget_population": "0,06"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "2331952",
+"budget_population": "1,69"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "1420655",
+"budget_population": "1,03"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "2386017",
+"budget_population": "1,73"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "2687490",
+"budget_population": "1,95"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "2358068",
+"budget_population": "1,71"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1478469",
+"budget_population": "1,07"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "1494685",
+"budget_population": "1,08"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "17689439",
+"budget_population": "12,83"
+}
+}
+}
+},
+"50":{
+"name": "Bangladesh",
+"num_id": "50",
+"code": "BD",
+"population": "156186882",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "1106300000",
+"budget_population": "7,08"
+},
+"UNDP":{
+"budget": "69573030",
+"budget_population": "0,45"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "1413600000",
+"budget_population": "9,05"
+},
+"UNDP":{
+"budget": "69577589",
+"budget_population": "0,45"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "1476900000",
+"budget_population": "9,46"
+},
+"UNDP":{
+"budget": "48481209",
+"budget_population": "0,31"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "1585700000",
+"budget_population": "10,15"
+},
+"UNDP":{
+"budget": "29720098",
+"budget_population": "0,19"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "67656751",
+"budget_population": "0,43"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "63400468",
+"budget_population": "0,41"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "48359260",
+"budget_population": "0,31"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "27532194",
+"budget_population": "0,18"
+}
+},
+"2022":{
+"UNDP":{
+"budget": "6741817",
+"budget_population": "0,04"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "17900000",
+"budget_population": "0,11"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "19511748",
+"budget_population": "0,12"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "5582500000",
+"budget_population": "35,74"
+},
+"UNDP":{
+"budget": "468454164",
+"budget_population": "3"
+}
+}
+}
+},
+"52":{
+"name": "Barbados",
+"num_id": "52",
+"code": "BB",
+"population": "291495",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "3239560",
+"budget_population": "11,11"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "3903190",
+"budget_population": "13,39"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "1588534",
+"budget_population": "5,45"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "3813897",
+"budget_population": "13,08"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "1121101",
+"budget_population": "3,85"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "13666282",
+"budget_population": "46,88"
+}
+}
+}
+},
+"112":{
+"name": "Belarus",
+"num_id": "112",
+"code": "BY",
+"population": "9570376",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "14799441",
+"budget_population": "1,55"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "22664547",
+"budget_population": "2,37"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "13035434",
+"budget_population": "1,36"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "5966284",
+"budget_population": "0,62"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1403036",
+"budget_population": "0,15"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "46541349",
+"budget_population": "4,86"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "5553608",
+"budget_population": "0,58"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "3805895",
+"budget_population": "0,4"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1187283",
+"budget_population": "0,12"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "244692",
+"budget_population": "0,03"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "115201569",
+"budget_population": "12,04"
+}
+}
+}
+},
+"56":{
+"name": "Belgium",
+"num_id": "56",
+"code": "BE",
+"population": "11409077",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"84":{
+"name": "Belize",
+"num_id": "84",
+"code": "BZ",
+"population": "353858",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "3235528",
+"budget_population": "9,14"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "5189046",
+"budget_population": "14,66"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "5053110",
+"budget_population": "14,28"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "3325146",
+"budget_population": "9,4"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "2428588",
+"budget_population": "6,86"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "1320473",
+"budget_population": "3,73"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "127720",
+"budget_population": "0,36"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "20679611",
+"budget_population": "58,44"
+}
+}
+}
+},
+"204":{
+"name": "Benin",
+"num_id": "204",
+"code": "BJ",
+"population": "10741458",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "114200000",
+"budget_population": "10,63"
+},
+"UNDP":{
+"budget": "27713735",
+"budget_population": "2,58"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "106800000",
+"budget_population": "9,94"
+},
+"UNDP":{
+"budget": "27772210",
+"budget_population": "2,59"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "82100000",
+"budget_population": "7,64"
+},
+"UNDP":{
+"budget": "11716417",
+"budget_population": "1,09"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "83700000",
+"budget_population": "7,79"
+},
+"UNDP":{
+"budget": "6111520",
+"budget_population": "0,57"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "20726410",
+"budget_population": "1,93"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "18283715",
+"budget_population": "1,7"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "17157304",
+"budget_population": "1,6"
+}
+},
+"2022":{
+"UNDP":{
+"budget": "63000",
+"budget_population": "0,01"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "413522",
+"budget_population": "0,04"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "553520",
+"budget_population": "0,05"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "606020",
+"budget_population": "0,06"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "386800000",
+"budget_population": "36,01"
+},
+"UNDP":{
+"budget": "131117373",
+"budget_population": "12,21"
+}
+}
+}
+},
+"60":{
+"name": "Bermuda",
+"num_id": "60",
+"code": "BM",
+"population": "70537",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"64":{
+"name": "Bhutan",
+"num_id": "64",
+"code": "BT",
+"population": "750125",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "17500000",
+"budget_population": "23,33"
+},
+"UNDP":{
+"budget": "10358880",
+"budget_population": "13,81"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "7800000",
+"budget_population": "10,4"
+},
+"UNDP":{
+"budget": "15187726",
+"budget_population": "20,25"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "17100000",
+"budget_population": "22,8"
+},
+"UNDP":{
+"budget": "9123384",
+"budget_population": "12,16"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "14400000",
+"budget_population": "19,2"
+},
+"UNDP":{
+"budget": "1609762",
+"budget_population": "2,15"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "7502894",
+"budget_population": "10"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "698080",
+"budget_population": "0,93"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "70281",
+"budget_population": "0,09"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "56800000",
+"budget_population": "75,72"
+},
+"UNDP":{
+"budget": "44551007",
+"budget_population": "59,39"
+}
+}
+}
+},
+"68":{
+"name": "Bolivia; Plurinational State of",
+"num_id": "68",
+"code": "BO",
+"population": "10969649",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "93900000",
+"budget_population": "8,56"
+},
+"UNDP":{
+"budget": "17971974",
+"budget_population": "1,64"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "149700000",
+"budget_population": "13,65"
+},
+"UNDP":{
+"budget": "46820244",
+"budget_population": "4,27"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "70800000",
+"budget_population": "6,45"
+},
+"UNDP":{
+"budget": "43147096",
+"budget_population": "3,93"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "55900000",
+"budget_population": "5,1"
+},
+"UNDP":{
+"budget": "19467260",
+"budget_population": "1,77"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "8926670",
+"budget_population": "0,81"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "11390904",
+"budget_population": "1,04"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "5860370",
+"budget_population": "0,53"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "3568970",
+"budget_population": "0,33"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "931858",
+"budget_population": "0,08"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "370300000",
+"budget_population": "33,76"
+},
+"UNDP":{
+"budget": "158085346",
+"budget_population": "14,41"
+}
+}
+}
+},
+"68":{
+"name": "Bolivia",
+"num_id": "68",
+"code": "BO",
+"population": "10969649",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "93900000",
+"budget_population": "8,56"
+},
+"UNDP":{
+"budget": "17971974",
+"budget_population": "1,64"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "149700000",
+"budget_population": "13,65"
+},
+"UNDP":{
+"budget": "46820244",
+"budget_population": "4,27"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "70800000",
+"budget_population": "6,45"
+},
+"UNDP":{
+"budget": "43147096",
+"budget_population": "3,93"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "55900000",
+"budget_population": "5,1"
+},
+"UNDP":{
+"budget": "19467260",
+"budget_population": "1,77"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "8926670",
+"budget_population": "0,81"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "11390904",
+"budget_population": "1,04"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "5860370",
+"budget_population": "0,53"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "3568970",
+"budget_population": "0,33"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "931858",
+"budget_population": "0,08"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "370300000",
+"budget_population": "33,76"
+},
+"UNDP":{
+"budget": "158085346",
+"budget_population": "14,41"
+}
+}
+}
+},
+"70":{
+"name": "Bosnia and Herzegovina",
+"num_id": "70",
+"code": "BA",
+"population": "3861912",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "40027797",
+"budget_population": "10,36"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "59782260",
+"budget_population": "15,48"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "80082450",
+"budget_population": "20,74"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "176672547",
+"budget_population": "45,75"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "168189573",
+"budget_population": "43,55"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "41913556",
+"budget_population": "10,85"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "12815749",
+"budget_population": "3,32"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "20207551",
+"budget_population": "5,23"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "2711044",
+"budget_population": "0,7"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "88695",
+"budget_population": "0,02"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "602491222",
+"budget_population": "156,01"
+}
+}
+}
+},
+"72":{
+"name": "Botswana",
+"num_id": "72",
+"code": "BW",
+"population": "2209208",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "6482151",
+"budget_population": "2,93"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "7365731",
+"budget_population": "3,33"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "4679226",
+"budget_population": "2,12"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "7285413",
+"budget_population": "3,3"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "8648266",
+"budget_population": "3,91"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "9354814",
+"budget_population": "4,23"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "3760997",
+"budget_population": "1,7"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "581850",
+"budget_population": "0,26"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "618150",
+"budget_population": "0,28"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "48776598",
+"budget_population": "22,08"
+}
+}
+}
+},
+"74":{
+"name": "Bouvet Island",
+"num_id": "74",
+"code": "BV",
+"population": "0",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "Není číslo"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "Není číslo"
+}
+}
+}
+},
+"76":{
+"name": "Brazil",
+"num_id": "76",
+"code": "BR",
+"population": "205823665",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "93040105",
+"budget_population": "0,45"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "124892684",
+"budget_population": "0,61"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "136491099",
+"budget_population": "0,66"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "149980171",
+"budget_population": "0,73"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "166323803",
+"budget_population": "0,81"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "138375799",
+"budget_population": "0,67"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "150563464",
+"budget_population": "0,73"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "29014908",
+"budget_population": "0,14"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "7996012",
+"budget_population": "0,04"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "520401",
+"budget_population": "0"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "997198446",
+"budget_population": "4,84"
+}
+}
+}
+},
+"86":{
+"name": "British Indian Ocean Territory",
+"num_id": "86",
+"code": "IO",
+"population": "0",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "Není číslo"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "Není číslo"
+}
+}
+}
+},
+"96":{
+"name": "Brunei Darussalam",
+"num_id": "96",
+"code": "BN",
+"population": "436620",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"96":{
+"name": "Brunei",
+"num_id": "96",
+"code": "BN",
+"population": "436620",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"100":{
+"name": "Bulgaria",
+"num_id": "100",
+"code": "BG",
+"population": "7144653",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"854":{
+"name": "Burkina Faso",
+"num_id": "854",
+"code": "BF",
+"population": "19512533",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "204600000",
+"budget_population": "10,49"
+},
+"UNDP":{
+"budget": "43114824",
+"budget_population": "2,21"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "223600000",
+"budget_population": "11,46"
+},
+"UNDP":{
+"budget": "30559023",
+"budget_population": "1,57"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "207500000",
+"budget_population": "10,63"
+},
+"UNDP":{
+"budget": "17145184",
+"budget_population": "0,88"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "217700000",
+"budget_population": "11,16"
+},
+"UNDP":{
+"budget": "1890581",
+"budget_population": "0,1"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "28113420",
+"budget_population": "1,44"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "20021741",
+"budget_population": "1,03"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "11400403",
+"budget_population": "0,58"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "581490",
+"budget_population": "0,03"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1199572",
+"budget_population": "0,06"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "853400000",
+"budget_population": "43,74"
+},
+"UNDP":{
+"budget": "154026238",
+"budget_population": "7,89"
+}
+}
+}
+},
+"108":{
+"name": "Burundi",
+"num_id": "108",
+"code": "BI",
+"population": "11099298",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "84400000",
+"budget_population": "7,6"
+},
+"UNDP":{
+"budget": "51670469",
+"budget_population": "4,66"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "88100000",
+"budget_population": "7,94"
+},
+"UNDP":{
+"budget": "24946718",
+"budget_population": "2,25"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "84500000",
+"budget_population": "7,61"
+},
+"UNDP":{
+"budget": "18452857",
+"budget_population": "1,66"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "88800000",
+"budget_population": "8"
+},
+"UNDP":{
+"budget": "6345918",
+"budget_population": "0,57"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "37455425",
+"budget_population": "3,37"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "30480655",
+"budget_population": "2,75"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "19107781",
+"budget_population": "1,72"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "3400000",
+"budget_population": "0,31"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "345800000",
+"budget_population": "31,16"
+},
+"UNDP":{
+"budget": "191859823",
+"budget_population": "17,29"
+}
+}
+}
+},
+"116":{
+"name": "Cambodia",
+"num_id": "116",
+"code": "KH",
+"population": "15957223",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "12000000",
+"budget_population": "0,75"
+},
+"UNDP":{
+"budget": "19009660",
+"budget_population": "1,19"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "27900000",
+"budget_population": "1,75"
+},
+"UNDP":{
+"budget": "35472730",
+"budget_population": "2,22"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "67000000",
+"budget_population": "4,2"
+},
+"UNDP":{
+"budget": "25292249",
+"budget_population": "1,59"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "109000000",
+"budget_population": "6,83"
+},
+"UNDP":{
+"budget": "15256350",
+"budget_population": "0,96"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "12653986",
+"budget_population": "0,79"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "4934176",
+"budget_population": "0,31"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "7731399",
+"budget_population": "0,48"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "6362959",
+"budget_population": "0,4"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "968742",
+"budget_population": "0,06"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "215900000",
+"budget_population": "13,53"
+},
+"UNDP":{
+"budget": "127682251",
+"budget_population": "8"
+}
+}
+}
+},
+"120":{
+"name": "Cameroon",
+"num_id": "120",
+"code": "CM",
+"population": "24360803",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "177500000",
+"budget_population": "7,29"
+},
+"UNDP":{
+"budget": "6491178",
+"budget_population": "0,27"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "175100000",
+"budget_population": "7,19"
+},
+"UNDP":{
+"budget": "8816599",
+"budget_population": "0,36"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "146800000",
+"budget_population": "6,03"
+},
+"UNDP":{
+"budget": "7375349",
+"budget_population": "0,3"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "135900000",
+"budget_population": "5,58"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "6716146",
+"budget_population": "0,28"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "5987908",
+"budget_population": "0,25"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "8403737",
+"budget_population": "0,34"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "635300000",
+"budget_population": "26,08"
+},
+"UNDP":{
+"budget": "43790917",
+"budget_population": "1,8"
+}
+}
+}
+},
+"124":{
+"name": "Canada",
+"num_id": "124",
+"code": "CA",
+"population": "35362905",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"132":{
+"name": "Cape Verde",
+"num_id": "132",
+"code": "CV",
+"population": "553432",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "15200000",
+"budget_population": "27,46"
+},
+"UNDP":{
+"budget": "12886532",
+"budget_population": "23,28"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "18800000",
+"budget_population": "33,97"
+},
+"UNDP":{
+"budget": "12672456",
+"budget_population": "22,9"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "10900000",
+"budget_population": "19,7"
+},
+"UNDP":{
+"budget": "7192294",
+"budget_population": "13"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "15800000",
+"budget_population": "28,55"
+},
+"UNDP":{
+"budget": "1481461",
+"budget_population": "2,68"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "6735476",
+"budget_population": "12,17"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "5865331",
+"budget_population": "10,6"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "4352181",
+"budget_population": "7,86"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "758046",
+"budget_population": "1,37"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "954926",
+"budget_population": "1,73"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "60700000",
+"budget_population": "109,68"
+},
+"UNDP":{
+"budget": "52898703",
+"budget_population": "95,58"
+}
+}
+}
+},
+"136":{
+"name": "Cayman Islands",
+"num_id": "136",
+"code": "KY",
+"population": "57268",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"140":{
+"name": "Central African Republic",
+"num_id": "140",
+"code": "CF",
+"population": "5507257",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "43000000",
+"budget_population": "7,81"
+},
+"UNDP":{
+"budget": "141427324",
+"budget_population": "25,68"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "44600000",
+"budget_population": "8,1"
+},
+"UNDP":{
+"budget": "104285592",
+"budget_population": "18,94"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "28400000",
+"budget_population": "5,16"
+},
+"UNDP":{
+"budget": "44439081",
+"budget_population": "8,07"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "31700000",
+"budget_population": "5,76"
+},
+"UNDP":{
+"budget": "5652793",
+"budget_population": "1,03"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "30838794",
+"budget_population": "5,6"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "79672194",
+"budget_population": "14,47"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "16158884",
+"budget_population": "2,93"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "147700000",
+"budget_population": "26,82"
+},
+"UNDP":{
+"budget": "422474662",
+"budget_population": "76,71"
+}
+}
+}
+},
+"148":{
+"name": "Chad",
+"num_id": "148",
+"code": "TD",
+"population": "11852462",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "28900000",
+"budget_population": "2,44"
+},
+"UNDP":{
+"budget": "36298880",
+"budget_population": "3,06"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "33100000",
+"budget_population": "2,79"
+},
+"UNDP":{
+"budget": "100830700",
+"budget_population": "8,51"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "32500000",
+"budget_population": "2,74"
+},
+"UNDP":{
+"budget": "33092959",
+"budget_population": "2,79"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "31300000",
+"budget_population": "2,64"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "33099064",
+"budget_population": "2,79"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "37413736",
+"budget_population": "3,16"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "27385133",
+"budget_population": "2,31"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "125800000",
+"budget_population": "10,61"
+},
+"UNDP":{
+"budget": "268120472",
+"budget_population": "22,62"
+}
+}
+}
+},
+"152":{
+"name": "Chile",
+"num_id": "152",
+"code": "CL",
+"population": "17650114",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "36884213",
+"budget_population": "2,09"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "52892539",
+"budget_population": "3"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "23253249",
+"budget_population": "1,32"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "13930342",
+"budget_population": "0,79"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "9825867",
+"budget_population": "0,56"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "2330469",
+"budget_population": "0,13"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "13421367",
+"budget_population": "0,76"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "3989386",
+"budget_population": "0,23"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "156527432",
+"budget_population": "8,87"
+}
+}
+}
+},
+"156":{
+"name": "China",
+"num_id": "156",
+"code": "CN",
+"population": "1373541278",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "42426677",
+"budget_population": "0,03"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "97859085",
+"budget_population": "0,07"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "102141440",
+"budget_population": "0,07"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "73402527",
+"budget_population": "0,05"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "44485160",
+"budget_population": "0,03"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "49324781",
+"budget_population": "0,04"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "28519100",
+"budget_population": "0,02"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "10570151",
+"budget_population": "0,01"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "803938",
+"budget_population": "0"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "4264302",
+"budget_population": "0"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "453797161",
+"budget_population": "0,33"
+}
+}
+}
+},
+"162":{
+"name": "Christmas Island",
+"num_id": "162",
+"code": "CX",
+"population": "2205",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"166":{
+"name": "Cocos (Keeling) Islands",
+"num_id": "166",
+"code": "CC",
+"population": "596",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"170":{
+"name": "Colombia",
+"num_id": "170",
+"code": "CO",
+"population": "47220856",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "163161270",
+"budget_population": "3,46"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "97247201",
+"budget_population": "2,06"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "209247750",
+"budget_population": "4,43"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "160306478",
+"budget_population": "3,39"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "121516665",
+"budget_population": "2,57"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "156021133",
+"budget_population": "3,3"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "14078640",
+"budget_population": "0,3"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1877943",
+"budget_population": "0,04"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "5384706",
+"budget_population": "0,11"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "625000",
+"budget_population": "0,01"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "929466786",
+"budget_population": "19,68"
+}
+}
+}
+},
+"174":{
+"name": "Comoros",
+"num_id": "174",
+"code": "KM",
+"population": "794678",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "9000000",
+"budget_population": "11,33"
+},
+"UNDP":{
+"budget": "10449582",
+"budget_population": "13,15"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "13000000",
+"budget_population": "16,36"
+},
+"UNDP":{
+"budget": "14658703",
+"budget_population": "18,45"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "10500000",
+"budget_population": "13,21"
+},
+"UNDP":{
+"budget": "8270395",
+"budget_population": "10,41"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "13200000",
+"budget_population": "16,61"
+},
+"UNDP":{
+"budget": "40000",
+"budget_population": "0,05"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "2643259",
+"budget_population": "3,33"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "6891721",
+"budget_population": "8,67"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "8489802",
+"budget_population": "10,68"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "15000",
+"budget_population": "0,02"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "45700000",
+"budget_population": "57,51"
+},
+"UNDP":{
+"budget": "51458462",
+"budget_population": "64,75"
+}
+}
+}
+},
+"178":{
+"name": "Congo",
+"num_id": "178",
+"code": "CG",
+"population": "4852412",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "14700000",
+"budget_population": "3,03"
+},
+"UNDP":{
+"budget": "36312705",
+"budget_population": "7,48"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "18800000",
+"budget_population": "3,87"
+},
+"UNDP":{
+"budget": "7950893",
+"budget_population": "1,64"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "22700000",
+"budget_population": "4,68"
+},
+"UNDP":{
+"budget": "4149971",
+"budget_population": "0,86"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "24500000",
+"budget_population": "5,05"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "11965193",
+"budget_population": "2,47"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "6715305",
+"budget_population": "1,38"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "12256422",
+"budget_population": "2,53"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "80700000",
+"budget_population": "16,63"
+},
+"UNDP":{
+"budget": "79350489",
+"budget_population": "16,35"
+}
+}
+}
+},
+"180":{
+"name": "Congo; the Democratic Republic of the",
+"num_id": "180",
+"code": "CD",
+"population": "81331050",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "99772938",
+"budget_population": "1,23"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "91029425",
+"budget_population": "1,12"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "151366357",
+"budget_population": "1,86"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "124123633",
+"budget_population": "1,53"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "80204791",
+"budget_population": "0,99"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "198228464",
+"budget_population": "2,44"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "12667835",
+"budget_population": "0,16"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1674402",
+"budget_population": "0,02"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "998200",
+"budget_population": "0,01"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "760066045",
+"budget_population": "9,35"
+}
+}
+}
+},
+"184":{
+"name": "Cook Islands",
+"num_id": "184",
+"code": "CK",
+"population": "9556",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "2118641",
+"budget_population": "221,71"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "5529488",
+"budget_population": "578,64"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "1382352",
+"budget_population": "144,66"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "2242894",
+"budget_population": "234,71"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "783251",
+"budget_population": "81,96"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "99807",
+"budget_population": "10,44"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "638764",
+"budget_population": "66,84"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "12795197",
+"budget_population": "1338,97"
+}
+}
+}
+},
+"188":{
+"name": "Costa Rica",
+"num_id": "188",
+"code": "CR",
+"population": "4872543",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "10217232",
+"budget_population": "2,1"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "15179858",
+"budget_population": "3,12"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "5959685",
+"budget_population": "1,22"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "5980720",
+"budget_population": "1,23"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "4169367",
+"budget_population": "0,86"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "3683949",
+"budget_population": "0,76"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "540025",
+"budget_population": "0,11"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1825043",
+"budget_population": "0,37"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "4007876",
+"budget_population": "0,82"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "398240",
+"budget_population": "0,08"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "51961995",
+"budget_population": "10,66"
+}
+}
+}
+},
+"384":{
+"name": "Côte d'Ivoire",
+"num_id": "384",
+"code": "CI",
+"population": "23740424",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "149100000",
+"budget_population": "6,28"
+},
+"UNDP":{
+"budget": "89499014",
+"budget_population": "3,77"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "167100000",
+"budget_population": "7,04"
+},
+"UNDP":{
+"budget": "43027734",
+"budget_population": "1,81"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "143100000",
+"budget_population": "6,03"
+},
+"UNDP":{
+"budget": "31330808",
+"budget_population": "1,32"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "163600000",
+"budget_population": "6,89"
+},
+"UNDP":{
+"budget": "700190",
+"budget_population": "0,03"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "8845752",
+"budget_population": "0,37"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "17853020",
+"budget_population": "0,75"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "22755100",
+"budget_population": "0,96"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "109528",
+"budget_population": "0"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "622900000",
+"budget_population": "26,24"
+},
+"UNDP":{
+"budget": "214121146",
+"budget_population": "9,02"
+}
+}
+}
+},
+"384":{
+"name": "Ivory Coast",
+"num_id": "384",
+"code": "CI",
+"population": "23740424",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "149100000",
+"budget_population": "6,28"
+},
+"UNDP":{
+"budget": "89499014",
+"budget_population": "3,77"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "167100000",
+"budget_population": "7,04"
+},
+"UNDP":{
+"budget": "43027734",
+"budget_population": "1,81"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "143100000",
+"budget_population": "6,03"
+},
+"UNDP":{
+"budget": "31330808",
+"budget_population": "1,32"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "163600000",
+"budget_population": "6,89"
+},
+"UNDP":{
+"budget": "700190",
+"budget_population": "0,03"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "8845752",
+"budget_population": "0,37"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "17853020",
+"budget_population": "0,75"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "22755100",
+"budget_population": "0,96"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "109528",
+"budget_population": "0"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "622900000",
+"budget_population": "26,24"
+},
+"UNDP":{
+"budget": "214121146",
+"budget_population": "9,02"
+}
+}
+}
+},
+"191":{
+"name": "Croatia",
+"num_id": "191",
+"code": "HR",
+"population": "4313707",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "1764697",
+"budget_population": "0,41"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "6725839",
+"budget_population": "1,56"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "8139270",
+"budget_population": "1,89"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "4890036",
+"budget_population": "1,13"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "3093574",
+"budget_population": "0,72"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "958755",
+"budget_population": "0,22"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "25572171",
+"budget_population": "5,93"
+}
+}
+}
+},
+"192":{
+"name": "Cuba",
+"num_id": "192",
+"code": "CU",
+"population": "11179995",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "41665315",
+"budget_population": "3,73"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "50962408",
+"budget_population": "4,56"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "33829972",
+"budget_population": "3,03"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "3946311",
+"budget_population": "0,35"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1829380",
+"budget_population": "0,16"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "6914388",
+"budget_population": "0,62"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1819670",
+"budget_population": "0,16"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "4052545",
+"budget_population": "0,36"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "10634254",
+"budget_population": "0,95"
+}
+},
+"2022":{
+"UNDP":{
+"budget": "676318",
+"budget_population": "0,06"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "1189797",
+"budget_population": "0,11"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "157520358",
+"budget_population": "14,09"
+}
+}
+}
+},
+"196":{
+"name": "Cyprus",
+"num_id": "196",
+"code": "CY",
+"population": "1205575",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "11371446",
+"budget_population": "9,43"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "26309644",
+"budget_population": "21,82"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "9617180",
+"budget_population": "7,98"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "14920562",
+"budget_population": "12,38"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "25231347",
+"budget_population": "20,93"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "54938142",
+"budget_population": "45,57"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "142388321",
+"budget_population": "118,11"
+}
+}
+}
+},
+"203":{
+"name": "Czech Republic",
+"num_id": "203",
+"code": "CZ",
+"population": "10644842",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"208":{
+"name": "Denmark",
+"num_id": "208",
+"code": "DK",
+"population": "5593785",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"262":{
+"name": "Djibouti",
+"num_id": "262",
+"code": "DJ",
+"population": "846687",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "9000000",
+"budget_population": "10,63"
+},
+"UNDP":{
+"budget": "10713018",
+"budget_population": "12,65"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "8300000",
+"budget_population": "9,8"
+},
+"UNDP":{
+"budget": "28832726",
+"budget_population": "34,05"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "9800000",
+"budget_population": "11,57"
+},
+"UNDP":{
+"budget": "18726142",
+"budget_population": "22,12"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "11400000",
+"budget_population": "13,46"
+},
+"UNDP":{
+"budget": "1089476",
+"budget_population": "1,29"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "8805570",
+"budget_population": "10,4"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "11227167",
+"budget_population": "13,26"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "230254",
+"budget_population": "0,27"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "38500000",
+"budget_population": "45,47"
+},
+"UNDP":{
+"budget": "79624353",
+"budget_population": "94,04"
+}
+}
+}
+},
+"212":{
+"name": "Dominica",
+"num_id": "212",
+"code": "DM",
+"population": "73757",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "3500000",
+"budget_population": "47,45"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "3300000",
+"budget_population": "44,74"
+},
+"UNDP":{
+"budget": "118177",
+"budget_population": "1,6"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "2800000",
+"budget_population": "37,96"
+},
+"UNDP":{
+"budget": "1139927",
+"budget_population": "15,46"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "2200000",
+"budget_population": "29,83"
+},
+"UNDP":{
+"budget": "1549861",
+"budget_population": "21,01"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "743229",
+"budget_population": "10,08"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "11800000",
+"budget_population": "159,98"
+},
+"UNDP":{
+"budget": "3551194",
+"budget_population": "48,15"
+}
+}
+}
+},
+"214":{
+"name": "Dominican Republic",
+"num_id": "214",
+"code": "DO",
+"population": "10606865",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "54558082",
+"budget_population": "5,14"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "92759152",
+"budget_population": "8,75"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "85172464",
+"budget_population": "8,03"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "66311691",
+"budget_population": "6,25"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "76835705",
+"budget_population": "7,24"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "26245837",
+"budget_population": "2,47"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "12702539",
+"budget_population": "1,2"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "5935738",
+"budget_population": "0,56"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "6264950",
+"budget_population": "0,59"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "426786158",
+"budget_population": "40,24"
+}
+}
+}
+},
+"218":{
+"name": "Ecuador",
+"num_id": "218",
+"code": "EC",
+"population": "16080778",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "18412779",
+"budget_population": "1,15"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "24432303",
+"budget_population": "1,52"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "13302189",
+"budget_population": "0,83"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1768163",
+"budget_population": "0,11"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "7096219",
+"budget_population": "0,44"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "4401175",
+"budget_population": "0,27"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "20732448",
+"budget_population": "1,29"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "18779403",
+"budget_population": "1,17"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "13984702",
+"budget_population": "0,87"
+}
+},
+"2022":{
+"UNDP":{
+"budget": "2162490",
+"budget_population": "0,13"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "8333656",
+"budget_population": "0,52"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "133405527",
+"budget_population": "8,3"
+}
+}
+}
+},
+"818":{
+"name": "Egypt",
+"num_id": "818",
+"code": "EG",
+"population": "94666993",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "109127847",
+"budget_population": "1,15"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "170250866",
+"budget_population": "1,8"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "191830992",
+"budget_population": "2,03"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "174699725",
+"budget_population": "1,85"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "150271746",
+"budget_population": "1,59"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "173788907",
+"budget_population": "1,84"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "71899148",
+"budget_population": "0,76"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "9748394",
+"budget_population": "0,1"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "17192473",
+"budget_population": "0,18"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "842314",
+"budget_population": "0,01"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "1069652412",
+"budget_population": "11,3"
+}
+}
+}
+},
+"222":{
+"name": "El Salvador",
+"num_id": "222",
+"code": "SV",
+"population": "6156670",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "30371638",
+"budget_population": "4,93"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "77805353",
+"budget_population": "12,64"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "100498181",
+"budget_population": "16,32"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "134460609",
+"budget_population": "21,84"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "130458184",
+"budget_population": "21,19"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "71861969",
+"budget_population": "11,67"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "7984243",
+"budget_population": "1,3"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "8346822",
+"budget_population": "1,36"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "561786999",
+"budget_population": "91,25"
+}
+}
+}
+},
+"226":{
+"name": "Equatorial Guinea",
+"num_id": "226",
+"code": "GQ",
+"population": "759451",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "5944462",
+"budget_population": "7,83"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "13835693",
+"budget_population": "18,22"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "15455445",
+"budget_population": "20,35"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "12868777",
+"budget_population": "16,94"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "5529394",
+"budget_population": "7,28"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1260104",
+"budget_population": "1,66"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "782705",
+"budget_population": "1,03"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1188054",
+"budget_population": "1,56"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "1311108",
+"budget_population": "1,73"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "58175742",
+"budget_population": "76,6"
+}
+}
+}
+},
+"232":{
+"name": "Eritrea",
+"num_id": "232",
+"code": "ER",
+"population": "5869869",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "19129023",
+"budget_population": "3,26"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "20915837",
+"budget_population": "3,56"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "12037951",
+"budget_population": "2,05"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "15322775",
+"budget_population": "2,61"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "-1698399",
+"budget_population": "-0,29"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "4115205",
+"budget_population": "0,7"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "69822392",
+"budget_population": "11,9"
+}
+}
+}
+},
+"233":{
+"name": "Estonia",
+"num_id": "233",
+"code": "EE",
+"population": "1258545",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"231":{
+"name": "Ethiopia",
+"num_id": "231",
+"code": "ET",
+"population": "102374044",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "872400000",
+"budget_population": "8,52"
+},
+"UNDP":{
+"budget": "57560844",
+"budget_population": "0,56"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "1159300000",
+"budget_population": "11,32"
+},
+"UNDP":{
+"budget": "47843797",
+"budget_population": "0,47"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "1301700000",
+"budget_population": "12,72"
+},
+"UNDP":{
+"budget": "24322618",
+"budget_population": "0,24"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "1166700000",
+"budget_population": "11,4"
+},
+"UNDP":{
+"budget": "17597748",
+"budget_population": "0,17"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "73191965",
+"budget_population": "0,71"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "49793509",
+"budget_population": "0,49"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "51486122",
+"budget_population": "0,5"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "6804917",
+"budget_population": "0,07"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "3894533",
+"budget_population": "0,04"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "1995972",
+"budget_population": "0,02"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "4500100000",
+"budget_population": "43,96"
+},
+"UNDP":{
+"budget": "334492025",
+"budget_population": "3,27"
+}
+}
+}
+},
+"238":{
+"name": "Falkland Islands (Malvinas)",
+"num_id": "238",
+"code": "FK",
+"population": "2931",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"234":{
+"name": "Faroe Islands",
+"num_id": "234",
+"code": "FO",
+"population": "50456",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"242":{
+"name": "Fiji",
+"num_id": "242",
+"code": "FJ",
+"population": "915303",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "13682913",
+"budget_population": "14,95"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "21304669",
+"budget_population": "23,28"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "11941973",
+"budget_population": "13,05"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "6896202",
+"budget_population": "7,53"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "3802947",
+"budget_population": "4,15"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "4492570",
+"budget_population": "4,91"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "470574",
+"budget_population": "0,51"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "7743484",
+"budget_population": "8,46"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "12601774",
+"budget_population": "13,77"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "82937106",
+"budget_population": "90,61"
+}
+}
+}
+},
+"246":{
+"name": "Finland",
+"num_id": "246",
+"code": "FI",
+"population": "5498211",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"250":{
+"name": "France",
+"num_id": "250",
+"code": "FR",
+"population": "66836154",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"254":{
+"name": "French Guiana",
+"num_id": "254",
+"code": "GF",
+"population": "181000",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"258":{
+"name": "French Polynesia",
+"num_id": "258",
+"code": "PF",
+"population": "285321",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"260":{
+"name": "French Southern Territories",
+"num_id": "260",
+"code": "TF",
+"population": "0",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "Není číslo"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "Není číslo"
+}
+}
+}
+},
+"266":{
+"name": "Gabon",
+"num_id": "266",
+"code": "GA",
+"population": "1738541",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "2249401",
+"budget_population": "1,29"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "3228008",
+"budget_population": "1,86"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "5567881",
+"budget_population": "3,2"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "5489747",
+"budget_population": "3,16"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "4382621",
+"budget_population": "2,52"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "4863772",
+"budget_population": "2,8"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "25781430",
+"budget_population": "14,83"
+}
+}
+}
+},
+"270":{
+"name": "Gambia",
+"num_id": "270",
+"code": "GM",
+"population": "2009648",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "15300000",
+"budget_population": "7,61"
+},
+"UNDP":{
+"budget": "13959600",
+"budget_population": "6,95"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "20000000",
+"budget_population": "9,95"
+},
+"UNDP":{
+"budget": "14506743",
+"budget_population": "7,22"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "18000000",
+"budget_population": "8,96"
+},
+"UNDP":{
+"budget": "8652988",
+"budget_population": "4,31"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "21800000",
+"budget_population": "10,85"
+},
+"UNDP":{
+"budget": "673254",
+"budget_population": "0,34"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "10600417",
+"budget_population": "5,27"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "5598493",
+"budget_population": "2,79"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "3819950",
+"budget_population": "1,9"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "75100000",
+"budget_population": "37,37"
+},
+"UNDP":{
+"budget": "57811445",
+"budget_population": "28,77"
+}
+}
+}
+},
+"268":{
+"name": "Georgia",
+"num_id": "268",
+"code": "GE",
+"population": "4928052",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "22308133",
+"budget_population": "4,53"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "16136134",
+"budget_population": "3,27"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "48657885",
+"budget_population": "9,87"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "21175794",
+"budget_population": "4,3"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "13375730",
+"budget_population": "2,71"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "6125953",
+"budget_population": "1,24"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "10860139",
+"budget_population": "2,2"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "2780110",
+"budget_population": "0,56"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "3422806",
+"budget_population": "0,69"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "546297",
+"budget_population": "0,11"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "145388981",
+"budget_population": "29,5"
+}
+}
+}
+},
+"276":{
+"name": "Germany",
+"num_id": "276",
+"code": "DE",
+"population": "80722792",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"288":{
+"name": "Ghana",
+"num_id": "288",
+"code": "GH",
+"population": "26908262",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "395800000",
+"budget_population": "14,71"
+},
+"UNDP":{
+"budget": "19418854",
+"budget_population": "0,72"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "349300000",
+"budget_population": "12,98"
+},
+"UNDP":{
+"budget": "29333345",
+"budget_population": "1,09"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "248200000",
+"budget_population": "9,22"
+},
+"UNDP":{
+"budget": "8893458",
+"budget_population": "0,33"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "233600000",
+"budget_population": "8,68"
+},
+"UNDP":{
+"budget": "2580440",
+"budget_population": "0,1"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "17741487",
+"budget_population": "0,66"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "13122113",
+"budget_population": "0,49"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "11459722",
+"budget_population": "0,43"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "78531",
+"budget_population": "0"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "79962",
+"budget_population": "0"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "1226900000",
+"budget_population": "45,6"
+},
+"UNDP":{
+"budget": "102707912",
+"budget_population": "3,82"
+}
+}
+}
+},
+"292":{
+"name": "Gibraltar",
+"num_id": "292",
+"code": "GI",
+"population": "29328",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"300":{
+"name": "Greece",
+"num_id": "300",
+"code": "GR",
+"population": "10773253",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"304":{
+"name": "Greenland",
+"num_id": "304",
+"code": "GL",
+"population": "57728",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"308":{
+"name": "Grenada",
+"num_id": "308",
+"code": "GD",
+"population": "111219",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "8500000",
+"budget_population": "76,43"
+},
+"UNDP":{
+"budget": "3609587",
+"budget_population": "32,45"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "13900000",
+"budget_population": "124,98"
+},
+"UNDP":{
+"budget": "4394327",
+"budget_population": "39,51"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "5600000",
+"budget_population": "50,35"
+},
+"UNDP":{
+"budget": "1910471",
+"budget_population": "17,18"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "2600000",
+"budget_population": "23,38"
+},
+"UNDP":{
+"budget": "896677",
+"budget_population": "8,06"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "1579612",
+"budget_population": "14,2"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "830702",
+"budget_population": "7,47"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "416938",
+"budget_population": "3,75"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "30600000",
+"budget_population": "275,13"
+},
+"UNDP":{
+"budget": "13638314",
+"budget_population": "122,63"
+}
+}
+}
+},
+"312":{
+"name": "Guadeloupe",
+"num_id": "312",
+"code": "GP",
+"population": "456000",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"316":{
+"name": "Guam",
+"num_id": "316",
+"code": "GU",
+"population": "162742",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"320":{
+"name": "Guatemala",
+"num_id": "320",
+"code": "GT",
+"population": "15189958",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "76128039",
+"budget_population": "5,01"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "2651723",
+"budget_population": "0,17"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "2721772",
+"budget_population": "0,18"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "9985306",
+"budget_population": "0,66"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "101339174",
+"budget_population": "6,67"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "93130654",
+"budget_population": "6,13"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "67694430",
+"budget_population": "4,46"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "65653046",
+"budget_population": "4,32"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "59362646",
+"budget_population": "3,91"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "478666790",
+"budget_population": "31,51"
+}
+}
+}
+},
+"831":{
+"name": "Guernsey",
+"num_id": "831",
+"code": "GG",
+"population": "66297",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"324":{
+"name": "Guinea",
+"num_id": "324",
+"code": "GN",
+"population": "12093349",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "35200000",
+"budget_population": "2,91"
+},
+"UNDP":{
+"budget": "66679916",
+"budget_population": "5,51"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "63800000",
+"budget_population": "5,28"
+},
+"UNDP":{
+"budget": "44893465",
+"budget_population": "3,71"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "52400000",
+"budget_population": "4,33"
+},
+"UNDP":{
+"budget": "22303330",
+"budget_population": "1,84"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "56100000",
+"budget_population": "4,64"
+},
+"UNDP":{
+"budget": "3135350",
+"budget_population": "0,26"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "31631232",
+"budget_population": "2,62"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "12021010",
+"budget_population": "0,99"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "27605824",
+"budget_population": "2,28"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "2021111",
+"budget_population": "0,17"
+}
+},
+"2022":{
+"UNDP":{
+"budget": "655242",
+"budget_population": "0,05"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "978884",
+"budget_population": "0,08"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1053883",
+"budget_population": "0,09"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "207500000",
+"budget_population": "17,16"
+},
+"UNDP":{
+"budget": "212979247",
+"budget_population": "17,61"
+}
+}
+}
+},
+"624":{
+"name": "Guinea-Bissau",
+"num_id": "624",
+"code": "GW",
+"population": "1759159",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "6300000",
+"budget_population": "3,58"
+},
+"UNDP":{
+"budget": "28307975",
+"budget_population": "16,09"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "9500000",
+"budget_population": "5,4"
+},
+"UNDP":{
+"budget": "44968380",
+"budget_population": "25,56"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "12700000",
+"budget_population": "7,22"
+},
+"UNDP":{
+"budget": "27309977",
+"budget_population": "15,52"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "14200000",
+"budget_population": "8,07"
+},
+"UNDP":{
+"budget": "450923",
+"budget_population": "0,26"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "19661431",
+"budget_population": "11,18"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "45656793",
+"budget_population": "25,95"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "36996299",
+"budget_population": "21,03"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1662023",
+"budget_population": "0,94"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "42700000",
+"budget_population": "24,27"
+},
+"UNDP":{
+"budget": "205013801",
+"budget_population": "116,54"
+}
+}
+}
+},
+"328":{
+"name": "Guyana",
+"num_id": "328",
+"code": "GY",
+"population": "735909",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "6000000",
+"budget_population": "8,15"
+},
+"UNDP":{
+"budget": "8708457",
+"budget_population": "11,83"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "9100000",
+"budget_population": "12,37"
+},
+"UNDP":{
+"budget": "17878061",
+"budget_population": "24,29"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "8600000",
+"budget_population": "11,69"
+},
+"UNDP":{
+"budget": "7371097",
+"budget_population": "10,02"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "7400000",
+"budget_population": "10,06"
+},
+"UNDP":{
+"budget": "263528",
+"budget_population": "0,36"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "10808022",
+"budget_population": "14,69"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "13743010",
+"budget_population": "18,67"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "2302892",
+"budget_population": "3,13"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "275000",
+"budget_population": "0,37"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "31100000",
+"budget_population": "42,26"
+},
+"UNDP":{
+"budget": "61350067",
+"budget_population": "83,37"
+}
+}
+}
+},
+"332":{
+"name": "Haiti",
+"num_id": "332",
+"code": "HT",
+"population": "10485800",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "99500000",
+"budget_population": "9,49"
+},
+"UNDP":{
+"budget": "193886795",
+"budget_population": "18,49"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "100000000",
+"budget_population": "9,54"
+},
+"UNDP":{
+"budget": "114947626",
+"budget_population": "10,96"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "87500000",
+"budget_population": "8,34"
+},
+"UNDP":{
+"budget": "55617502",
+"budget_population": "5,3"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "72000000",
+"budget_population": "6,87"
+},
+"UNDP":{
+"budget": "3882632",
+"budget_population": "0,37"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "100859943",
+"budget_population": "9,62"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "80893185",
+"budget_population": "7,71"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "105067360",
+"budget_population": "10,02"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "5338269",
+"budget_population": "0,51"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "359000000",
+"budget_population": "34,24"
+},
+"UNDP":{
+"budget": "660493312",
+"budget_population": "62,99"
+}
+}
+}
+},
+"334":{
+"name": "Heard Island and McDonald Islands",
+"num_id": "334",
+"code": "HM",
+"population": "0",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "Není číslo"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "Není číslo"
+}
+}
+}
+},
+"336":{
+"name": "Holy See (Vatican City State)",
+"num_id": "336",
+"code": "VA",
+"population": "1000",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"340":{
+"name": "Honduras",
+"num_id": "340",
+"code": "HN",
+"population": "8893259",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "61100000",
+"budget_population": "6,87"
+},
+"UNDP":{
+"budget": "41066276",
+"budget_population": "4,62"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "59400000",
+"budget_population": "6,68"
+},
+"UNDP":{
+"budget": "52889526",
+"budget_population": "5,95"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "31600000",
+"budget_population": "3,55"
+},
+"UNDP":{
+"budget": "25537923",
+"budget_population": "2,87"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "24100000",
+"budget_population": "2,71"
+},
+"UNDP":{
+"budget": "7728168",
+"budget_population": "0,87"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "30414622",
+"budget_population": "3,42"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "21608220",
+"budget_population": "2,43"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "9802943",
+"budget_population": "1,1"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "993346",
+"budget_population": "0,11"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "176200000",
+"budget_population": "19,81"
+},
+"UNDP":{
+"budget": "190041024",
+"budget_population": "21,37"
+}
+}
+}
+},
+"344":{
+"name": "Hong Kong",
+"num_id": "344",
+"code": "HK",
+"population": "7167403",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"348":{
+"name": "Hungary",
+"num_id": "348",
+"code": "HU",
+"population": "9874784",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"352":{
+"name": "Iceland",
+"num_id": "352",
+"code": "IS",
+"population": "335878",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"356":{
+"name": "India",
+"num_id": "356",
+"code": "IN",
+"population": "1266883598",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "1806700000",
+"budget_population": "1,43"
+},
+"UNDP":{
+"budget": "89846166",
+"budget_population": "0,07"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "1772700000",
+"budget_population": "1,4"
+},
+"UNDP":{
+"budget": "109685522",
+"budget_population": "0,09"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "1684800000",
+"budget_population": "1,33"
+},
+"UNDP":{
+"budget": "54896280",
+"budget_population": "0,04"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "1443500000",
+"budget_population": "1,14"
+},
+"UNDP":{
+"budget": "16770029",
+"budget_population": "0,01"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "100311830",
+"budget_population": "0,08"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "68103199",
+"budget_population": "0,05"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "7531501",
+"budget_population": "0,01"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1087739",
+"budget_population": "0"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "6707700000",
+"budget_population": "5,29"
+},
+"UNDP":{
+"budget": "448232266",
+"budget_population": "0,35"
+}
+}
+}
+},
+"360":{
+"name": "Indonesia",
+"num_id": "360",
+"code": "ID",
+"population": "258316051",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "41509432",
+"budget_population": "0,16"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "59600343",
+"budget_population": "0,23"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "56791907",
+"budget_population": "0,22"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "51860180",
+"budget_population": "0,2"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "19531303",
+"budget_population": "0,08"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "4138407",
+"budget_population": "0,02"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "12770477",
+"budget_population": "0,05"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "2444302",
+"budget_population": "0,01"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "10145201",
+"budget_population": "0,04"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "762122",
+"budget_population": "0"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "259553674",
+"budget_population": "1"
+}
+}
+}
+},
+"364":{
+"name": "Iran; Islamic Republic of",
+"num_id": "364",
+"code": "IR",
+"population": "82801633",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "11739110",
+"budget_population": "0,14"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "25177245",
+"budget_population": "0,3"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "30560748",
+"budget_population": "0,37"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "18051053",
+"budget_population": "0,22"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "7591368",
+"budget_population": "0,09"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "5003188",
+"budget_population": "0,06"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "3192180",
+"budget_population": "0,04"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "625750",
+"budget_population": "0,01"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "953250",
+"budget_population": "0,01"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "102893892",
+"budget_population": "1,24"
+}
+}
+}
+},
+"368":{
+"name": "Iraq",
+"num_id": "368",
+"code": "IQ",
+"population": "38146025",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "471602574",
+"budget_population": "12,36"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "399974171",
+"budget_population": "10,49"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "149675301",
+"budget_population": "3,92"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "77754020",
+"budget_population": "2,04"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "55110837",
+"budget_population": "1,44"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "49305199",
+"budget_population": "1,29"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "94134258",
+"budget_population": "2,47"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "1297556360",
+"budget_population": "34,02"
+}
+}
+}
+},
+"372":{
+"name": "Ireland",
+"num_id": "372",
+"code": "IE",
+"population": "4952473",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"833":{
+"name": "Isle of Man",
+"num_id": "833",
+"code": "IM",
+"population": "88195",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"376":{
+"name": "Israel",
+"num_id": "376",
+"code": "IL",
+"population": "8174527",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"380":{
+"name": "Italy",
+"num_id": "380",
+"code": "IT",
+"population": "62007540",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"388":{
+"name": "Jamaica",
+"num_id": "388",
+"code": "JM",
+"population": "2970340",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "7994548",
+"budget_population": "2,69"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "1289213",
+"budget_population": "0,43"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "6255315",
+"budget_population": "2,11"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "4704474",
+"budget_population": "1,58"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "4301997",
+"budget_population": "1,45"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "2948198",
+"budget_population": "0,99"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "2819123",
+"budget_population": "0,95"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "238451",
+"budget_population": "0,08"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "30551319",
+"budget_population": "10,29"
+}
+}
+}
+},
+"392":{
+"name": "Japan",
+"num_id": "392",
+"code": "JP",
+"population": "126702133",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"832":{
+"name": "Jersey",
+"num_id": "832",
+"code": "JE",
+"population": "98069",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"400":{
+"name": "Jordan",
+"num_id": "400",
+"code": "JO",
+"population": "8185384",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "27452957",
+"budget_population": "3,35"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "3710107",
+"budget_population": "0,45"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "57801743",
+"budget_population": "7,06"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "42314028",
+"budget_population": "5,17"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "20510827",
+"budget_population": "2,51"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "15686679",
+"budget_population": "1,92"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "8072490",
+"budget_population": "0,99"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "200000",
+"budget_population": "0,02"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "200000",
+"budget_population": "0,02"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "175948831",
+"budget_population": "21,5"
+}
+}
+}
+},
+"398":{
+"name": "Kazakhstan",
+"num_id": "398",
+"code": "KZ",
+"population": "18360353",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "22164386",
+"budget_population": "1,21"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "41982886",
+"budget_population": "2,29"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "33556721",
+"budget_population": "1,83"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "17390648",
+"budget_population": "0,95"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "2788476",
+"budget_population": "0,15"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1549145",
+"budget_population": "0,08"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "4055175",
+"budget_population": "0,22"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "2229711",
+"budget_population": "0,12"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "122789",
+"budget_population": "0,01"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "125839937",
+"budget_population": "6,85"
+}
+}
+}
+},
+"404":{
+"name": "Kenya",
+"num_id": "404",
+"code": "KE",
+"population": "46790758",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "695000000",
+"budget_population": "14,85"
+},
+"UNDP":{
+"budget": "47788824",
+"budget_population": "1,02"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "823800000",
+"budget_population": "17,61"
+},
+"UNDP":{
+"budget": "63292361",
+"budget_population": "1,35"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "817800000",
+"budget_population": "17,48"
+},
+"UNDP":{
+"budget": "31219958",
+"budget_population": "0,67"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "637300000",
+"budget_population": "13,62"
+},
+"UNDP":{
+"budget": "13258160",
+"budget_population": "0,28"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "76569590",
+"budget_population": "1,64"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "35459535",
+"budget_population": "0,76"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "62328955",
+"budget_population": "1,33"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "592832",
+"budget_population": "0,01"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "748350",
+"budget_population": "0,02"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "2973900000",
+"budget_population": "63,56"
+},
+"UNDP":{
+"budget": "331258565",
+"budget_population": "7,08"
+}
+}
+}
+},
+"296":{
+"name": "Kiribati",
+"num_id": "296",
+"code": "KI",
+"population": "106925",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "8200000",
+"budget_population": "76,69"
+},
+"UNDP":{
+"budget": "390852",
+"budget_population": "3,66"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "7900000",
+"budget_population": "73,88"
+},
+"UNDP":{
+"budget": "1144717",
+"budget_population": "10,71"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "7500000",
+"budget_population": "70,14"
+},
+"UNDP":{
+"budget": "2491309",
+"budget_population": "23,3"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "6900000",
+"budget_population": "64,53"
+},
+"UNDP":{
+"budget": "1611836",
+"budget_population": "15,07"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "884362",
+"budget_population": "8,27"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "946410",
+"budget_population": "8,85"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "30500000",
+"budget_population": "285,25"
+},
+"UNDP":{
+"budget": "7469486",
+"budget_population": "69,86"
+}
+}
+}
+},
+"408":{
+"name": "Korea; Democratic People's Republic of",
+"num_id": "408",
+"code": "KP",
+"population": "25115311",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "8182916",
+"budget_population": "0,33"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "7880294",
+"budget_population": "0,31"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "3011261",
+"budget_population": "0,12"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "989942",
+"budget_population": "0,04"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "71624",
+"budget_population": "0"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "2558684",
+"budget_population": "0,1"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1540350",
+"budget_population": "0,06"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "24235071",
+"budget_population": "0,96"
+}
+}
+}
+},
+"410":{
+"name": "Korea; Republic of",
+"num_id": "410",
+"code": "KR",
+"population": "50924172",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"410":{
+"name": "South Korea",
+"num_id": "410",
+"code": "KR",
+"population": "50924172",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"414":{
+"name": "Kuwait",
+"num_id": "414",
+"code": "KW",
+"population": "2832776",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "23324894",
+"budget_population": "8,23"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "19696788",
+"budget_population": "6,95"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "17424258",
+"budget_population": "6,15"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "18240775",
+"budget_population": "6,44"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "9974048",
+"budget_population": "3,52"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "1519733",
+"budget_population": "0,54"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "749842",
+"budget_population": "0,26"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "90930338",
+"budget_population": "32,1"
+}
+}
+}
+},
+"417":{
+"name": "Kyrgyzstan",
+"num_id": "417",
+"code": "KG",
+"population": "5727553",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "43400000",
+"budget_population": "7,58"
+},
+"UNDP":{
+"budget": "81700700",
+"budget_population": "14,26"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "66500000",
+"budget_population": "11,61"
+},
+"UNDP":{
+"budget": "58339466",
+"budget_population": "10,19"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "54900000",
+"budget_population": "9,59"
+},
+"UNDP":{
+"budget": "55311603",
+"budget_population": "9,66"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "64200000",
+"budget_population": "11,21"
+},
+"UNDP":{
+"budget": "3415973",
+"budget_population": "0,6"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "56658264",
+"budget_population": "9,89"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "41661272",
+"budget_population": "7,27"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "51229106",
+"budget_population": "8,94"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1774600",
+"budget_population": "0,31"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "229000000",
+"budget_population": "39,98"
+},
+"UNDP":{
+"budget": "350090984",
+"budget_population": "61,12"
+}
+}
+}
+},
+"418":{
+"name": "Lao People's Democratic Republic",
+"num_id": "418",
+"code": "LA",
+"population": "7019073",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "34400000",
+"budget_population": "4,9"
+},
+"UNDP":{
+"budget": "37586357",
+"budget_population": "5,35"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "54800000",
+"budget_population": "7,81"
+},
+"UNDP":{
+"budget": "31505695",
+"budget_population": "4,49"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "65700000",
+"budget_population": "9,36"
+},
+"UNDP":{
+"budget": "15107042",
+"budget_population": "2,15"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "79100000",
+"budget_population": "11,27"
+},
+"UNDP":{
+"budget": "2027534",
+"budget_population": "0,29"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "33690998",
+"budget_population": "4,8"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "31976472",
+"budget_population": "4,56"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "16948411",
+"budget_population": "2,41"
+}
+},
+"2022":{
+"UNDP":{
+"budget": "1516100",
+"budget_population": "0,22"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "1367040",
+"budget_population": "0,19"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1516789",
+"budget_population": "0,22"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1700371",
+"budget_population": "0,24"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "234000000",
+"budget_population": "33,34"
+},
+"UNDP":{
+"budget": "174942809",
+"budget_population": "24,92"
+}
+}
+}
+},
+"428":{
+"name": "Latvia",
+"num_id": "428",
+"code": "LV",
+"population": "1965686",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"422":{
+"name": "Lebanon",
+"num_id": "422",
+"code": "LB",
+"population": "6237738",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "116758893",
+"budget_population": "18,72"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "191932379",
+"budget_population": "30,77"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "148351974",
+"budget_population": "23,78"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "126812794",
+"budget_population": "20,33"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "69558394",
+"budget_population": "11,15"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "26199609",
+"budget_population": "4,2"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "39165321",
+"budget_population": "6,28"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "11581695",
+"budget_population": "1,86"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "2496539",
+"budget_population": "0,4"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "2496539",
+"budget_population": "0,4"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "735354137",
+"budget_population": "117,89"
+}
+}
+}
+},
+"426":{
+"name": "Lesotho",
+"num_id": "426",
+"code": "LS",
+"population": "1953070",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "25000000",
+"budget_population": "12,8"
+},
+"UNDP":{
+"budget": "4739963",
+"budget_population": "2,43"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "39200000",
+"budget_population": "20,07"
+},
+"UNDP":{
+"budget": "4815326",
+"budget_population": "2,47"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "39100000",
+"budget_population": "20,02"
+},
+"UNDP":{
+"budget": "4601499",
+"budget_population": "2,36"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "44900000",
+"budget_population": "22,99"
+},
+"UNDP":{
+"budget": "2479921",
+"budget_population": "1,27"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "3815482",
+"budget_population": "1,95"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "1157256",
+"budget_population": "0,59"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1702579",
+"budget_population": "0,87"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "662910",
+"budget_population": "0,34"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "2532003",
+"budget_population": "1,3"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "2300936",
+"budget_population": "1,18"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "148200000",
+"budget_population": "75,88"
+},
+"UNDP":{
+"budget": "28807875",
+"budget_population": "14,75"
+}
+}
+}
+},
+"430":{
+"name": "Liberia",
+"num_id": "430",
+"code": "LR",
+"population": "4299944",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "74500000",
+"budget_population": "17,33"
+},
+"UNDP":{
+"budget": "37889121",
+"budget_population": "8,81"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "96800000",
+"budget_population": "22,51"
+},
+"UNDP":{
+"budget": "59583693",
+"budget_population": "13,86"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "101200000",
+"budget_population": "23,54"
+},
+"UNDP":{
+"budget": "34213113",
+"budget_population": "7,96"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "108200000",
+"budget_population": "25,16"
+},
+"UNDP":{
+"budget": "2883621",
+"budget_population": "0,67"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "34015418",
+"budget_population": "7,91"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "31602827",
+"budget_population": "7,35"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "26405288",
+"budget_population": "6,14"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "380700000",
+"budget_population": "88,54"
+},
+"UNDP":{
+"budget": "226593081",
+"budget_population": "52,7"
+}
+}
+}
+},
+"434":{
+"name": "Libyan Arab Jamahiriya",
+"num_id": "434",
+"code": "LY",
+"population": "6541948",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "137392834",
+"budget_population": "21"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "72921872",
+"budget_population": "11,15"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "112650356",
+"budget_population": "17,22"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "9846508",
+"budget_population": "1,51"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "44880228",
+"budget_population": "6,86"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "84962746",
+"budget_population": "12,99"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "92397406",
+"budget_population": "14,12"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "555051950",
+"budget_population": "84,85"
+}
+}
+}
+},
+"434":{
+"name": "Libya",
+"num_id": "434",
+"code": "LY",
+"population": "6541948",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "137392834",
+"budget_population": "21"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "72921872",
+"budget_population": "11,15"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "112650356",
+"budget_population": "17,22"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "9846508",
+"budget_population": "1,51"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "44880228",
+"budget_population": "6,86"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "84962746",
+"budget_population": "12,99"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "92397406",
+"budget_population": "14,12"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "555051950",
+"budget_population": "84,85"
+}
+}
+}
+},
+"438":{
+"name": "Liechtenstein",
+"num_id": "438",
+"code": "LI",
+"population": "37937",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"440":{
+"name": "Lithuania",
+"num_id": "440",
+"code": "LT",
+"population": "2854235",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"442":{
+"name": "Luxembourg",
+"num_id": "442",
+"code": "LU",
+"population": "582291",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"446":{
+"name": "Macao",
+"num_id": "446",
+"code": "MO",
+"population": "597425",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"807":{
+"name": "Macedonia; the former Yugoslav Republic of",
+"num_id": "807",
+"code": "MK",
+"population": "2100025",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "16589679",
+"budget_population": "7,9"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "35175892",
+"budget_population": "16,75"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "20930491",
+"budget_population": "9,97"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "7677303",
+"budget_population": "3,66"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "6661600",
+"budget_population": "3,17"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1939429",
+"budget_population": "0,92"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "2276747",
+"budget_population": "1,08"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "6168070",
+"budget_population": "2,94"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "687603",
+"budget_population": "0,33"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "98106814",
+"budget_population": "46,72"
+}
+}
+}
+},
+"450":{
+"name": "Madagascar",
+"num_id": "450",
+"code": "MG",
+"population": "24430325",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "102100000",
+"budget_population": "4,18"
+},
+"UNDP":{
+"budget": "20250842",
+"budget_population": "0,83"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "97100000",
+"budget_population": "3,97"
+},
+"UNDP":{
+"budget": "22534252",
+"budget_population": "0,92"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "102900000",
+"budget_population": "4,21"
+},
+"UNDP":{
+"budget": "14676366",
+"budget_population": "0,6"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "109000000",
+"budget_population": "4,46"
+},
+"UNDP":{
+"budget": "4766535",
+"budget_population": "0,2"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "11012933",
+"budget_population": "0,45"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "23977563",
+"budget_population": "0,98"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1553328",
+"budget_population": "0,06"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "81485",
+"budget_population": "0"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "143501",
+"budget_population": "0,01"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "411100000",
+"budget_population": "16,83"
+},
+"UNDP":{
+"budget": "98996805",
+"budget_population": "4,05"
+}
+}
+}
+},
+"454":{
+"name": "Malawi",
+"num_id": "454",
+"code": "MW",
+"population": "18570321",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "147300000",
+"budget_population": "7,93"
+},
+"UNDP":{
+"budget": "44210806",
+"budget_population": "2,38"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "167800000",
+"budget_population": "9,04"
+},
+"UNDP":{
+"budget": "62914817",
+"budget_population": "3,39"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "119500000",
+"budget_population": "6,43"
+},
+"UNDP":{
+"budget": "55438684",
+"budget_population": "2,99"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "131100000",
+"budget_population": "7,06"
+},
+"UNDP":{
+"budget": "29716707",
+"budget_population": "1,6"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "53733663",
+"budget_population": "2,89"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "36063241",
+"budget_population": "1,94"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "4720682",
+"budget_population": "0,25"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1045488",
+"budget_population": "0,06"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "565700000",
+"budget_population": "30,46"
+},
+"UNDP":{
+"budget": "287844088",
+"budget_population": "15,5"
+}
+}
+}
+},
+"458":{
+"name": "Malaysia",
+"num_id": "458",
+"code": "MY",
+"population": "30949962",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "11892423",
+"budget_population": "0,38"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "7860084",
+"budget_population": "0,25"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "10265595",
+"budget_population": "0,33"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1885151",
+"budget_population": "0,06"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "13475219",
+"budget_population": "0,44"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "9902257",
+"budget_population": "0,32"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "8923571",
+"budget_population": "0,29"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "4689910",
+"budget_population": "0,15"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1020983",
+"budget_population": "0,03"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "69915193",
+"budget_population": "2,26"
+}
+}
+}
+},
+"462":{
+"name": "Maldives",
+"num_id": "462",
+"code": "MV",
+"population": "392960",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "4300000",
+"budget_population": "10,94"
+},
+"UNDP":{
+"budget": "16345113",
+"budget_population": "41,59"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "3800000",
+"budget_population": "9,67"
+},
+"UNDP":{
+"budget": "11424913",
+"budget_population": "29,07"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "5700000",
+"budget_population": "14,51"
+},
+"UNDP":{
+"budget": "4689335",
+"budget_population": "11,93"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "8000000",
+"budget_population": "20,36"
+},
+"UNDP":{
+"budget": "68248",
+"budget_population": "0,17"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "3448817",
+"budget_population": "8,78"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "15134488",
+"budget_population": "38,51"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "7649489",
+"budget_population": "19,47"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "21800000",
+"budget_population": "55,48"
+},
+"UNDP":{
+"budget": "58760403",
+"budget_population": "149,53"
+}
+}
+}
+},
+"466":{
+"name": "Mali",
+"num_id": "466",
+"code": "ML",
+"population": "17467108",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "209000000",
+"budget_population": "11,97"
+},
+"UNDP":{
+"budget": "97069370",
+"budget_population": "5,56"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "197500000",
+"budget_population": "11,31"
+},
+"UNDP":{
+"budget": "104908249",
+"budget_population": "6,01"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "155000000",
+"budget_population": "8,87"
+},
+"UNDP":{
+"budget": "54262898",
+"budget_population": "3,11"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "172100000",
+"budget_population": "9,85"
+},
+"UNDP":{
+"budget": "2101560",
+"budget_population": "0,12"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "116453705",
+"budget_population": "6,67"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "164244011",
+"budget_population": "9,4"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "57133630",
+"budget_population": "3,27"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "242053",
+"budget_population": "0,01"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "733600000",
+"budget_population": "42"
+},
+"UNDP":{
+"budget": "596415476",
+"budget_population": "34,15"
+}
+}
+}
+},
+"470":{
+"name": "Malta",
+"num_id": "470",
+"code": "MT",
+"population": "415196",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"584":{
+"name": "Marshall Islands",
+"num_id": "584",
+"code": "MH",
+"population": "73376",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "300000",
+"budget_population": "4,09"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "2400000",
+"budget_population": "32,71"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "3300000",
+"budget_population": "44,97"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "3800000",
+"budget_population": "51,79"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "9800000",
+"budget_population": "133,56"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"474":{
+"name": "Martinique",
+"num_id": "474",
+"code": "MQ",
+"population": "395000",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"478":{
+"name": "Mauritania",
+"num_id": "478",
+"code": "MR",
+"population": "3677293",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "28500000",
+"budget_population": "7,75"
+},
+"UNDP":{
+"budget": "6975130",
+"budget_population": "1,9"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "38200000",
+"budget_population": "10,39"
+},
+"UNDP":{
+"budget": "9620946",
+"budget_population": "2,62"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "41800000",
+"budget_population": "11,37"
+},
+"UNDP":{
+"budget": "4274136",
+"budget_population": "1,16"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "43400000",
+"budget_population": "11,8"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "5161524",
+"budget_population": "1,4"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "5457676",
+"budget_population": "1,48"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "784324",
+"budget_population": "0,21"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "151900000",
+"budget_population": "41,31"
+},
+"UNDP":{
+"budget": "32273736",
+"budget_population": "8,78"
+}
+}
+}
+},
+"480":{
+"name": "Mauritius",
+"num_id": "480",
+"code": "MU",
+"population": "1348242",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "4417734",
+"budget_population": "3,28"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "10061703",
+"budget_population": "7,46"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "9051564",
+"budget_population": "6,71"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "8072612",
+"budget_population": "5,99"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "5595468",
+"budget_population": "4,15"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "2029492",
+"budget_population": "1,51"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "915200",
+"budget_population": "0,68"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1122900",
+"budget_population": "0,83"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "1137900",
+"budget_population": "0,84"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "42404573",
+"budget_population": "31,45"
+}
+}
+}
+},
+"175":{
+"name": "Mayotte",
+"num_id": "175",
+"code": "YT",
+"population": "223765",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"484":{
+"name": "Mexico",
+"num_id": "484",
+"code": "MX",
+"population": "123166749",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "31869348",
+"budget_population": "0,26"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "54345686",
+"budget_population": "0,44"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "45934714",
+"budget_population": "0,37"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "34566884",
+"budget_population": "0,28"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "27056948",
+"budget_population": "0,22"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "6137569",
+"budget_population": "0,05"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "23107594",
+"budget_population": "0,19"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "10129206",
+"budget_population": "0,08"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "3952417",
+"budget_population": "0,03"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "237100366",
+"budget_population": "1,93"
+}
+}
+}
+},
+"583":{
+"name": "Micronesia; Federated States of",
+"num_id": "583",
+"code": "FM",
+"population": "104719",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "2300000",
+"budget_population": "21,96"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "3200000",
+"budget_population": "30,56"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "4900000",
+"budget_population": "46,79"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "6500000",
+"budget_population": "62,07"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "16900000",
+"budget_population": "161,38"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"498":{
+"name": "Moldova; Republic of",
+"num_id": "498",
+"code": "MD",
+"population": "3510485",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "44900000",
+"budget_population": "12,79"
+},
+"UNDP":{
+"budget": "33220998",
+"budget_population": "9,46"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "40100000",
+"budget_population": "11,42"
+},
+"UNDP":{
+"budget": "54379616",
+"budget_population": "15,49"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "46600000",
+"budget_population": "13,27"
+},
+"UNDP":{
+"budget": "37054098",
+"budget_population": "10,56"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "12198654",
+"budget_population": "3,47"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "2149904",
+"budget_population": "0,61"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1650931",
+"budget_population": "0,47"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "10072723",
+"budget_population": "2,87"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1096918",
+"budget_population": "0,31"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "131600000",
+"budget_population": "37,49"
+},
+"UNDP":{
+"budget": "151823842",
+"budget_population": "43,25"
+}
+}
+}
+},
+"492":{
+"name": "Monaco",
+"num_id": "492",
+"code": "MC",
+"population": "30581",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"496":{
+"name": "Mongolia",
+"num_id": "496",
+"code": "MN",
+"population": "3031330",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "7149412",
+"budget_population": "2,36"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "9659379",
+"budget_population": "3,19"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "7255771",
+"budget_population": "2,39"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "9396868",
+"budget_population": "3,1"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "3207053",
+"budget_population": "1,06"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1295162",
+"budget_population": "0,43"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "2436834",
+"budget_population": "0,8"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1223523",
+"budget_population": "0,4"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "650000",
+"budget_population": "0,21"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "42274002",
+"budget_population": "13,95"
+}
+}
+}
+},
+"499":{
+"name": "Montenegro",
+"num_id": "499",
+"code": "ME",
+"population": "644578",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "9217576",
+"budget_population": "14,3"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "17947816",
+"budget_population": "27,84"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "9804052",
+"budget_population": "15,21"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "14415557",
+"budget_population": "22,36"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "5333119",
+"budget_population": "8,27"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "2521697",
+"budget_population": "3,91"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "3032709",
+"budget_population": "4,7"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "995257",
+"budget_population": "1,54"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1420782",
+"budget_population": "2,2"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "2536478",
+"budget_population": "3,94"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "67225043",
+"budget_population": "104,29"
+}
+}
+}
+},
+"500":{
+"name": "Montserrat",
+"num_id": "500",
+"code": "MS",
+"population": "5267",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"504":{
+"name": "Morocco",
+"num_id": "504",
+"code": "MA",
+"population": "33655786",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "22027032",
+"budget_population": "0,65"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "34351813",
+"budget_population": "1,02"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "24491470",
+"budget_population": "0,73"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "35586866",
+"budget_population": "1,06"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "32431657",
+"budget_population": "0,96"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "24878972",
+"budget_population": "0,74"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "11643358",
+"budget_population": "0,35"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "7782033",
+"budget_population": "0,23"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "765701",
+"budget_population": "0,02"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "193958902",
+"budget_population": "5,76"
+}
+}
+}
+},
+"508":{
+"name": "Mozambique",
+"num_id": "508",
+"code": "MZ",
+"population": "25930150",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "423300000",
+"budget_population": "16,32"
+},
+"UNDP":{
+"budget": "22869789",
+"budget_population": "0,88"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "364500000",
+"budget_population": "14,06"
+},
+"UNDP":{
+"budget": "23595011",
+"budget_population": "0,91"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "314300000",
+"budget_population": "12,12"
+},
+"UNDP":{
+"budget": "10553133",
+"budget_population": "0,41"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "351300000",
+"budget_population": "13,55"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "26710944",
+"budget_population": "1,03"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "35055129",
+"budget_population": "1,35"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "32759430",
+"budget_population": "1,26"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "1453400000",
+"budget_population": "56,05"
+},
+"UNDP":{
+"budget": "151543436",
+"budget_population": "5,84"
+}
+}
+}
+},
+"104":{
+"name": "Myanmar",
+"num_id": "104",
+"code": "MM",
+"population": "56890418",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "127500000",
+"budget_population": "2,24"
+},
+"UNDP":{
+"budget": "123157968",
+"budget_population": "2,16"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "298300000",
+"budget_population": "5,24"
+},
+"UNDP":{
+"budget": "123601418",
+"budget_population": "2,17"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "362600000",
+"budget_population": "6,37"
+},
+"UNDP":{
+"budget": "70153054",
+"budget_population": "1,23"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "425300000",
+"budget_population": "7,48"
+},
+"UNDP":{
+"budget": "8226228",
+"budget_population": "0,14"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "86399622",
+"budget_population": "1,52"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "3439042",
+"budget_population": "0,06"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "96253252",
+"budget_population": "1,69"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "3191844",
+"budget_population": "0,06"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "3600762",
+"budget_population": "0,06"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "1213700000",
+"budget_population": "21,33"
+},
+"UNDP":{
+"budget": "518023190",
+"budget_population": "9,11"
+}
+}
+}
+},
+"104":{
+"name": "Burma",
+"num_id": "104",
+"code": "MM",
+"population": "56890418",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "127500000",
+"budget_population": "2,24"
+},
+"UNDP":{
+"budget": "123157968",
+"budget_population": "2,16"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "298300000",
+"budget_population": "5,24"
+},
+"UNDP":{
+"budget": "123601418",
+"budget_population": "2,17"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "362600000",
+"budget_population": "6,37"
+},
+"UNDP":{
+"budget": "70153054",
+"budget_population": "1,23"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "425300000",
+"budget_population": "7,48"
+},
+"UNDP":{
+"budget": "8226228",
+"budget_population": "0,14"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "86399622",
+"budget_population": "1,52"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "3439042",
+"budget_population": "0,06"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "96253252",
+"budget_population": "1,69"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "3191844",
+"budget_population": "0,06"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "3600762",
+"budget_population": "0,06"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "1213700000",
+"budget_population": "21,33"
+},
+"UNDP":{
+"budget": "518023190",
+"budget_population": "9,11"
+}
+}
+}
+},
+"516":{
+"name": "Namibia",
+"num_id": "516",
+"code": "NA",
+"population": "2436469",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "6183474",
+"budget_population": "2,54"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "9125040",
+"budget_population": "3,75"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "9110524",
+"budget_population": "3,74"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "2828262",
+"budget_population": "1,16"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "485356",
+"budget_population": "0,2"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "695348",
+"budget_population": "0,29"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "4584236",
+"budget_population": "1,88"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "3650972",
+"budget_population": "1,5"
+}
+},
+"2022":{
+"UNDP":{
+"budget": "856583",
+"budget_population": "0,35"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "1144560",
+"budget_population": "0,47"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1732608",
+"budget_population": "0,71"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "40396963",
+"budget_population": "16,58"
+}
+}
+}
+},
+"520":{
+"name": "Nauru",
+"num_id": "520",
+"code": "NR",
+"population": "9591",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "1291251",
+"budget_population": "134,63"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "1360413",
+"budget_population": "141,84"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "140318",
+"budget_population": "14,63"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "176444",
+"budget_population": "18,4"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "15773",
+"budget_population": "1,64"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "733031",
+"budget_population": "76,43"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "3717230",
+"budget_population": "387,57"
+}
+}
+}
+},
+"524":{
+"name": "Nepal",
+"num_id": "524",
+"code": "NP",
+"population": "29033914",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "255100000",
+"budget_population": "8,79"
+},
+"UNDP":{
+"budget": "94367213",
+"budget_population": "3,25"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "277100000",
+"budget_population": "9,54"
+},
+"UNDP":{
+"budget": "97934731",
+"budget_population": "3,37"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "297500000",
+"budget_population": "10,25"
+},
+"UNDP":{
+"budget": "35940090",
+"budget_population": "1,24"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "314300000",
+"budget_population": "10,83"
+},
+"UNDP":{
+"budget": "3586265",
+"budget_population": "0,12"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "77272958",
+"budget_population": "2,66"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "51493989",
+"budget_population": "1,77"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "78575306",
+"budget_population": "2,71"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "950363",
+"budget_population": "0,03"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "352765",
+"budget_population": "0,01"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "1144000000",
+"budget_population": "39,4"
+},
+"UNDP":{
+"budget": "440473680",
+"budget_population": "15,17"
+}
+}
+}
+},
+"528":{
+"name": "Netherlands",
+"num_id": "528",
+"code": "NL",
+"population": "17016967",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"530":{
+"name": "Netherlands Antilles",
+"num_id": "530",
+"code": "AN",
+"population": "227049",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"540":{
+"name": "New Caledonia",
+"num_id": "540",
+"code": "NC",
+"population": "275355",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"554":{
+"name": "New Zealand",
+"num_id": "554",
+"code": "NZ",
+"population": "4474549",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"558":{
+"name": "Nicaragua",
+"num_id": "558",
+"code": "NI",
+"population": "5966798",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "43300000",
+"budget_population": "7,26"
+},
+"UNDP":{
+"budget": "21964876",
+"budget_population": "3,68"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "49800000",
+"budget_population": "8,35"
+},
+"UNDP":{
+"budget": "5914889",
+"budget_population": "0,99"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "55700000",
+"budget_population": "9,33"
+},
+"UNDP":{
+"budget": "81950",
+"budget_population": "0,01"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "60300000",
+"budget_population": "10,11"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "25278908",
+"budget_population": "4,24"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "27176840",
+"budget_population": "4,55"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "17017782",
+"budget_population": "2,85"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "209100000",
+"budget_population": "35,04"
+},
+"UNDP":{
+"budget": "97435245",
+"budget_population": "16,33"
+}
+}
+}
+},
+"562":{
+"name": "Niger",
+"num_id": "562",
+"code": "NE",
+"population": "18638600",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "184100000",
+"budget_population": "9,88"
+},
+"UNDP":{
+"budget": "27895938",
+"budget_population": "1,5"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "222100000",
+"budget_population": "11,92"
+},
+"UNDP":{
+"budget": "39106497",
+"budget_population": "2,1"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "178300000",
+"budget_population": "9,57"
+},
+"UNDP":{
+"budget": "22273733",
+"budget_population": "1,2"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "195400000",
+"budget_population": "10,48"
+},
+"UNDP":{
+"budget": "1271003",
+"budget_population": "0,07"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "19393566",
+"budget_population": "1,04"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "15486311",
+"budget_population": "0,83"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "12636431",
+"budget_population": "0,68"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "779900000",
+"budget_population": "41,84"
+},
+"UNDP":{
+"budget": "138063479",
+"budget_population": "7,41"
+}
+}
+}
+},
+"566":{
+"name": "Nigeria",
+"num_id": "566",
+"code": "NG",
+"population": "186053386",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "1098800000",
+"budget_population": "5,91"
+},
+"UNDP":{
+"budget": "87906868",
+"budget_population": "0,47"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "1043000000",
+"budget_population": "5,61"
+},
+"UNDP":{
+"budget": "48011626",
+"budget_population": "0,26"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "969400000",
+"budget_population": "5,21"
+},
+"UNDP":{
+"budget": "27398285",
+"budget_population": "0,15"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "1016800000",
+"budget_population": "5,47"
+},
+"UNDP":{
+"budget": "880349",
+"budget_population": "0"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "50628321",
+"budget_population": "0,27"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "50977548",
+"budget_population": "0,27"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "115959944",
+"budget_population": "0,62"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "545551",
+"budget_population": "0"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "4128000000",
+"budget_population": "22,19"
+},
+"UNDP":{
+"budget": "382308492",
+"budget_population": "2,05"
+}
+}
+}
+},
+"570":{
+"name": "Niue",
+"num_id": "570",
+"code": "NU",
+"population": "1190",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"574":{
+"name": "Norfolk Island",
+"num_id": "574",
+"code": "NF",
+"population": "2210",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"580":{
+"name": "Northern Mariana Islands",
+"num_id": "580",
+"code": "MP",
+"population": "53467",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"578":{
+"name": "Norway",
+"num_id": "578",
+"code": "NO",
+"population": "5265158",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"512":{
+"name": "Oman",
+"num_id": "512",
+"code": "OM",
+"population": "3355262",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"586":{
+"name": "Pakistan",
+"num_id": "586",
+"code": "PK",
+"population": "201995540",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "1018200000",
+"budget_population": "5,04"
+},
+"UNDP":{
+"budget": "94271503",
+"budget_population": "0,47"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "679000000",
+"budget_population": "3,36"
+},
+"UNDP":{
+"budget": "146031262",
+"budget_population": "0,72"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "737500000",
+"budget_population": "3,65"
+},
+"UNDP":{
+"budget": "76659518",
+"budget_population": "0,38"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "796800000",
+"budget_population": "3,94"
+},
+"UNDP":{
+"budget": "12745202",
+"budget_population": "0,06"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "104888549",
+"budget_population": "0,52"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "88757375",
+"budget_population": "0,44"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "52806905",
+"budget_population": "0,26"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "6869738",
+"budget_population": "0,03"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1708403",
+"budget_population": "0,01"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "200000",
+"budget_population": "0"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "3231500000",
+"budget_population": "16"
+},
+"UNDP":{
+"budget": "584938455",
+"budget_population": "2,9"
+}
+}
+}
+},
+"585":{
+"name": "Palau",
+"num_id": "585",
+"code": "PW",
+"population": "21347",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "657386",
+"budget_population": "30,8"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "632090",
+"budget_population": "29,61"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "241241",
+"budget_population": "11,3"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "102083",
+"budget_population": "4,78"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "171441",
+"budget_population": "8,03"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "53386",
+"budget_population": "2,5"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "222275",
+"budget_population": "10,41"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "223086",
+"budget_population": "10,45"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "2302988",
+"budget_population": "107,88"
+}
+}
+}
+},
+"275":{
+"name": "Palestinian Territory; Occupied",
+"num_id": "275",
+"code": "PS",
+"population": "2731052",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "141112244",
+"budget_population": "51,67"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "344844624",
+"budget_population": "126,27"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "257753001",
+"budget_population": "94,38"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "97474416",
+"budget_population": "35,69"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "152483586",
+"budget_population": "55,83"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "150228992",
+"budget_population": "55,01"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "39105424",
+"budget_population": "14,32"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "61135105",
+"budget_population": "22,39"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "1244137392",
+"budget_population": "455,55"
+}
+}
+}
+},
+"591":{
+"name": "Panama",
+"num_id": "591",
+"code": "PA",
+"population": "3705246",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "62609519",
+"budget_population": "16,9"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "75696484",
+"budget_population": "20,43"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "43483616",
+"budget_population": "11,74"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "41158278",
+"budget_population": "11,11"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "79271881",
+"budget_population": "21,39"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "62779082",
+"budget_population": "16,94"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "27535797",
+"budget_population": "7,43"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "27449017",
+"budget_population": "7,41"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1118654",
+"budget_population": "0,3"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "421102328",
+"budget_population": "113,65"
+}
+}
+}
+},
+"598":{
+"name": "Papua New Guinea",
+"num_id": "598",
+"code": "PG",
+"population": "6791317",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "40700000",
+"budget_population": "5,99"
+},
+"UNDP":{
+"budget": "37488103",
+"budget_population": "5,52"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "51000000",
+"budget_population": "7,51"
+},
+"UNDP":{
+"budget": "32135894",
+"budget_population": "4,73"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "66000000",
+"budget_population": "9,72"
+},
+"UNDP":{
+"budget": "16998322",
+"budget_population": "2,5"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "79200000",
+"budget_population": "11,66"
+},
+"UNDP":{
+"budget": "4830709",
+"budget_population": "0,71"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "14438087",
+"budget_population": "2,13"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "22261271",
+"budget_population": "3,28"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1992383",
+"budget_population": "0,29"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "2611040",
+"budget_population": "0,38"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "2087671",
+"budget_population": "0,31"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "236900000",
+"budget_population": "34,88"
+},
+"UNDP":{
+"budget": "134843480",
+"budget_population": "19,86"
+}
+}
+}
+},
+"600":{
+"name": "Paraguay",
+"num_id": "600",
+"code": "PY",
+"population": "6862812",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "59694484",
+"budget_population": "8,7"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "51299123",
+"budget_population": "7,47"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "79855412",
+"budget_population": "11,64"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "71510561",
+"budget_population": "10,42"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "57638654",
+"budget_population": "8,4"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "47061117",
+"budget_population": "6,86"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "45938443",
+"budget_population": "6,69"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "3489106",
+"budget_population": "0,51"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "736641",
+"budget_population": "0,11"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1086128",
+"budget_population": "0,16"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "418309669",
+"budget_population": "60,95"
+}
+}
+}
+},
+"604":{
+"name": "Peru",
+"num_id": "604",
+"code": "PE",
+"population": "30741062",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "57138817",
+"budget_population": "1,86"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "129799616",
+"budget_population": "4,22"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "71098542",
+"budget_population": "2,31"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "117034783",
+"budget_population": "3,81"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "38272045",
+"budget_population": "1,24"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "134728892",
+"budget_population": "4,38"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "19752667",
+"budget_population": "0,64"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "15909485",
+"budget_population": "0,52"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "10696922",
+"budget_population": "0,35"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "11330453",
+"budget_population": "0,37"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "605762222",
+"budget_population": "19,71"
+}
+}
+}
+},
+"608":{
+"name": "Philippines",
+"num_id": "608",
+"code": "PH",
+"population": "102624209",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "74076200",
+"budget_population": "0,72"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "169674210",
+"budget_population": "1,65"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "58039010",
+"budget_population": "0,57"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "57960309",
+"budget_population": "0,56"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "14936060",
+"budget_population": "0,15"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "12706578",
+"budget_population": "0,12"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "26917960",
+"budget_population": "0,26"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "3917826",
+"budget_population": "0,04"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1713635",
+"budget_population": "0,02"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "419941788",
+"budget_population": "4,09"
+}
+}
+}
+},
+"612":{
+"name": "Pitcairn",
+"num_id": "612",
+"code": "PN",
+"population": "54",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"616":{
+"name": "Poland",
+"num_id": "616",
+"code": "PL",
+"population": "38523261",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"620":{
+"name": "Portugal",
+"num_id": "620",
+"code": "PT",
+"population": "10833816",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"630":{
+"name": "Puerto Rico",
+"num_id": "630",
+"code": "PR",
+"population": "3578056",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"634":{
+"name": "Qatar",
+"num_id": "634",
+"code": "QA",
+"population": "2258283",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"638":{
+"name": "Réunion",
+"num_id": "638",
+"code": "RE",
+"population": "699000",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"642":{
+"name": "Romania",
+"num_id": "642",
+"code": "RO",
+"population": "21599736",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"643":{
+"name": "Russian Federation",
+"num_id": "643",
+"code": "RU",
+"population": "142355415",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "13706048",
+"budget_population": "0,1"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "39844804",
+"budget_population": "0,28"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "24366590",
+"budget_population": "0,17"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "27275328",
+"budget_population": "0,19"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "20512194",
+"budget_population": "0,14"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "45078726",
+"budget_population": "0,32"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "170783690",
+"budget_population": "1,2"
+}
+}
+}
+},
+"643":{
+"name": "Russia",
+"num_id": "643",
+"code": "RU",
+"population": "142355415",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "13706048",
+"budget_population": "0,1"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "39844804",
+"budget_population": "0,28"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "24366590",
+"budget_population": "0,17"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "27275328",
+"budget_population": "0,19"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "20512194",
+"budget_population": "0,14"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "45078726",
+"budget_population": "0,32"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "170783690",
+"budget_population": "1,2"
+}
+}
+}
+},
+"646":{
+"name": "Rwanda",
+"num_id": "646",
+"code": "RW",
+"population": "12988423",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "230800000",
+"budget_population": "17,77"
+},
+"UNDP":{
+"budget": "28664157",
+"budget_population": "2,21"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "229800000",
+"budget_population": "17,69"
+},
+"UNDP":{
+"budget": "21423258",
+"budget_population": "1,65"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "177700000",
+"budget_population": "13,68"
+},
+"UNDP":{
+"budget": "9949164",
+"budget_population": "0,77"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "172400000",
+"budget_population": "13,27"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1325673",
+"budget_population": "0,1"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "29111694",
+"budget_population": "2,24"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "9877246",
+"budget_population": "0,76"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "810700000",
+"budget_population": "62,42"
+},
+"UNDP":{
+"budget": "100351192",
+"budget_population": "7,73"
+}
+}
+}
+},
+"654":{
+"name": "Saint Helena; Ascension and Tristan da Cunha",
+"num_id": "654",
+"code": "SH",
+"population": "7795",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"659":{
+"name": "Saint Kitts and Nevis",
+"num_id": "659",
+"code": "KN",
+"population": "52329",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "1397123",
+"budget_population": "26,7"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "1501583",
+"budget_population": "28,7"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "778204",
+"budget_population": "14,87"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "300231",
+"budget_population": "5,74"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "3977141",
+"budget_population": "76"
+}
+}
+}
+},
+"662":{
+"name": "Saint Lucia",
+"num_id": "662",
+"code": "LC",
+"population": "164464",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "11100000",
+"budget_population": "67,49"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "10000000",
+"budget_population": "60,8"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "8400000",
+"budget_population": "51,08"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "6700000",
+"budget_population": "40,74"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "36200000",
+"budget_population": "220,11"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"666":{
+"name": "Saint Pierre and Miquelon",
+"num_id": "666",
+"code": "PM",
+"population": "5595",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"670":{
+"name": "Saint Vincent and the Grenadines",
+"num_id": "670",
+"code": "VC",
+"population": "102350",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "3157872",
+"budget_population": "30,85"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "880884",
+"budget_population": "8,61"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "2437392",
+"budget_population": "23,81"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "1300938",
+"budget_population": "12,71"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "7777086",
+"budget_population": "75,99"
+}
+}
+}
+},
+"670":{
+"name": "Saint Vincent & the Grenadines",
+"num_id": "670",
+"code": "VC",
+"population": "102350",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "3157872",
+"budget_population": "30,85"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "880884",
+"budget_population": "8,61"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "2437392",
+"budget_population": "23,81"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "1300938",
+"budget_population": "12,71"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "7777086",
+"budget_population": "75,99"
+}
+}
+}
+},
+"670":{
+"name": "St. Vincent and the Grenadines",
+"num_id": "670",
+"code": "VC",
+"population": "102350",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "3157872",
+"budget_population": "30,85"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "880884",
+"budget_population": "8,61"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "2437392",
+"budget_population": "23,81"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "1300938",
+"budget_population": "12,71"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "7777086",
+"budget_population": "75,99"
+}
+}
+}
+},
+"882":{
+"name": "Samoa",
+"num_id": "882",
+"code": "WS",
+"population": "198926",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "13200000",
+"budget_population": "66,36"
+},
+"UNDP":{
+"budget": "13396333",
+"budget_population": "67,34"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "13700000",
+"budget_population": "68,87"
+},
+"UNDP":{
+"budget": "20177583",
+"budget_population": "101,43"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "13300000",
+"budget_population": "66,86"
+},
+"UNDP":{
+"budget": "8887728",
+"budget_population": "44,68"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "13400000",
+"budget_population": "67,36"
+},
+"UNDP":{
+"budget": "3313560",
+"budget_population": "16,66"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "14289517",
+"budget_population": "71,83"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "11963378",
+"budget_population": "60,14"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "11787939",
+"budget_population": "59,26"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1490311",
+"budget_population": "7,49"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1905061",
+"budget_population": "9,58"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "53600000",
+"budget_population": "269,45"
+},
+"UNDP":{
+"budget": "87211410",
+"budget_population": "438,41"
+}
+}
+}
+},
+"674":{
+"name": "San Marino",
+"num_id": "674",
+"code": "SM",
+"population": "33285",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"678":{
+"name": "Sao Tome and Principe",
+"num_id": "678",
+"code": "ST",
+"population": "197541",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "3400000",
+"budget_population": "17,21"
+},
+"UNDP":{
+"budget": "13368392",
+"budget_population": "67,67"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "8400000",
+"budget_population": "42,52"
+},
+"UNDP":{
+"budget": "16096760",
+"budget_population": "81,49"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "5500000",
+"budget_population": "27,84"
+},
+"UNDP":{
+"budget": "9115723",
+"budget_population": "46,15"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "6700000",
+"budget_population": "33,92"
+},
+"UNDP":{
+"budget": "2536000",
+"budget_population": "12,84"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "12299906",
+"budget_population": "62,27"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "12518813",
+"budget_population": "63,37"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "2979922",
+"budget_population": "15,09"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1580679",
+"budget_population": "8"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "437313",
+"budget_population": "2,21"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1200000",
+"budget_population": "6,07"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "24000000",
+"budget_population": "121,49"
+},
+"UNDP":{
+"budget": "72133508",
+"budget_population": "365,16"
+}
+}
+}
+},
+"682":{
+"name": "Saudi Arabia",
+"num_id": "682",
+"code": "SA",
+"population": "28160273",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "44611762",
+"budget_population": "1,58"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "128534614",
+"budget_population": "4,56"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "128885610",
+"budget_population": "4,58"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "87822231",
+"budget_population": "3,12"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "69881880",
+"budget_population": "2,48"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "46533461",
+"budget_population": "1,65"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "506269558",
+"budget_population": "17,98"
+}
+}
+}
+},
+"686":{
+"name": "Senegal",
+"num_id": "686",
+"code": "SN",
+"population": "14320055",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "179300000",
+"budget_population": "12,52"
+},
+"UNDP":{
+"budget": "81746004",
+"budget_population": "5,71"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "192000000",
+"budget_population": "13,41"
+},
+"UNDP":{
+"budget": "198246440",
+"budget_population": "13,84"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "182700000",
+"budget_population": "12,76"
+},
+"UNDP":{
+"budget": "75360219",
+"budget_population": "5,26"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "196500000",
+"budget_population": "13,72"
+},
+"UNDP":{
+"budget": "6076715",
+"budget_population": "0,42"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "21020951",
+"budget_population": "1,47"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "10007660",
+"budget_population": "0,7"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "8030578",
+"budget_population": "0,56"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "5288750",
+"budget_population": "0,37"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1027754",
+"budget_population": "0,07"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "750500000",
+"budget_population": "52,41"
+},
+"UNDP":{
+"budget": "406805071",
+"budget_population": "28,41"
+}
+}
+}
+},
+"688":{
+"name": "Serbia",
+"num_id": "688",
+"code": "RS",
+"population": "7143921",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "17196517",
+"budget_population": "2,41"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "31380483",
+"budget_population": "4,39"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "27275564",
+"budget_population": "3,82"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "28346840",
+"budget_population": "3,97"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "1684683",
+"budget_population": "0,24"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "823114",
+"budget_population": "0,12"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "2444448",
+"budget_population": "0,34"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "4106874",
+"budget_population": "0,57"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "471350",
+"budget_population": "0,07"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1346384",
+"budget_population": "0,19"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "115076257",
+"budget_population": "16,11"
+}
+}
+}
+},
+"690":{
+"name": "Seychelles",
+"num_id": "690",
+"code": "SC",
+"population": "93186",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "3470364",
+"budget_population": "37,24"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "2060364",
+"budget_population": "22,11"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "4644259",
+"budget_population": "49,84"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "3471035",
+"budget_population": "37,25"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "326097",
+"budget_population": "3,5"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "7217",
+"budget_population": "0,08"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1122207",
+"budget_population": "12,04"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "1899137",
+"budget_population": "20,38"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "142468",
+"budget_population": "1,53"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "17143148",
+"budget_population": "183,97"
+}
+}
+}
+},
+"694":{
+"name": "Sierra Leone",
+"num_id": "694",
+"code": "SL",
+"population": "6018888",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "53100000",
+"budget_population": "8,82"
+},
+"UNDP":{
+"budget": "32732609",
+"budget_population": "5,44"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "58500000",
+"budget_population": "9,72"
+},
+"UNDP":{
+"budget": "28529000",
+"budget_population": "4,74"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "55200000",
+"budget_population": "9,17"
+},
+"UNDP":{
+"budget": "20602780",
+"budget_population": "3,42"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "70500000",
+"budget_population": "11,71"
+},
+"UNDP":{
+"budget": "3505810",
+"budget_population": "0,58"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "25267210",
+"budget_population": "4,2"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "19516865",
+"budget_population": "3,24"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "13772899",
+"budget_population": "2,29"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "237300000",
+"budget_population": "39,43"
+},
+"UNDP":{
+"budget": "143927173",
+"budget_population": "23,91"
+}
+}
+}
+},
+"702":{
+"name": "Singapore",
+"num_id": "702",
+"code": "SG",
+"population": "5781728",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"703":{
+"name": "Slovakia",
+"num_id": "703",
+"code": "SK",
+"population": "5445802",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"705":{
+"name": "Slovenia",
+"num_id": "705",
+"code": "SI",
+"population": "1978029",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"90":{
+"name": "Solomon Islands",
+"num_id": "90",
+"code": "SB",
+"population": "635027",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "3800000",
+"budget_population": "5,98"
+},
+"UNDP":{
+"budget": "12995764",
+"budget_population": "20,46"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "5300000",
+"budget_population": "8,35"
+},
+"UNDP":{
+"budget": "13745442",
+"budget_population": "21,65"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "6400000",
+"budget_population": "10,08"
+},
+"UNDP":{
+"budget": "9043256",
+"budget_population": "14,24"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "7200000",
+"budget_population": "11,34"
+},
+"UNDP":{
+"budget": "3662025",
+"budget_population": "5,77"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "4739298",
+"budget_population": "7,46"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "17635991",
+"budget_population": "27,77"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "10774527",
+"budget_population": "16,97"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "22700000",
+"budget_population": "35,75"
+},
+"UNDP":{
+"budget": "72596303",
+"budget_population": "114,32"
+}
+}
+}
+},
+"706":{
+"name": "Somalia",
+"num_id": "706",
+"code": "SO",
+"population": "10817354",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "118138259",
+"budget_population": "10,92"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "190482136",
+"budget_population": "17,61"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "65962000",
+"budget_population": "6,1"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "11952500",
+"budget_population": "1,1"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "88136568",
+"budget_population": "8,15"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "98132764",
+"budget_population": "9,07"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "94982560",
+"budget_population": "8,78"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1500000",
+"budget_population": "0,14"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "669286787",
+"budget_population": "61,87"
+}
+}
+}
+},
+"710":{
+"name": "South Africa",
+"num_id": "710",
+"code": "ZA",
+"population": "54300704",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "9714937",
+"budget_population": "0,18"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "10052006",
+"budget_population": "0,19"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "8147827",
+"budget_population": "0,15"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "6664791",
+"budget_population": "0,12"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "4968852",
+"budget_population": "0,09"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "7603413",
+"budget_population": "0,14"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "6798814",
+"budget_population": "0,13"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "3592829",
+"budget_population": "0,07"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "4336248",
+"budget_population": "0,08"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "61879717",
+"budget_population": "1,14"
+}
+}
+}
+},
+"239":{
+"name": "South Georgia and the South Sandwich Islands",
+"num_id": "239",
+"code": "GS",
+"population": "30",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"724":{
+"name": "Spain",
+"num_id": "724",
+"code": "ES",
+"population": "48563476",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"144":{
+"name": "Sri Lanka",
+"num_id": "144",
+"code": "LK",
+"population": "22235000",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "171500000",
+"budget_population": "7,71"
+},
+"UNDP":{
+"budget": "43734298",
+"budget_population": "1,97"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "176600000",
+"budget_population": "7,94"
+},
+"UNDP":{
+"budget": "38311025",
+"budget_population": "1,72"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "200100000",
+"budget_population": "9"
+},
+"UNDP":{
+"budget": "12321802",
+"budget_population": "0,55"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "217100000",
+"budget_population": "9,76"
+},
+"UNDP":{
+"budget": "3654283",
+"budget_population": "0,16"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "18863010",
+"budget_population": "0,85"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "9513151",
+"budget_population": "0,43"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "3599954",
+"budget_population": "0,16"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "916095",
+"budget_population": "0,04"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1247069",
+"budget_population": "0,06"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "765300000",
+"budget_population": "34,42"
+},
+"UNDP":{
+"budget": "132160687",
+"budget_population": "5,94"
+}
+}
+}
+},
+"736":{
+"name": "Sudan",
+"num_id": "736",
+"code": "SD",
+"population": "36729501",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "276443418",
+"budget_population": "7,53"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "399186808",
+"budget_population": "10,87"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "207946655",
+"budget_population": "5,66"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "26286888",
+"budget_population": "0,72"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "260307556",
+"budget_population": "7,09"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "267538955",
+"budget_population": "7,28"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "233811601",
+"budget_population": "6,37"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "2555259",
+"budget_population": "0,07"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1056928",
+"budget_population": "0,03"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "1675134068",
+"budget_population": "45,61"
+}
+}
+}
+},
+"740":{
+"name": "Suriname",
+"num_id": "740",
+"code": "SR",
+"population": "585824",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "4287321",
+"budget_population": "7,32"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "4658809",
+"budget_population": "7,95"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "3463166",
+"budget_population": "5,91"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "1312409",
+"budget_population": "2,24"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "1229139",
+"budget_population": "2,1"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "617031",
+"budget_population": "1,05"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "2039576",
+"budget_population": "3,48"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "17607451",
+"budget_population": "30,06"
+}
+}
+}
+},
+"744":{
+"name": "Svalbard and Jan Mayen",
+"num_id": "744",
+"code": "SJ",
+"population": "1872",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"748":{
+"name": "Swaziland",
+"num_id": "748",
+"code": "SZ",
+"population": "1451428",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "3008832",
+"budget_population": "2,07"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "830161",
+"budget_population": "0,57"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1323822",
+"budget_population": "0,91"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "1893023",
+"budget_population": "1,3"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "4221192",
+"budget_population": "2,91"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "3368420",
+"budget_population": "2,32"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "3832685",
+"budget_population": "2,64"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "5423454",
+"budget_population": "3,74"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "2809318",
+"budget_population": "1,94"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "26710907",
+"budget_population": "18,4"
+}
+}
+}
+},
+"752":{
+"name": "Sweden",
+"num_id": "752",
+"code": "SE",
+"population": "9880604",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"756":{
+"name": "Switzerland",
+"num_id": "756",
+"code": "CH",
+"population": "8179294",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"760":{
+"name": "Syrian Arab Republic",
+"num_id": "760",
+"code": "SY",
+"population": "17185170",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "76860977",
+"budget_population": "4,47"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "83260462",
+"budget_population": "4,84"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "36060706",
+"budget_population": "2,1"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "21118451",
+"budget_population": "1,23"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "14627966",
+"budget_population": "0,85"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "5543658",
+"budget_population": "0,32"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "4266931",
+"budget_population": "0,25"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "241739151",
+"budget_population": "14,07"
+}
+}
+}
+},
+"158":{
+"name": "Taiwan; Province of China",
+"num_id": "158",
+"code": "TW",
+"population": "23464787",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"158":{
+"name": "Taiwan",
+"num_id": "158",
+"code": "TW",
+"population": "23464787",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"762":{
+"name": "Tajikistan",
+"num_id": "762",
+"code": "TJ",
+"population": "8330946",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "50900000",
+"budget_population": "6,11"
+},
+"UNDP":{
+"budget": "59360609",
+"budget_population": "7,13"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "65800000",
+"budget_population": "7,9"
+},
+"UNDP":{
+"budget": "86215670",
+"budget_population": "10,35"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "73300000",
+"budget_population": "8,8"
+},
+"UNDP":{
+"budget": "38968298",
+"budget_population": "4,68"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "65400000",
+"budget_population": "7,85"
+},
+"UNDP":{
+"budget": "7899785",
+"budget_population": "0,95"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "54383233",
+"budget_population": "6,53"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "25364594",
+"budget_population": "3,04"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "35308995",
+"budget_population": "4,24"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "544508",
+"budget_population": "0,07"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "3617913",
+"budget_population": "0,43"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "7175560",
+"budget_population": "0,86"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "255400000",
+"budget_population": "30,66"
+},
+"UNDP":{
+"budget": "318839165",
+"budget_population": "38,27"
+}
+}
+}
+},
+"834":{
+"name": "Tanzania; United Republic of",
+"num_id": "834",
+"code": "TZ",
+"population": "52482726",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "759400000",
+"budget_population": "14,47"
+},
+"UNDP":{
+"budget": "110976279",
+"budget_population": "2,11"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "745200000",
+"budget_population": "14,2"
+},
+"UNDP":{
+"budget": "70504343",
+"budget_population": "1,34"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "678200000",
+"budget_population": "12,92"
+},
+"UNDP":{
+"budget": "26724013",
+"budget_population": "0,51"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "593800000",
+"budget_population": "11,31"
+},
+"UNDP":{
+"budget": "2391577",
+"budget_population": "0,05"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "46556875",
+"budget_population": "0,89"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "27371698",
+"budget_population": "0,52"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "83562515",
+"budget_population": "1,59"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1530462",
+"budget_population": "0,03"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "776000",
+"budget_population": "0,01"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "2776600000",
+"budget_population": "52,91"
+},
+"UNDP":{
+"budget": "370393762",
+"budget_population": "7,06"
+}
+}
+}
+},
+"764":{
+"name": "Thailand",
+"num_id": "764",
+"code": "TH",
+"population": "68200824",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "8935475",
+"budget_population": "0,13"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "12120391",
+"budget_population": "0,18"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "9312187",
+"budget_population": "0,14"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1713092",
+"budget_population": "0,03"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "5039036",
+"budget_population": "0,07"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "4200706",
+"budget_population": "0,06"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "4630609",
+"budget_population": "0,07"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1720668",
+"budget_population": "0,03"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "4271912",
+"budget_population": "0,06"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "51944076",
+"budget_population": "0,76"
+}
+}
+}
+},
+"626":{
+"name": "Timor-Leste",
+"num_id": "626",
+"code": "TL",
+"population": "1261072",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "14544310",
+"budget_population": "11,53"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "20735428",
+"budget_population": "16,44"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "23507490",
+"budget_population": "18,64"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "14561781",
+"budget_population": "11,55"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "3327176",
+"budget_population": "2,64"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "7162364",
+"budget_population": "5,68"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "6851996",
+"budget_population": "5,43"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1664880",
+"budget_population": "1,32"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "92355425",
+"budget_population": "73,24"
+}
+}
+}
+},
+"768":{
+"name": "Togo",
+"num_id": "768",
+"code": "TG",
+"population": "7756937",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "51800000",
+"budget_population": "6,68"
+},
+"UNDP":{
+"budget": "14235243",
+"budget_population": "1,84"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "41900000",
+"budget_population": "5,4"
+},
+"UNDP":{
+"budget": "53727760",
+"budget_population": "6,93"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "30200000",
+"budget_population": "3,89"
+},
+"UNDP":{
+"budget": "48260946",
+"budget_population": "6,22"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "35800000",
+"budget_population": "4,62"
+},
+"UNDP":{
+"budget": "1820900",
+"budget_population": "0,23"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "15411801",
+"budget_population": "1,99"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "8775230",
+"budget_population": "1,13"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "9802729",
+"budget_population": "1,26"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "159700000",
+"budget_population": "20,59"
+},
+"UNDP":{
+"budget": "152034609",
+"budget_population": "19,6"
+}
+}
+}
+},
+"772":{
+"name": "Tokelau",
+"num_id": "772",
+"code": "TK",
+"population": "1337",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "100541",
+"budget_population": "75,2"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "40066",
+"budget_population": "29,97"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "47778",
+"budget_population": "35,74"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "114506",
+"budget_population": "85,64"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "302891",
+"budget_population": "226,55"
+}
+}
+}
+},
+"776":{
+"name": "Tonga",
+"num_id": "776",
+"code": "TO",
+"population": "106513",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "13500000",
+"budget_population": "126,75"
+},
+"UNDP":{
+"budget": "1564235",
+"budget_population": "14,69"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "10700000",
+"budget_population": "100,46"
+},
+"UNDP":{
+"budget": "1511189",
+"budget_population": "14,19"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "9300000",
+"budget_population": "87,31"
+},
+"UNDP":{
+"budget": "550107",
+"budget_population": "5,16"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "8100000",
+"budget_population": "76,05"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "305985",
+"budget_population": "2,87"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "191993",
+"budget_population": "1,8"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "6196",
+"budget_population": "0,06"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "41600000",
+"budget_population": "390,56"
+},
+"UNDP":{
+"budget": "4129705",
+"budget_population": "38,77"
+}
+}
+}
+},
+"780":{
+"name": "Trinidad and Tobago",
+"num_id": "780",
+"code": "TT",
+"population": "1220479",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "14218382",
+"budget_population": "11,65"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "19116794",
+"budget_population": "15,66"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "11820870",
+"budget_population": "9,69"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "1708072",
+"budget_population": "1,4"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "15887694",
+"budget_population": "13,02"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "2095338",
+"budget_population": "1,72"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "1804402",
+"budget_population": "1,48"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "214932",
+"budget_population": "0,18"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "710152",
+"budget_population": "0,58"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "67576636",
+"budget_population": "55,37"
+}
+}
+}
+},
+"780":{
+"name": "Trinidad & Tobago",
+"num_id": "780",
+"code": "TT",
+"population": "1220479",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "14218382",
+"budget_population": "11,65"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "19116794",
+"budget_population": "15,66"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "11820870",
+"budget_population": "9,69"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "1708072",
+"budget_population": "1,4"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "15887694",
+"budget_population": "13,02"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "2095338",
+"budget_population": "1,72"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "1804402",
+"budget_population": "1,48"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "214932",
+"budget_population": "0,18"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "710152",
+"budget_population": "0,58"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "67576636",
+"budget_population": "55,37"
+}
+}
+}
+},
+"788":{
+"name": "Tunisia",
+"num_id": "788",
+"code": "TN",
+"population": "11134588",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "15624985",
+"budget_population": "1,4"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "30006862",
+"budget_population": "2,69"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "26159830",
+"budget_population": "2,35"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "26811865",
+"budget_population": "2,41"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "15342490",
+"budget_population": "1,38"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "8354731",
+"budget_population": "0,75"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "2621363",
+"budget_population": "0,24"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "3168356",
+"budget_population": "0,28"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "128090482",
+"budget_population": "11,5"
+}
+}
+}
+},
+"792":{
+"name": "Turkey",
+"num_id": "792",
+"code": "TR",
+"population": "80274604",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "45097171",
+"budget_population": "0,56"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "23587295",
+"budget_population": "0,29"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "17035638",
+"budget_population": "0,21"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "8035202",
+"budget_population": "0,1"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "63085135",
+"budget_population": "0,79"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "52599857",
+"budget_population": "0,66"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "12774938",
+"budget_population": "0,16"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "6740326",
+"budget_population": "0,08"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "4565115",
+"budget_population": "0,06"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "233520677",
+"budget_population": "2,91"
+}
+}
+}
+},
+"795":{
+"name": "Turkmenistan",
+"num_id": "795",
+"code": "TM",
+"population": "5291317",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "10500410",
+"budget_population": "1,98"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "15517001",
+"budget_population": "2,93"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "15465145",
+"budget_population": "2,92"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "16172977",
+"budget_population": "3,06"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "11183293",
+"budget_population": "2,11"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "9363292",
+"budget_population": "1,77"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "3256759",
+"budget_population": "0,62"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1473216",
+"budget_population": "0,28"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "577857",
+"budget_population": "0,11"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "960060",
+"budget_population": "0,18"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "84470010",
+"budget_population": "15,96"
+}
+}
+}
+},
+"796":{
+"name": "Turks and Caicos Islands",
+"num_id": "796",
+"code": "TC",
+"population": "51430",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"798":{
+"name": "Tuvalu",
+"num_id": "798",
+"code": "TV",
+"population": "10959",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "5200000",
+"budget_population": "474,5"
+},
+"UNDP":{
+"budget": "5887414",
+"budget_population": "537,22"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "6000000",
+"budget_population": "547,5"
+},
+"UNDP":{
+"budget": "4087666",
+"budget_population": "373"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "5400000",
+"budget_population": "492,75"
+},
+"UNDP":{
+"budget": "3256647",
+"budget_population": "297,17"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "5200000",
+"budget_population": "474,5"
+},
+"UNDP":{
+"budget": "1510393",
+"budget_population": "137,82"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "3141702",
+"budget_population": "286,68"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "2278024",
+"budget_population": "207,87"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "782265",
+"budget_population": "71,38"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "768406",
+"budget_population": "70,12"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "862542",
+"budget_population": "78,71"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "21800000",
+"budget_population": "1989,23"
+},
+"UNDP":{
+"budget": "22575059",
+"budget_population": "2059,96"
+}
+}
+}
+},
+"800":{
+"name": "Uganda",
+"num_id": "800",
+"code": "UG",
+"population": "38319241",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "327300000",
+"budget_population": "8,54"
+},
+"UNDP":{
+"budget": "23994792",
+"budget_population": "0,63"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "432300000",
+"budget_population": "11,28"
+},
+"UNDP":{
+"budget": "30562220",
+"budget_population": "0,8"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "450400000",
+"budget_population": "11,75"
+},
+"UNDP":{
+"budget": "16150981",
+"budget_population": "0,42"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "456200000",
+"budget_population": "11,91"
+},
+"UNDP":{
+"budget": "614482",
+"budget_population": "0,02"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "15633272",
+"budget_population": "0,41"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "9766463",
+"budget_population": "0,25"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "3797143",
+"budget_population": "0,1"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "6635480",
+"budget_population": "0,17"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "12483210",
+"budget_population": "0,33"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "1666200000",
+"budget_population": "43,48"
+},
+"UNDP":{
+"budget": "119638043",
+"budget_population": "3,12"
+}
+}
+}
+},
+"804":{
+"name": "Ukraine",
+"num_id": "804",
+"code": "UA",
+"population": "44209733",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "123969902",
+"budget_population": "2,8"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "254823583",
+"budget_population": "5,76"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "118594164",
+"budget_population": "2,68"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "23231586",
+"budget_population": "0,53"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "4147835",
+"budget_population": "0,09"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "1465247",
+"budget_population": "0,03"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "8810512",
+"budget_population": "0,2"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "1232799",
+"budget_population": "0,03"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "1791838",
+"budget_population": "0,04"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "2951338",
+"budget_population": "0,07"
+}
+},
+"2022":{
+"UNDP":{
+"budget": "142880",
+"budget_population": "0"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "541161684",
+"budget_population": "12,24"
+}
+}
+}
+},
+"784":{
+"name": "United Arab Emirates",
+"num_id": "784",
+"code": "AE",
+"population": "5927482",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "10280989",
+"budget_population": "1,73"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "3372910",
+"budget_population": "0,57"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "3429590",
+"budget_population": "0,58"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "3577246",
+"budget_population": "0,6"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "826213",
+"budget_population": "0,14"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "21486948",
+"budget_population": "3,62"
+}
+}
+}
+},
+"826":{
+"name": "United Kingdom",
+"num_id": "826",
+"code": "GB",
+"population": "64430428",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"840":{
+"name": "United States",
+"num_id": "840",
+"code": "US",
+"population": "323995528",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"581":{
+"name": "United States Minor Outlying Islands",
+"num_id": "581",
+"code": "UM",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "Není číslo"
+}
+}
+}
+},
+"858":{
+"name": "Uruguay",
+"num_id": "858",
+"code": "UY",
+"population": "3351016",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "41539873",
+"budget_population": "12,4"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "8573150",
+"budget_population": "2,56"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "40152058",
+"budget_population": "11,98"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "41195244",
+"budget_population": "12,29"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "16432591",
+"budget_population": "4,9"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "10564449",
+"budget_population": "3,15"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "19817489",
+"budget_population": "5,91"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "5201497",
+"budget_population": "1,55"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "10494063",
+"budget_population": "3,13"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "193970414",
+"budget_population": "57,88"
+}
+}
+}
+},
+"860":{
+"name": "Uzbekistan",
+"num_id": "860",
+"code": "UZ",
+"population": "29473614",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "165600000",
+"budget_population": "5,62"
+},
+"UNDP":{
+"budget": "31059137",
+"budget_population": "1,05"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "219200000",
+"budget_population": "7,44"
+},
+"UNDP":{
+"budget": "38546933",
+"budget_population": "1,31"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "225400000",
+"budget_population": "7,65"
+},
+"UNDP":{
+"budget": "22949525",
+"budget_population": "0,78"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "214000000",
+"budget_population": "7,26"
+},
+"UNDP":{
+"budget": "12140436",
+"budget_population": "0,41"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "31839414",
+"budget_population": "1,08"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "30199143",
+"budget_population": "1,02"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "38469538",
+"budget_population": "1,31"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "5539716",
+"budget_population": "0,19"
+}
+},
+"2022":{
+"UNDP":{
+"budget": "518400",
+"budget_population": "0,02"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "2856900",
+"budget_population": "0,1"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "2823214",
+"budget_population": "0,1"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "824200000",
+"budget_population": "27,96"
+},
+"UNDP":{
+"budget": "216942356",
+"budget_population": "7,36"
+}
+}
+}
+},
+"548":{
+"name": "Vanuatu",
+"num_id": "548",
+"code": "VU",
+"population": "277554",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "824447",
+"budget_population": "2,97"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "1200000",
+"budget_population": "4,32"
+},
+"UNDP":{
+"budget": "3342206",
+"budget_population": "12,04"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "4200000",
+"budget_population": "15,13"
+},
+"UNDP":{
+"budget": "4946841",
+"budget_population": "17,82"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "7500000",
+"budget_population": "27,02"
+},
+"UNDP":{
+"budget": "1523982",
+"budget_population": "5,49"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "260873",
+"budget_population": "0,94"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "224855",
+"budget_population": "0,81"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "648906",
+"budget_population": "2,34"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "12900000",
+"budget_population": "46,48"
+},
+"UNDP":{
+"budget": "11772110",
+"budget_population": "42,41"
+}
+}
+}
+},
+"862":{
+"name": "Venezuela; Bolivarian Republic of",
+"num_id": "862",
+"code": "VE",
+"population": "30912302",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "17955428",
+"budget_population": "0,58"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "41044660",
+"budget_population": "1,33"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "116248194",
+"budget_population": "3,76"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "65007862",
+"budget_population": "2,1"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "101873148",
+"budget_population": "3,3"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "4708514",
+"budget_population": "0,15"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "61132",
+"budget_population": "0"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "758388",
+"budget_population": "0,02"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "347657326",
+"budget_population": "11,25"
+}
+}
+}
+},
+"862":{
+"name": "Venezuela",
+"num_id": "862",
+"code": "VE",
+"population": "30912302",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "17955428",
+"budget_population": "0,58"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "41044660",
+"budget_population": "1,33"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "116248194",
+"budget_population": "3,76"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "65007862",
+"budget_population": "2,1"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "101873148",
+"budget_population": "3,3"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "4708514",
+"budget_population": "0,15"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "61132",
+"budget_population": "0"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "758388",
+"budget_population": "0,02"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "347657326",
+"budget_population": "11,25"
+}
+}
+}
+},
+"704":{
+"name": "Viet Nam",
+"num_id": "704",
+"code": "VN",
+"population": "95261021",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "1456400000",
+"budget_population": "15,29"
+},
+"UNDP":{
+"budget": "76114908",
+"budget_population": "0,8"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "1429700000",
+"budget_population": "15,01"
+},
+"UNDP":{
+"budget": "77851588",
+"budget_population": "0,82"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "1462300000",
+"budget_population": "15,35"
+},
+"UNDP":{
+"budget": "48828640",
+"budget_population": "0,51"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "1411500000",
+"budget_population": "14,82"
+},
+"UNDP":{
+"budget": "29265702",
+"budget_population": "0,31"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "69735298",
+"budget_population": "0,73"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "44440122",
+"budget_population": "0,47"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "11063132",
+"budget_population": "0,12"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "24969228",
+"budget_population": "0,26"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "18400000",
+"budget_population": "0,19"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "5759900000",
+"budget_population": "60,46"
+},
+"UNDP":{
+"budget": "400668618",
+"budget_population": "4,21"
+}
+}
+}
+},
+"704":{
+"name": "Vietnam",
+"num_id": "704",
+"code": "VN",
+"population": "95261021",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "1456400000",
+"budget_population": "15,29"
+},
+"UNDP":{
+"budget": "76114908",
+"budget_population": "0,8"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "1429700000",
+"budget_population": "15,01"
+},
+"UNDP":{
+"budget": "77851588",
+"budget_population": "0,82"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "1462300000",
+"budget_population": "15,35"
+},
+"UNDP":{
+"budget": "48828640",
+"budget_population": "0,51"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "1411500000",
+"budget_population": "14,82"
+},
+"UNDP":{
+"budget": "29265702",
+"budget_population": "0,31"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "69735298",
+"budget_population": "0,73"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "44440122",
+"budget_population": "0,47"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "11063132",
+"budget_population": "0,12"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "24969228",
+"budget_population": "0,26"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "18400000",
+"budget_population": "0,19"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "5759900000",
+"budget_population": "60,46"
+},
+"UNDP":{
+"budget": "400668618",
+"budget_population": "4,21"
+}
+}
+}
+},
+"92":{
+"name": "Virgin Islands; British",
+"num_id": "92",
+"code": "VG",
+"population": "34232",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"850":{
+"name": "Virgin Islands; U.S.",
+"num_id": "850",
+"code": "VI",
+"population": "102951",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"876":{
+"name": "Wallis and Futuna",
+"num_id": "876",
+"code": "WF",
+"population": "15664",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"732":{
+"name": "Western Sahara",
+"num_id": "732",
+"code": "EH",
+"population": "587020",
+"data":{
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "0",
+"budget_population": "0"
+}
+}
+}
+},
+"887":{
+"name": "Yemen",
+"num_id": "887",
+"code": "YE",
+"population": "27392779",
+"data":{
+"2017":{
+"UNDP":{
+"budget": "225896968",
+"budget_population": "8,25"
+}
+},
+"2016":{
+"UNDP":{
+"budget": "77252517",
+"budget_population": "2,82"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "55640552",
+"budget_population": "2,03"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "71392441",
+"budget_population": "2,61"
+}
+},
+"2015":{
+"UNDP":{
+"budget": "35020273",
+"budget_population": "1,28"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "33706563",
+"budget_population": "1,23"
+}
+},
+"2018":{
+"UNDP":{
+"budget": "646581",
+"budget_population": "0,02"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "499555895",
+"budget_population": "18,24"
+}
+}
+}
+},
+"894":{
+"name": "Zambia",
+"num_id": "894",
+"code": "ZM",
+"population": "15510711",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "152900000",
+"budget_population": "9,86"
+},
+"UNDP":{
+"budget": "222395043",
+"budget_population": "14,34"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "170500000",
+"budget_population": "10,99"
+},
+"UNDP":{
+"budget": "95674291",
+"budget_population": "6,17"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "157900000",
+"budget_population": "10,18"
+},
+"UNDP":{
+"budget": "51314015",
+"budget_population": "3,31"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "168700000",
+"budget_population": "10,88"
+},
+"UNDP":{
+"budget": "4526929",
+"budget_population": "0,29"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "138620926",
+"budget_population": "8,94"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "116753746",
+"budget_population": "7,53"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "16998892",
+"budget_population": "1,1"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "978778",
+"budget_population": "0,06"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "1099740",
+"budget_population": "0,07"
+}
+},
+"2021":{
+"UNDP":{
+"budget": "532400",
+"budget_population": "0,03"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "650000000",
+"budget_population": "41,91"
+},
+"UNDP":{
+"budget": "648894760",
+"budget_population": "41,84"
+}
+}
+}
+},
+"716":{
+"name": "Zimbabwe",
+"num_id": "716",
+"code": "ZW",
+"population": "14546961",
+"data":{
+"2015":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "485349266",
+"budget_population": "33,36"
+}
+},
+"2016":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "488475518",
+"budget_population": "33,58"
+}
+},
+"2017":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "199993828",
+"budget_population": "13,75"
+}
+},
+"2018":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "6472551",
+"budget_population": "0,44"
+}
+},
+"2014":{
+"UNDP":{
+"budget": "392616037",
+"budget_population": "26,99"
+}
+},
+"2013":{
+"UNDP":{
+"budget": "10369628",
+"budget_population": "0,71"
+}
+},
+"2012":{
+"UNDP":{
+"budget": "2654713",
+"budget_population": "0,18"
+}
+},
+"2020":{
+"UNDP":{
+"budget": "4653000",
+"budget_population": "0,32"
+}
+},
+"2019":{
+"UNDP":{
+"budget": "5203000",
+"budget_population": "0,36"
+}
+},
+"sum":{
+"WorldBank":{
+"budget": "0",
+"budget_population": "0"
+},
+"UNDP":{
+"budget": "1595787541",
+"budget_population": "109,7"
 }
 }
 }
