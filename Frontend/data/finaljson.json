@@ -372,11 +372,11 @@
 "sum":{
 "WorldBank":{
 "budget": "0",
-"budget_population": "Není číslo"
+"budget_population": "NaN"
 },
 "UNDP":{
 "budget": "0",
-"budget_population": "Není číslo"
+"budget_population": "NaN"
 }
 }
 }
@@ -1622,11 +1622,11 @@
 "sum":{
 "WorldBank":{
 "budget": "0",
-"budget_population": "Není číslo"
+"budget_population": "NaN"
 },
 "UNDP":{
 "budget": "0",
-"budget_population": "Není číslo"
+"budget_population": "NaN"
 }
 }
 }
@@ -1718,11 +1718,11 @@
 "sum":{
 "WorldBank":{
 "budget": "0",
-"budget_population": "Není číslo"
+"budget_population": "NaN"
 },
 "UNDP":{
 "budget": "0",
-"budget_population": "Není číslo"
+"budget_population": "NaN"
 }
 }
 }
@@ -4278,11 +4278,11 @@
 "sum":{
 "WorldBank":{
 "budget": "0",
-"budget_population": "Není číslo"
+"budget_population": "NaN"
 },
 "UNDP":{
 "budget": "0",
-"budget_population": "Není číslo"
+"budget_population": "NaN"
 }
 }
 }
@@ -5212,11 +5212,11 @@
 "sum":{
 "WorldBank":{
 "budget": "0",
-"budget_population": "Není číslo"
+"budget_population": "NaN"
 },
 "UNDP":{
 "budget": "0",
-"budget_population": "Není číslo"
+"budget_population": "NaN"
 }
 }
 }
@@ -12719,7 +12719,7 @@
 "sum":{
 "WorldBank":{
 "budget": "0",
-"budget_population": "Není číslo"
+"budget_population": "NaN"
 }
 }
 }
