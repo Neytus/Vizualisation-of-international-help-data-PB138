@@ -24,6 +24,7 @@ namespace BackendProject
         private void webPageDownloadButton_Click(object sender, EventArgs e)
         {
             processListBox.Items.Clear();
+            processListBox.Items.Add("Downloading...");
             filesProcessedLabel.Text = "Files Processed: 0";
             webpageDownloader.RunWorkerAsync();
         }
@@ -31,6 +32,7 @@ namespace BackendProject
         private void xmlDownloadButton_Click(object sender, EventArgs e)
         {
             processListBox.Items.Clear();
+            processListBox.Items.Add("Downloading...");
             filesProcessedLabel.Text = "Files Processed: 0";
             xmlDownloader.RunWorkerAsync();
         }
@@ -41,12 +43,23 @@ namespace BackendProject
             {
                 webpageDownloader.ReportProgress(i, DataExtractor.DownloadWebpages(i));                
             }
+            webpageDownloader.ReportProgress(-1);
+            
         }
 
         private void webpageDownloader_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
-            processListBox.Items.Add(e.UserState.ToString());
-            filesProcessedLabel.Text = "Files Processed: " + e.ProgressPercentage.ToString();
+            if (e.ProgressPercentage != -1)
+            {
+                processListBox.Items.Add(e.UserState.ToString());
+                filesProcessedLabel.Text = "Files Processed: " + e.ProgressPercentage.ToString();
+            }
+            else 
+            {
+                processListBox.Items.Clear();
+                processListBox.Items.Add("All weppage files were successfully downloaded.");
+                filesProcessedLabel.Text = "Files Processed: All.";
+            }
         }
 
         private void xmlDownloader_DoWork(object sender, DoWorkEventArgs e)
@@ -80,12 +93,23 @@ namespace BackendProject
             XmlDocument worldBankOrgFile = new XmlDocument();
             worldBankOrgFile.Load("http://siteresources.worldbank.org/INTSOPE/Resources/5929468-1305310586289/IATI_ORG.xml");
             worldBankOrgFile.Save(@".\otherxmlData\worldBank.xml");
+
+            xmlDownloader.ReportProgress(2);
         }
 
         private void xmlDownloader_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
-            processListBox.Items.Add(e.UserState);
-            filesProcessedLabel.Text = "Files Processed: " + processListBox.Items.Count.ToString();
+            if (e.ProgressPercentage == 1)
+            {
+                processListBox.Items.Add(e.UserState);
+                filesProcessedLabel.Text = "Files Processed: " + processListBox.Items.Count.ToString();
+            }
+            else
+            {
+                processListBox.Items.Clear();
+                processListBox.Items.Add("All XML files were successfully downloaded.");
+                filesProcessedLabel.Text = "Files Processed: All.";
+            }
         }
 
         private void finalizerButton_Click(object sender, EventArgs e)
