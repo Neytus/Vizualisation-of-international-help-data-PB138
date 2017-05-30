@@ -9,6 +9,7 @@ using System.Net;
 using HtmlAgilityPack;
 using System.Xml.Linq;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace BackendProject
 {
@@ -264,7 +265,7 @@ namespace BackendProject
                             budgetValue.InnerText = budget.Value.ToString();
                             sumValues += budget.Value;
                             XmlElement budget_population = outputXml.CreateElement("budget_population");
-                            budget_population.InnerText = Math.Round(((double)budget.Value / population), 2).ToString();
+                            budget_population.InnerText = Math.Round(((double)budget.Value / population), 2).ToString(new CultureInfo("en-US"));
 
                             data.AppendChild(period);
                             period.AppendChild(organization);
@@ -401,7 +402,7 @@ namespace BackendProject
                             budgetValue.InnerText = budget.Value.ToString();
                             sumValues += budget.Value;
                             XmlElement budget_population = outputXml.CreateElement("budget_population");
-                            budget_population.InnerText = Math.Round(((double)budget.Value / population), 2).ToString();
+                            budget_population.InnerText = Math.Round(((double)budget.Value / population), 2).ToString(new CultureInfo("en-US"));
 
                             period.AppendChild(organization);
                             organization.AppendChild(budgetValue);
