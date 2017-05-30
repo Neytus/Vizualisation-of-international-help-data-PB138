@@ -10,6 +10,7 @@ using System.Threading;
 using System.Net;
 using System.Windows.Forms;
 using System.Xml;
+using System.Xml.Schema;
 
 namespace BackendProject
 {
@@ -121,11 +122,14 @@ namespace BackendProject
 
         private void finalizeWorker_DoWork(object sender, DoWorkEventArgs e)
         {
+            string xmlDir = Environment.CurrentDirectory + @"\otherXmlData";
+
             DataExtractor.ExtractWorldBank();
             DataExtractor.ExtractUNDP();
 
             finalizeWorker.ReportProgress(1, "All the data has been extracted successfully.");
         }
+
 
         private void finalizeWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {

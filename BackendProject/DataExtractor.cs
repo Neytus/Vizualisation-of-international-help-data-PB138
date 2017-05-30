@@ -9,6 +9,7 @@ using System.Net;
 using HtmlAgilityPack;
 using System.Xml.Linq;
 using System.Windows.Forms;
+using System.Xml.Schema;
 using System.Globalization;
 
 namespace BackendProject
@@ -121,7 +122,11 @@ namespace BackendProject
                     )
                 );
                 root.FirstNode.Remove();
-                root.Save(xmlDir + @"\countriesPopulation.xml");
+                string rootString = root.ToString();
+
+                var sw = new StreamWriter(xmlDir + @"\countriesPopulation.xml", false, new System.Text.UTF8Encoding(false));
+                sw.Write(rootString);
+                sw.Close();
             }
 
             catch (IOException ex)
@@ -141,17 +146,21 @@ namespace BackendProject
             {
                 string[] csvDocument = File.ReadAllLines(csvPath);
                 char[] num_id_chars = { ' ', '\"' };
-                XElement root = new XElement("countries",
+                XElement root = new XElement("countries",                  
                 from line in csvDocument
                 let fields = line.Split(',')
-                select new XElement("country",
+                select new XElement("country",            
                     new XElement("name", fields[0].Trim()),
                     new XElement("code", fields[1].Trim()),
                     new XAttribute("num_id", fields[3].Trim(num_id_chars))
                     )
                 );
                 root.FirstNode.Remove();
-                root.Save(xmlDir + @"\countriesCodes.xml");
+                string rootString = root.ToString();      
+               
+                var sw = new StreamWriter(xmlDir + @"\countriesCodes.xml", false, new System.Text.UTF8Encoding(false));
+                sw.Write(rootString);
+                sw.Close();
             }
             catch (IOException ex)
             {
@@ -281,7 +290,7 @@ namespace BackendProject
                 XmlElement budgetValueSum = outputXml.CreateElement("budget");
                 budgetValueSum.InnerText = sumValues.ToString();
                 XmlElement budget_populationSum = outputXml.CreateElement("budget_population");
-                budget_populationSum.InnerText = Math.Round((sumValues / population), 2).ToString();
+                budget_populationSum.InnerText = Math.Round((sumValues / population), 2).ToString(new CultureInfo("en-US"));
 
                 data.AppendChild(sum);
                 sum.AppendChild(organizationSum);
@@ -301,6 +310,12 @@ namespace BackendProject
             List<string> undpLinks = new List<string>();
             var countryInfos = new List<CountryData>();
             XmlNodeList outputCountries = outputXml.GetElementsByTagName("country");
+
+            const string namesp = "noNamespaceSchemaLocation";
+            XmlNodeList countriesList = outputXml.GetElementsByTagName("countries");
+            XmlElement countries = (XmlElement) countriesList.Item(0);
+            countries.SetAttribute("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance");
+            countries.SetAttribute(namesp, "http://www.w3.org/2001/XMLSchema-instance", "outputSchema.xsd");
 
             foreach (var file in Directory.GetFiles(UNDPDir))
             {
@@ -342,7 +357,11 @@ namespace BackendProject
                             {
                                 processedCountry.budgets.Add(year, budget);
                             }
-                        }
+                            if (processedCountry.budgets[year] < 0)
+                            {
+                                processedCountry.budgets[year] = 0;
+                            }
+                        }                        
                     }
                 }
             }
@@ -417,7 +436,7 @@ namespace BackendProject
                 XmlElement budgetValueSum = outputXml.CreateElement("budget");
                 budgetValueSum.InnerText = sumValues.ToString();
                 XmlElement budget_populationSum = outputXml.CreateElement("budget_population");
-                budget_populationSum.InnerText = Math.Round((sumValues / population), 2).ToString();
+                budget_populationSum.InnerText = Math.Round((sumValues / population), 2).ToString(new CultureInfo("en-US"));
 
                 sum.AppendChild(organizationSum);
                 organizationSum.AppendChild(budgetValueSum);
@@ -426,7 +445,6 @@ namespace BackendProject
 
             outputXml.Save(xmlDir + @"\finalOutput.xml");
             FinalXmlToJson(xmlDir + @"\finalOutput.xml");
-
             return outputXml;
         }
 
@@ -528,7 +546,6 @@ namespace BackendProject
                 sw.WriteLine("}");
                 sw.WriteLine("}");
 
-                //sw.WriteLine("}");
                 if (i == countries.Count - 1)
                 {
                     sw.WriteLine("}");
