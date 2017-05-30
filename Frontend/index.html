@@ -14,47 +14,49 @@
             <div id="map">
                 <div id="mapDataInfo" style="display: none">No map data</div>
             </div>
-            <div id="data">
-                <form id="selectForm">
-                    <table>
-                        <tr>
-                            <td>Select country: </td>
-                            <td>
-                                <select id="countrySelect">
-                                </select>
-                            </td>
+            <div id="dataWrapper">
+                <div id="data">
+                    <form id="selectForm">
+                        <table>
+                            <tr>
+                                <td>Select country: </td>
+                                <td>
+                                    <select id="countrySelect">
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Select year: </td>
+                                <td>
+                                    <select id="yearSelect">
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <button id="changeCountry" style="display: none">Submit</button>
+                    <table id="dataTable">
+                        <tr class="orgs">
+                            <th></th>
+                            <th colspan="2">UNDP</th>
+                            <th colspan="2">World Bank</th>
                         </tr>
                         <tr>
-                            <td>Select year: </td>
-                            <td>
-                                <select id="yearSelect">
-                                </select>
-                            </td>
+                            <th>Year</th>
+                            <th  class="undpt">Total $</th>
+                            <th>Per Capita $</th>
+                            <th class="wbt">Total $</th>
+                            <th>Per Capita $</th>
+                        </tr>
+                        <tr class="total">
+                            <td class="y">Total</td>
+                            <td class="undpt"></td>
+                            <td class="undppc"></td>
+                            <td class="wbt"></td>
+                            <td class="wbpc"></td>
                         </tr>
                     </table>
-                </form>
-                <button id="changeCountry" style="display: none">Submit</button>
-                <table id="dataTable">
-                    <tr class="orgs">
-                        <th></th>
-                        <th colspan="2">UNDP</th>
-                        <th colspan="2">World Bank</th>
-                    </tr>
-                    <tr>
-                        <th>Year</th>
-                        <th  class="undpt">Total $</th>
-                        <th>Per Capita $</th>
-                        <th class="wbt">Total $</th>
-                        <th>Per Capita $</th>
-                    </tr>
-                    <tr class="total">
-                        <td class="y">Total</td>
-                        <td class="undpt"></td>
-                        <td class="undppc"></td>
-                        <td class="wbt"></td>
-                        <td class="wbpc"></td>
-                    </tr>
-                </table>
+                </div>
             </div>
         </div>
         <script src="js/jquery-3.2.1.min.js"></script>
