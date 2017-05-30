@@ -93,7 +93,7 @@ and open the template in the editor.
 	
     <xs:simpleType name="countryCodeType">
         <xs:restriction base="xs:string">
-            <xs:pattern value="[A-Z][A-Z]"/>
+            <xs:pattern value="[&quot;][A-Z][A-Z][&quot;]"/>
         </xs:restriction>
     </xs:simpleType>
 	
