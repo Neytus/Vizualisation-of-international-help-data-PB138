@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<article>
+  <articleinfo>
+    <title>Visualization of International Help Data - XML Schema, design for
+    final data files structure</title>
+
+    <author>
+      <firstname>Dominik</firstname>
+
+      <surname>Mlynka</surname>
+
+      <affiliation/>
+    </author>
+
+    <pubdate>2017-05-30</pubdate>
+  </articleinfo>
+
+  <para font-size="15pt">At the beginning of the project it was important to
+  find out how source files from IATI organization are structured, what data
+  is relevant and what we have to use to successfully do the implementation of
+  the project. In addition to used financial data from IATI, we also had to
+  get data about population for each country. All these information was stored
+  on the Internet and the mail goal was design some structure of document,
+  which could be easily used in final visualization. That was my major role in
+  this project.</para>
+
+  <para>All of IATI data files was well-structured XML with one of IATI
+  recommendation or XML schema accessible on their web pages. Find out how
+  they are structured and what data are relevant for project was quite easy.
+  The only problem was, that UNDP and WorldBank organizations used their own
+  file structured, but after consultations with my collaborators I designed
+  XML schema what desribes the base of our final data file for visualization.
+  Our goal was to provide the opportunity to user to select any country that
+  gained some finances from two international organizations and to have the
+  opportunity to filter these results by years, compare it and it should be
+  user-friendly. The main XML schema purpose is to provide the easy and simple
+  model for data to be reached easily in our web application.</para>
+</article>
