@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<article>
+  <articleinfo>
+    <title>Vizualisation of International Help Data - Team Leader</title>
+
+    <author>
+      <firstname>Juraj</firstname>
+
+      <surname>Bielik</surname>
+
+      <affiliation/>
+    </author>
+
+    <pubdate>2017-05-31</pubdate>
+  </articleinfo>
+
+  <para>The main goal of the project was to create a visualization of the gathered data from UNDP and World Bank. The application should allow comparison of donations from these two organizations for different countries.</para>
+
+  <para>As the chosen team leader, my first task was to initialize the project on GitHub repository and update the wiki pages throughout the semester. I have also been responsible for the organization of the team and fulfillment of requirements before every deadline</para>
+
+  <para>My additional role has been Backend Developer (C#). Together with another team colleague I have implemented the extraction of all the necessary data from World Bank and UNDP XMLs - for each transaction made, I had to parse the date, value and alphabetical code of the receieving country and add it into the xml file which contained data about all countries (provided by my colleague).</para>
+
+  <para>The process described above is accessible from the backend app, which has a button "Extract XML data". Using this button also transforms the finalOutput XML file into json format, which is needed for the Frontend web application.</para>
+</article>
