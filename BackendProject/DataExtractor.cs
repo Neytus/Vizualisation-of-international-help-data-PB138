@@ -123,7 +123,6 @@ namespace BackendProject
                 );
                 root.FirstNode.Remove();
                 string rootString = root.ToString();
-
                 var sw = new StreamWriter(xmlDir + @"\countriesPopulation.xml", false, new System.Text.UTF8Encoding(false));
                 sw.Write(rootString);
                 sw.Close();
