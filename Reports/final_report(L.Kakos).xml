@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<article>
+  <articleinfo>
+    <title>Visualization of International Help Data - Frontend Development</title>
+
+    <author>
+      <firstname>Lukáš</firstname>
+
+      <surname>Kakos</surname>
+
+      <affiliation/>
+    </author>
+
+    <pubdate>2017-05-30</pubdate>
+  </articleinfo>
+
+  <para>The main goal of the project was to create a visualization of the gathered data from UNDP and World Bank. The application should allow comparison of donations from these two organizations for different countries. We've decided to create the frontend application available to users as a server hosted website. This allowed us to use technologies such as HTML, CSS and JavaScript to create user friendly dynamic experience.</para>
+  
+  <para>My task was to design and implement the frontend application and come up with a data format to load the information from. We've collectively decided that the best format for data acquistion, in relation to extensive use of JavaScript, will be JSON. We've designed a XML template which contains all relevant data for the website and based on that we've designed a JSON template optimized for usage in JavaScript.</para>
+  
+  <para>The JSON template uses unique attributes and values used for data filtering (country code, year, organization name etc.) as keys for fast search of relevant data inside final JSON file. I'm using jQuery.getJSON() method from jQuery library to load the JSON file. Once loaded, the script creates select buttons with options to filter the data by countries and years. I use Select2 library to enhance the UI. This library provides the functionality to search within the select button for faster selection of searched value.</para>
+  
+  <para>Data is displayed in a table. Rows represent years. Total donation for given year and per capita is displayed for each organization side by side for easy comparison. The first row displays summed data from all years.</para>
+  
+  <para>The application features animated world globe, which displays selected country. The globe is used for easy orientation and to make the application more interesting. The globe is implemented using D3.js JavaScript library. D3.js is primarily used to create feature rich data visualizations. The globe is inspired by code presented by Mike Bostock on his blog (https://bl.ocks.org/mbostock/4183330). It uses JSON stored SVG and location data to create the map and D3 transition functions for animation.</para>
+  
+  <para>In conclusion, the application provides simple way to view international help data from UNDP and World Bank. User can filter data by country. For given country, user can additionally filter by years. Data is showed in simple table for both organizations side by side for easy comparison. There's also an animated world globe displaying selected country for easy orientation.</para>
+</article>
